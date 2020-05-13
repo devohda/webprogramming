@@ -32,12 +32,4 @@ footer{
     margin-bottom: 40px;
 }
 
-#logo{
-
-    width: 400px;
-
-}
-
-.horizontal{
-    float: left;
-}
+/* background-color은 그냥 잘 보이라고 이렇게 한 거고 수정예정입니다.*/
