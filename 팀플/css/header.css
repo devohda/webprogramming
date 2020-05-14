@@ -1,3 +1,10 @@
+@font-face{
+    font-family: "slimGothic";
+    src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 .logo{
     height: 100%;
 }
@@ -26,9 +33,23 @@
 .menu_opt{
     float: left;
     margin: 10px;
+    font-family: slimGothic;
+    font-size: 25px;
+    flex: 1;
+    text-align: center;
+}
+
+.menu_opt:not(:last-child){
+    border-right: 1px #929292 solid;
+    padding-right: 10px;
 }
 
 .menu_bar{
-    width: 400px;
+    width: 600px;
     margin: auto 20px;
+    padding: 20px 30px;
+    border: 2px #f3d132 dotted;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between
 }
