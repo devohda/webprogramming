@@ -26,16 +26,17 @@ header{
 }
 
 article{
+    clear: both;
     background-color: #fdebb5;
     width: 100%;
-    height: 100%;
+    height: 600px;
+    margin: 2% 0% 0% 0%;
 }
 
 footer{
-    background-color: chartreuse;
+    border-top: 1px solid slategray;
     width: 100%;
     height: 80px;
     margin-bottom: 40px;
+    font-size: 1.3em;
 }
-
-/* background-color�� �׳� �� ���̶�� �̷��� �� �Ű� ���������Դϴ�.*/
