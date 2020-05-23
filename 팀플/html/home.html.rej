@@ -1,0 +1,7 @@
+diff a/팀플/html/home.html b/팀플/html/home.html	(rejected hunks)
+@@ -1,4 +0,4 @@
+-<!DOCTYPE html>
++﻿<!DOCTYPE html>
+ <html>
+     <head>
+         <meta charset="utf-8">

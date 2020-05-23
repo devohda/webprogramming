@@ -9,15 +9,15 @@ html{
 
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
+    border-top: 10px #fff3bb solid;
+   
 }
 
 body{
-    margin: 2% auto;
+    margin: 0 100px;
     padding: 0;
     width: 1350px;
     height: 100%;
-
 }
 
 header{
@@ -28,7 +28,6 @@ header{
 article{
     background-color: #fdebb5;
     width: 100%;
-    height: 100%;
 }
 
 footer{
@@ -38,4 +37,4 @@ footer{
     margin-bottom: 40px;
 }
 
-/* background-color�� �׳� �� ���̶�� �̷��� �� �Ű� ���������Դϴ�.*/
+/* background-color�� �׳� �� ���̶��? �̷��� �� �Ű� ���������Դϴ�.*/
