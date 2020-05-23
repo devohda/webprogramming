@@ -81,12 +81,15 @@ article{
     text-align: center;
     font-size: 1.3em;
 }
+.top5 img {
+    width: 250px;
+    height: 250px;
+}
 
 .top5 div{
     float:left;
     width: 250px;
     height: 300px;
-    border: 1px solid black;
     box-sizing: border-box;
     margin: 0px 10px;
 }
@@ -126,4 +129,5 @@ article{
     font-weight: bold;
     text-align: center;
     font-size: 1.2em;
+    margin-top: 50px;
 }
