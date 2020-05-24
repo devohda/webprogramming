@@ -5,14 +5,17 @@
     font-weight: normal;
 }
 
+/*아무도 건들지 마세요*/
+/*모든 페이지 전체 적용할 레이아웃 입니다.*/
+
 .logo{
-    height: 100%;
+    margin: auto 0;
 }
 
 #logo_img{
-    height: 105px;
+    margin-top: 15px;
+    height: 90px;
     display: block;
-    margin: 30px 0px;
 }
 
 .organize_left{
@@ -25,9 +28,9 @@
 #upside{
     height: 100%;
     width: 100%;
-    display: -webkit-flex;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px rgb(225, 227, 233) solid;
 }
 
 .menu_opt{
@@ -67,7 +70,4 @@
 .opt:hover{
     font-weight: 600;
     color: black;
-}
-.opt2:hover{
-    color:red;
 }
