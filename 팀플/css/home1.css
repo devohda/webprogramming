@@ -5,15 +5,60 @@
     font-weight: normal;
 }
 
-.logo{
-    height: 100%;
+html{
+
+    width: 100%;
+   
+}
+body{
     margin: 0 auto;
+    padding: 0;
+    width: 1550px;
+    height: 100%;
 }
 
-#logo_img{
-    height: 130px;
+main{
+    width: 100%;
+    margin-bottom: 100px 
+}
+
+#mainphoto{
+    margin: 50px 0;
+    overflow: hidden;
+}
+
+#mainphoto>img {
+    width: 1500px;
+    margin: 0 auto;
     display: block;
-    margin: 30px 0px;
+}
+
+
+header{
+    width: 100%;
+    overflow:hidden;
+}
+
+
+footer{
+    background-color: chartreuse;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 40px;
+    border-top: 1px black dotted;
+    clear: both;
+}
+
+
+
+
+
+/* 메뉴바 디자인*/
+
+#logo_img{
+    height: 160px;
+    display: block;
+    margin: 0 auto;
 }
 
 .organize_left{
@@ -24,11 +69,10 @@
 }
 
 #upside{
+    
+    margin: 50px auto;
     height: 100%;
-    width: 100%;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: space-between;
+    overflow: hidden;
 }
 
 .menu_opt{
@@ -50,8 +94,8 @@
 }
 
 .menu_bar{
-    width: 1250px;
-    margin: auto 20px;
+    width: 1450px;
+    margin: auto;
     padding: 0 30px;
     border: 2px #f3d132 solid;
     border-radius: 10px;
@@ -70,48 +114,59 @@
     color: black;
 }
 
-#forback{
-    margin: 40px 0px 0px 0px;
-    border-top: 6px solid gray;
-    width: 1350px;
-    height: 30px;
+
+
+/*아이콘 메뉴*/
+
+.img_menu{
+    clear:both;
+    text-align: center;
+    margin: 50px 0;
+}
+.img_menu>img{
+    
+    width: 200px;
+    margin: 0 60px;
 }
 
-.img_menu img{
-    width: 337.5px;
-    height: 300px;
-    float: left;
-}
 
+
+
+/*리스트 메뉴*/
 .list_menu{
-    clear: both;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 98px;
 }
-.list_menu div{
+.list_menu>div{
+    
+    border-top: 1px #e4e8eb solid;
+    padding-top: 30px;
     float: left;
-    width: 337.5px;
-    margin-top: 30px;
+    width: 25%;
 }
+
 .list_menu ul{
     list-style: none;
     font-family: "slimGothic";
-    src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5em;
+    font-size: 20px;
+    font-weight: 600;
+    padding-inline-start: 0;
 }
 
-.bb:hover{
+.bb{
     font-weight: 600;
-    color: black;
+    color: #777777;
 }
 
 .lih1{
     font-weight: bold;
-    font-size: 2.3em;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
-.lih2{
-    font-size: 1.7em;
-}
- a:link { color: black; text-decoration: none;}
 
- a:visited { color: black; text-decoration: none;}
+.lih2{
+    font-size: 26px;
+}
+ a { color: #777777; text-decoration: none;}
+
