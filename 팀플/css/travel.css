@@ -1,63 +1,106 @@
-@font-face{
-    font-family: "slimGothic";
-    src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
 
-
-article{
-    background-color: inherit;
-    margin-top: 40px;
-    
+.info{
+    float: left;
 }
 
 footer{
-    background-color: chartreuse;
+    clear: both;
+}
+
+.travel{
+    overflow:hidden;
+    background-color: #f6f6f6;
+    padding: 30px 50px;
+    margin: 100px 0;
+}
+
+#place{
+    padding: 20px 0 0 50px;
+    
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#price{
+ 
+    font-size: 55px;
+    font-weight: 600;
+    text-align: right;
+    position: relative;    
+    top: 70px;
+
+}
+
+#middle{
+    width: 550px;
+}
+
+.info>table{
+    font-family: slimGothic;
+    font-size: 25px;
+    height: 220px;
+    width: 230px;
     
 }
 
-.background{
-    background-color: #f4f4f4;
-    padding: 10px 0;
-    margin: 0 10px;
+.table{
     border-top: 1px #c0c0c0 solid;
     border-bottom: 1px #c0c0c0 solid;
+    padding-left: 20px;
+    background-color: white;
+    margin-left: 70px;
 }
 
-.place{
-
-    font-family: slimGothic;
-    font-size: 40px;
+#reco{
+    font-size: 30px;
     font-weight: 600;
-    margin-left: 5%;
+    margin: 0 0 20px 40px;
 }
 
-.picture{
-    margin: 0 auto;
-    height: 180px;
+#money{
+    margin: 20px 0;
 }
 
-.pic{
-
-    border-top: 2px #c0c0c0 dashed;
-    border-bottom: 2px #c0c0c0 dashed;
-    text-align: center;
-    padding: 50px 10px;
-    margin: 80px 60px;
-
+#bank{
+    width: 150px;
 }
 
-.picture:first-child{
-
-    margin-right: 110px;
+#info2{
+    margin-left: 60px;
+    
 }
 
-.picture:last-child{
-
-    margin-left: 110px;
+#info2>div:first-child{
+    font-size: 30px;
+    font-weight: 500;
 }
 
-.select{
-    margin: 100px 0 150px 0;
+#info2>div:last-child{
+
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;    
+    top: 40px;
+}
+
+#money>div:last-child{
+    margin-left: 70px;
+    background-color: white;
+    width: 650px;
+}
+
+.info li{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.calculator{
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.calculator>.travel{
+    margin-top: 0;
+    height: 400px;/*계산기 들어갈 자리*/
 }

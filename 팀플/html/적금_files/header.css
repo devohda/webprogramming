@@ -51,9 +51,9 @@
 .menu_bar{
     width: 600px;
     margin: auto 20px;
-    padding: 0 30px;
-    border: 2px #f3d132 solid;
-    border-radius: 10px;
+    padding: 20px 30px;
+    border: 2px #f3d132 dotted;
+    border-radius: 30px;
     display: flex;
     justify-content: space-between
 }
@@ -67,7 +67,4 @@
 .opt:hover{
     font-weight: 600;
     color: black;
-}
-.opt2:hover{
-    color:red;
 }
