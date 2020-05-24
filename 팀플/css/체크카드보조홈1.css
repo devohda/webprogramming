@@ -51,11 +51,12 @@
 .menu_bar{
     width: 600px;
     margin: auto 20px;
-    padding: 20px 30px;
-    border: 2px #f3d132 dotted;
-    border-radius: 30px;
+    padding: 0px 30px;
+    border: 2px #f3d132 solid;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between
+    
 }
 
 .opt{
