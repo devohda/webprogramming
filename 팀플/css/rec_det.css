@@ -1,11 +1,3 @@
-@font-face{
-    font-family: "slimGothic";
-    src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-
 
 .shinhan_img{
     height: 100%;
@@ -50,7 +42,7 @@
 .shinhan_detail{
     height: 320px;
 }
-.설명{
+.explanation{
     height : 600px;
 }
 
