@@ -5,8 +5,8 @@ article{
 
 #chosenitem{
     clear: both;
-    margin-top: 30px;
-    background-color: rgb(236, 236, 236);
+    margin-top: 90px;
+    background-color: #f6f6f6;
     width: 1350px;
     height: 400px;
 }
@@ -30,7 +30,6 @@ article{
     float: left;
     width: 800px;
     height: 300px;
-    border: 1px solid black;
 }
 
 .chosenname{
@@ -38,7 +37,6 @@ article{
     margin-top: 30px;
     margin-left: 30px;
     float: left;
-    border: 1px solid black;
     width: 300px;
     height: 100px;
 }
@@ -55,9 +53,11 @@ article{
     float: left;
     margin-top: 30px;
     margin-left: 120px;
-    border: 1px solid black;
     width: 300px;
     height: 200px;
+    background-color: white;
+    border-top: 1px #c0c0c0 solid;
+    border-bottom: 1px #c0c0c0 solid;
 }
 .lowprice table{
     font-family: "slimGothic";
@@ -70,7 +70,6 @@ article{
 }
 .averageprice{
     clear: both;
-    border: 1px solid black;
     margin-left: 30px;
     width: 300px;
     height: 50px;
@@ -82,7 +81,7 @@ article{
     font-weight: bold;
     width: 290px;
     height: 40px;
-    font-size: 1.6em;
+    font-size: 30px;
 }
 
 .forback{
@@ -104,7 +103,7 @@ article{
     clear: both;
     width: 1350px;
     height: 640px;
-    background-color: rgb(236, 236, 236);
+    background-color:#f6f6f6;
 }
 
 .month6{

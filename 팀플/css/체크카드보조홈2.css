@@ -1,6 +1,6 @@
 
 #month{
-    width: 1350px;
+    width: 1150px;
     height: 100px;
 }
 
@@ -16,53 +16,49 @@ article p{
     font-size: 2em;
 }
 
+article{
+    height: 1000px;
+}
+
+.monthmoney{
+    width: 1150px;
+    height: 300px;
+}
+.monthmoney img{
+    clear: both;
+    width: 575px;
+    height: 300px;
+    margin-left: 300px;
+}
+
 #box{
     margin-top: 30px;
-    width: 450px;
-    height: 350px;
+    width: 383px;
+    height: 50px;
     float:left;
     box-sizing: border-box;
 }
 
-#circle1{
-    clear: both;
-    background-color:orange;
-    width:300px;
-    height:300px;
-    border-radius:150px;
-    text-align:center;
-    margin:0 auto;
-    font-size:12px;
-    vertical-align:middle;
-    line-height:150px;
-    border: 1px solid orange;
-}
-#circle1 p{
-    margin-top: 80px;
-    margin-left: 50px;
-    font-size: 3em;
+#box p{
+    margin: 0 auto;
     width: 200px;
-    height: 200px;
+    background-color: #d8d2d2;
+    border-top: 1px #b6b2b2 solid;
+    border-top: 1px #b6b2b2 solid;
+    text-align: center;
 }
 
-#circle1:hover{
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-}
 
 #tournament{
     clear: both;
-    width: 1350px;
+    width: 1150px;
     height: 100px;
     text-align: center;
 }
 
 #box1{
     clear: both;
-    width: 1350px;
+    width: 1150px;
     height: 100px;
     box-sizing: border-box;
 }
@@ -70,14 +66,25 @@ article p{
 #pickmycard{
     clear: both;
     margin: 0 auto;
-    background-color: orange;
     width: 500px;
     height: 50px;
 }
 
 #pickmycard p{
-
+    margin: 0 auto;
+    width: 400px;
+    background-color: #d8d2d2;
+    border-top: 1px #b6b2b2 solid;
+    border-top: 1px #b6b2b2 solid;
     text-align: center;
+}
+
+#box p:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 
 #pickmycard:hover{
@@ -91,9 +98,6 @@ article p{
 a:link { color: black; text-decoration: none;}
 
 a:visited { color: black; text-decoration: none;}
-
-
-
 
 footer{
     clear: both;

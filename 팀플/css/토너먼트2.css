@@ -1,8 +1,11 @@
+article{
+    height: 700px;
+}
 
 #category{
     clear: both;
     margin-top: 50px;
-    width: 1350px;
+    width: 1150px;
     height: 100px;
     box-sizing: border-box;
     background-color: rgb(243, 241, 241);
@@ -20,8 +23,7 @@
 #select{
     float: left;
     margin-top: 50px;
-    margin-left: 30px;
-    width: 630px;
+    width: 575px;
     background-color: rgb(243, 241, 241);
     border: 1px solid grey;
     height: 500px;
@@ -29,7 +31,7 @@
 }
 .simg{
     clear: both;
-    width: 630px;
+    width: 575px;
     height: 400px;
     box-sizing: border-box;
     background-color: rgb(243, 241, 241);
@@ -37,13 +39,13 @@
     overflow: hidden;
 }
 .img1{
-    width: 630px;
+    width: 575px;
     height: 400px;
     overflow: hidden;
 }
 
 .img2{
-    width: 630px;
+    width: 575px;
     height: 200px;
 }
 

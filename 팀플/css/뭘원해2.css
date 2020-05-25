@@ -1,6 +1,6 @@
 
 article div{
-    width: 674px;
+    width: 570px;
     height: 600px;
     float: left;
     box-sizing: border-box;
@@ -8,12 +8,14 @@ article div{
 }
 
 #box{
-    margin: 70px 30px 30px 100px ;
+    margin: 70px 30px 30px 70px ;
     border: 1px solid grey;
     width: 450px;
     height: 450px;
     background-color: rgb(243, 241, 241);
 }
+
+a:visited { color: black; text-decoration: none;}
 
 #box:hover{
     transform: scale(1.2);
