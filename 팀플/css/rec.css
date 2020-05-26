@@ -44,11 +44,14 @@
     width: 260px;
 }
 
+.content h2{
+    margin-left: 30px;
+}
 
-
+/*얘는 어디에 있는 걸까? html파일에는 title이라는 class는 없던데..?*/
 .title{
     float: left;
-    margin-left: 100px;
+    margin-left: 140px;
 }
 
 .con{
