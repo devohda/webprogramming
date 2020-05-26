@@ -1,0 +1,79 @@
+@font-face{
+    font-family: "slimGothic";
+    src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+.shinhan_img{
+    height: 100%;
+}
+
+.shinhan{
+    height: 90px;
+    margin-top:25px;
+    margin-left:20px;
+}
+
+.content{
+    height: 100%;
+    background-color: #e0e0e0;
+    margin-top:20px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+
+.j_name{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 130px;
+    width:900px;
+    margin: 0px auto;
+    border-top: 1.3px #000000 dashed;
+    border-bottom: 1.3px #000000 dashed;
+    padding-top: 50px;
+}
+
+.shinhan_detail img{
+    display:block;
+    height:230px;
+    margin: 100px auto;
+}
+
+.shinhan_detail{
+    height: 320px;
+}
+.설명{
+    height : 100%;
+}
+
+table.type03 {
+    background-color: white;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 3px solid #369;
+    margin : 0 auto;
+}
+table.type03 th {
+    width: 147px;
+    padding: 15px;
+    font-weight: bold;
+    color: #153d73;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+table.type03 td {
+    width: 700px;
+    padding: 15px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+

@@ -1,0 +1,205 @@
+article{
+    height: 120%;
+}
+
+#calendar {
+    width: 100%;
+}
+
+#calendar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#calendar li {
+    display: block;
+    float: left;
+    width: calc(100%/7);
+    padding: 5px;
+    box-sizing:border-box;
+    border: 1px solid #ccc;
+}
+
+#calendar ul.weekdays {
+    height: 40px;
+    border-top: 4px solid #009aaf;
+    border-bottom: 4px solid #009aaf;
+}
+
+#calendar ul.weekdays li {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 20px;
+    border: none;
+    padding: 10px 6px;
+    color: #000;
+    font-size: 17px;
+}
+
+#calendar ul.weekdays li.sun {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 20px;
+    border: none;
+    padding: 10px 6px;
+    color: red;
+    font-size: 17px;
+}
+
+#calendar ul.weekdays li.sat {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 20px;
+    border: none;
+    padding: 10px 6px;
+    color: #50BCDF;
+    font-size: 17px;
+}
+
+#calendar .other-month {
+    background: #f5f5f5;
+    color: #666;
+}
+
+#calendar .days li {
+    height: 180px;
+}
+
+#calendar .days li:hover {
+    background: #d3d3d3;
+}
+
+#calendar .date {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 4px;
+    color: #333;
+    width: 20px;
+    border-radius: 50%;
+    float: left;
+}
+
+#calendar .date_sun {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 4px;
+    color: red;
+    width: 20px;
+    border-radius: 50%;
+    float: left;
+}
+
+#calendar .date_sat {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 4px;
+    color: #50BCDF;
+    width: 20px;
+    border-radius: 50%;
+    float: left;
+}
+
+#calendar .event {
+    text-align: right;
+    clear: both;
+    display: block;
+    font-size: 13px;
+    line-height: 14px;
+    text-decoration: none;
+}
+
+#calendar .expenses {
+    color: red;
+    margin-bottom: 7px;
+    text-decoration: none;  
+}
+
+#calendar .income {
+    color: blue;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+#calender .money{
+    color: black;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+.summit{
+    float: right;
+}
+
+#calendar-wrap button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#inputbox{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#inputbox .money{
+    display: flex;
+    justify-content: center;
+}
+
+#inputbox label{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#inputbox input{
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+}
+
+#inputbox .select1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#inputbox .select1 button{
+    width: 60px;
+    height: 60px;
+}
+
+#inputbox .select2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px 0 50px;
+}
+
+#inputbox .select2 button{
+    width: 60px;
+    height: 60px;
+}
+
+#inputbox .select3{
+    display: flex;
+    justify-content: space-around;
+}
+
+#inputbox .select3 button{
+    width: 150px;
+    height: 50px;
+}
