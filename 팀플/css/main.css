@@ -6,6 +6,7 @@
 
 
 /*공통 폰트*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @font-face{
     font-family: "slimGothic";
     src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
@@ -14,40 +15,48 @@
 }
 
 *{
-    font-family: slimGothic;
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 
 /*기본 레이아웃*/
 html{
-
     width: 100%;
-    height: 100%;
-    border-top: 5px solid rgb(255, 243, 187);
-   
+    height: 100%;  
 }
 
 body{
     margin: 0 auto;
     padding: 0;
-    width: 1150px;
+    width: inherit;
     height: 100%;
 }
 
 header{
     width: 100%;
-    height: 150px;
+    height: 90px;
+    background-color: #ffe96c;
+    box-shadow: 2px 2px 18px #555;
+    margin-bottom: 30px;
 }
 
 article{
     width: 100%;
-    background-color: inherit;
+    margin: 0 auto;
 }
 
+/*article에 주던 width값을 변경하였습니다. 앞으로는 각 div안에 내용에 해당하는 요소에 width값 = 1120px을 지정해주어야 합니다.*/
+/*그러기 위해 1120px 만들 div는 width라는 class부여*/
+
 footer{
-    background-color: chartreuse;
+    background-color: #ddd;
     width: 100%;
-    height: 80px;
-    margin-bottom: 40px;
-    border-top: 1px black dotted;
+    height: 150px;
+    border-top: 50px #eee solid;
+}
+
+
+.width{
+    width: 1120px;
+    margin: 0 auto;
 }

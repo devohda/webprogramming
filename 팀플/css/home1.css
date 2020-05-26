@@ -1,3 +1,7 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*글꼴 바꿀까 생각중*/
+
 @font-face{
     font-family: "slimGothic";
     src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
