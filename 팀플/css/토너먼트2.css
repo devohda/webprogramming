@@ -8,8 +8,9 @@ article{
     width: 1150px;
     height: 100px;
     box-sizing: border-box;
-    background-color: rgb(243, 241, 241);
+    background-color: #e9e7e3;
     border: 2px solid grey;
+    
 }
 #category p{
     font-family: "slimGothic";
