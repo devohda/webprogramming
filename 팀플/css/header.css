@@ -13,8 +13,8 @@
 }
 
 #logo_img{
-    margin-top: 15px;
-    height: 90px;
+    margin-top: 10px;
+    height: 80px;
     display: block;
 }
 
@@ -27,17 +27,17 @@
 
 #upside{
     height: 100%;
-    width: 100%;
+    width: 1220px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px rgb(225, 227, 233) solid;
 }
 
 .menu_opt{
     float: left;
     margin: 10px;
-    font-family: slimGothic;
-    font-size: 25px;
+    font-size: 18px;
+    font-weight: 700;
     flex: 1;
     text-align: center;
 }
@@ -54,9 +54,6 @@
 .menu_bar{
     width: 600px;
     margin: auto 20px;
-    padding: 0 30px;
-    border: 2px #f3d132 solid;
-    border-radius: 10px;
     display: flex;
     justify-content: space-between
 }
@@ -68,6 +65,6 @@
 }
 
 .opt:hover{
-    font-weight: 600;
     color: black;
+    text-shadow: 2px 2px 2px white;
 }
