@@ -84,7 +84,7 @@ article>.width{
     
     position: relative;
 }
-img{
+.kimg{
     height: inherit;
     width: 520px;
     height: 400px;
