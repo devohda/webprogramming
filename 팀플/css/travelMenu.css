@@ -1,19 +1,25 @@
 
 
 .background{
-    background-color: #f4f4f4;
+    background-color: #e9e7e3;
     padding: 10px 0;
     margin: 0 10px;
-    border-top: 1px #c0c0c0 solid;
-    border-bottom: 1px #c0c0c0 solid;
+    height: 80px;;
+    line-height: 80px;
 }
 
-.place{
+.background img{
+    height: 60px;
+    
+}
 
-    font-family: slimGothic;
-    font-size: 40px;
-    font-weight: 600;
-    margin-left: 5%;
+.place div{
+
+    font-size: 30px;
+    font-weight: 500;
+    vertical-align: middle;
+    float: left;
+    
 }
 
 .picture{
@@ -23,11 +29,9 @@
 
 .pic{
 
-    border-top: 2px #c0c0c0 dashed;
-    border-bottom: 2px #c0c0c0 dashed;
     text-align: center;
     padding: 50px 10px;
-    margin: 80px 60px;
+    margin: 20px auto;
 
 }
 
@@ -39,6 +43,15 @@
 .picture:last-child{
 
     margin-left: 110px;
+}
+
+.picture{
+    box-shadow: 2px 2px 20px 2px #d3d6d6;
+}
+
+.picture:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 15px 2px #50504d;
 }
 
 .select{

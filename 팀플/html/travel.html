@@ -1,11 +1,14 @@
 <!-- 처음 만드실 때 이거 복붙하시고 그 아래에다가 만드시면 됩니다.-->
+<!--여행 상세 페이지 기본 구조. 여기다가 내용 추가하시면 됩니다.-->
+
 <!doctype html>
 <html>
 
 <head>
-    <title>티끌 모아</title>
+    <title>티끌 모아, 여행 상세</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/product_det.css">
     <link rel="stylesheet" type="text/css" href="../css/travel.css">
 </head>
 
@@ -22,7 +25,7 @@
         </div>
     </header>
     <article>
-        <div>
+        <div class="width">
             <div class="travel">
                 <div class="info"><img src="../src/travel/asia.png"></div>
                 <div class="info" id="middle">
@@ -53,29 +56,109 @@
             <div class="recommend">
                 <div id="reco">추천 적금</div>
                 <div class="travel" id="money">
-                    <div class="info">
-                        <img id="bank" src="../src/bank/woori.png">
+                    <div class="month6">
+                        <table border="0">
+                            <tr>
+                                <th colspan="8" class="month">6개월</th>
+                            </tr>
+                            <tr class="title">
+                                <th width="200">금융회사</th>
+                                <th width="300">상품명</th>
+                                <th>적립방식</th>
+                
+                                <th>최고우대금리</th>
+                                <th>가입대상</th>
+                                <th>이자계산방식</th>
+                            </tr>
+                            <tr>
+                                <td>제주은행</td>
+                                <td>사이버우대매일부금</td>
+                                <td>자유적립식</td>
+                
+                                <td>1.50%</td>
+                                <td>제한없음</td>
+                                <td>단리</td>
+                            </tr>
+                            <tr>
+                                <td>한국스탠다드차타드은행</td>
+                                <td>퍼스트가계적금</td>
+                                <td>정액정립식</td>
+                
+                                <td>1.80%</td>
+                                <td>제한없음</td>
+                                <td>단리</td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="info" id="info2">
-                        <div>
-                            [6개월 목표]
-                        </div>
-                        <div>
-                            '우리 여행 적금2'
-                        </div>
+                    <div class="month6">
+                        <table border="0">
+                            <tr>
+                                <th colspan="8" class="month">12개월</th>
+                            </tr>
+                            <tr class="title">
+                                <th width="200">금융회사</th>
+                                <th width="300">상품명</th>
+                                <th>적립방식</th>
+                
+                                <th>최고우대금리</th>
+                                <th>가입대상</th>
+                                <th>이자계산방식</th>
+                            </tr>
+                            <tr>
+                                <td>수협은행</td>
+                                <td>Sh해양플라스틱 Zero!적금(자유적립)</td>
+                                <td>자유적립식</td>
+                
+                                <td>2.60%</td>
+                                <td>제한없음</td>
+                                <td>단리</td>
+                            </tr>
+                            <tr>
+                                <td>우리은행</td>
+                                <td>WON적금</td>
+                                <td>자유적립식</td>
+                
+                                <td>2.20%</td>
+                                <td>제한없음</td>
+                                <td>단리</td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="info">
-                        <ul>
-                            <li>상품 종류 : 정기 적금</li>
-                            <li>가입 기간 : 12개월</li>
-                            <li>최고 금리 : 5.8%</li>
-                            <li>월 최대 저금 금액 : 50만원</li>
-                        </ul>
+                    <div class="month6">
+                        <table border="0">
+                            <tr>
+                                <th colspan="8" class="month">24개월</th>
+                            </tr>
+                            <tr class="title">
+                                <th width="200">금융회사</th>
+                                <th width="300">상품명</th>
+                                <th>적립방식</th>
+                                <th>최고우대금리</th>
+                                <th>가입대상</th>
+                                <th>이자계산방식</th>
+                            </tr>
+                            <tr>
+                                <td>수협은행</td>
+                                <td>Sh해양플라스틱 Zero!적금(자유적립)</td>
+                                <td>자유적립식</td>
+                
+                                <td>2.70%</td>
+                                <td>제한없음</td>
+                                <td>단리</td>
+                            </tr>
+                            <tr>
+                                <td>수협은행</td>
+                                <td>Sh해양플라스틱 Zero!적금(정액적립)</td>
+                                <td>정액적립식</td>
+                
+                                <td>2.50%</td>
+                                <td>제한없음</td>
+                                <td>단리</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
-                
             </div>
-            <div>그림을 누르면 해당 링크로 이동합니다.</div>
             <div class="calculator">
                 <div id="reco">저금 계획 계산기</div>
                 <div class="travel"></div>
