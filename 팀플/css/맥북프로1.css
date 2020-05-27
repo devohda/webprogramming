@@ -1,6 +1,7 @@
 
 article{
     clear: both;
+    height: 1800px;
 }
 
 #chosenitem{
@@ -17,7 +18,6 @@ article{
     float: left;
     width: 400px;
     height: 300px;
-    border: 1px solid black;
 }
 .chosenimg img{
     width: 400px;
@@ -44,10 +44,10 @@ article{
     font-family: "slimGothic";
     src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
     font-style: normal;
-    font-weight: bold;
     width: 290px;
     height: 90px;
-    font-size: 1.6em;
+    font-size: 1.9em;
+    font-weight: 600;
 }
 .lowprice{
     float: left;
@@ -78,7 +78,7 @@ article{
     font-family: "slimGothic";
     src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     width: 290px;
     height: 40px;
     font-size: 30px;
@@ -121,4 +121,8 @@ article{
 footer{
     clear: both;
     font-size: 1.3em;
+}
+
+th{
+    background-color: rgb(173, 173, 162);
 }

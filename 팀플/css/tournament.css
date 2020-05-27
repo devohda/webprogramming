@@ -84,9 +84,10 @@ article>.width{
     
     position: relative;
 }
-.img{
+img{
     height: inherit;
     width: 520px;
+    height: 400px;
     overflow: hidden;
     position: absolute;
 }
