@@ -39,7 +39,9 @@
     float: left;
     
 }
-
+.bank_img:hover{
+    transform: scale(1.1);
+}
 .content img{
     width: 260px;
 }
@@ -48,7 +50,7 @@
     margin-left: 30px;
 }
 
-/*¾ê´Â ¾îµð¿¡ ÀÖ´Â °É±î? htmlÆÄÀÏ¿¡´Â titleÀÌ¶ó´Â class´Â ¾ø´øµ¥..?*/
+/*ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½É±ï¿½? htmlï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ titleï¿½Ì¶ï¿½ï¿½ classï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..?*/
 .title{
     float: left;
     margin-left: 140px;
