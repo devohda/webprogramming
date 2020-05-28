@@ -19,7 +19,8 @@
     border-radius: 70%;
 }
 .deposit_img, .savings_img{
-    width: 230px;
+    height: 230px;
+    
 }
 .deposit_box, .savings_box{
     box-shadow: 2px 2px 2px #ddd;

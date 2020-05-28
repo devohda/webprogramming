@@ -1,0 +1,141 @@
+/*상단 물품이나 장소 부분*/
+
+.info{
+    float: left;
+    overflow: hidden;
+}
+
+.info>table{
+    font-size: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.info>img{
+    height: 200px;
+}
+
+.info li{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info th{
+    background-color: rgb(173, 173, 162);
+}
+
+.travel>.table{
+    padding: 0;
+}
+
+.travel>.table td{
+    padding-left: 10px;
+}
+
+.table{
+    border-top: 1px #c0c0c0 solid;
+    border-bottom: 1px #c0c0c0 solid;
+    background-color: white;
+    margin-left: 70px;
+    float: right;
+}
+
+
+#place{
+    font-size: 25px;
+}
+
+#price{
+ 
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+#middle{
+    margin-left: 40px;
+    width: 350px;
+    padding-top: 30px;
+}
+
+
+#middle>div:last-child{
+    float: right;
+    margin-top: 30px;
+}
+
+
+/*중간 부분*/
+
+#reco{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 20px 40px;
+}
+
+#money{
+    margin: 20px 0;
+}
+
+.travel{
+    overflow:hidden;
+    background-color: #eeeeee;
+    padding: 30px 50px;
+    margin: 100px 0;
+}
+
+.travel:first-child{
+    background-color: white;
+    border-bottom: 1px #eee solid;
+}
+
+/*내부 표 만드는 부분*/
+.month6{
+    
+    margin-bottom: 50px;
+    padding: 30px 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #ddd;
+}
+
+.month6>table{
+    height: 200px;
+    border-collapse: collapse;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
+.month{
+    background-color: inherit;
+    font-size: 30px;
+    color: #444;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.title>th{
+    background-color: #fff5b5;
+}
+
+.title>th:first-child{
+    border-radius: 15px 0 0 15px;
+}
+
+.title>th:last-child{
+    border-radius: 0 15px 15px 0;
+}
+
+
+
+/*계산기 부분*/
+.calculator{
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.calculator>.travel{
+    margin-top: 0;
+    height: 400px;/*계산기 들어갈 자리*/
+}
