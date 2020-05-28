@@ -1,12 +1,15 @@
 
 .shinhan_img{
-    height: 100%;
+    width: 230px;
+    margin: auto;
+    vertical-align: middle;
 }
 
 .bank_img{
     height: 90px;
     margin-top:25px;
     margin-left:20px;
+    line-height: 90px;
 }
 
 .content{

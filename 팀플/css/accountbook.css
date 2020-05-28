@@ -1,5 +1,5 @@
 article{
-    height: 120%;
+    height: 150%;
 }
 
 #calendar {
@@ -24,8 +24,8 @@ article{
 
 #calendar ul.weekdays {
     height: 40px;
-    border-top: 4px solid #009aaf;
-    border-bottom: 4px solid #009aaf;
+    border-top: 4px solid #afac00;
+    border-bottom: 4px solid #afa300;
 }
 
 #calendar ul.weekdays li {
@@ -149,12 +149,18 @@ article{
 
 #inputbox{
     width: 500px;
-    height: 500px;
-    border: 1px solid black;
+    height: 450px;
+    border: 1px solid #ddd;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: space-around;
+    z-index: 2;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    border-radius: 15px;
 }
 
 #inputbox .money{
@@ -163,14 +169,15 @@ article{
 }
 
 #inputbox label{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 #inputbox input{
     width: 300px;
     height: 50px;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #inputbox .select1{
@@ -179,8 +186,16 @@ article{
 }
 
 #inputbox .select1 button{
-    width: 60px;
-    height: 60px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border: 2px #ddd solid;
+    box-shadow: 1px 1px 30px #ddd;
+    border-radius: 70%;
+}
+
+#inputbox .select1 img{
+    width: 70px;
+    height: 70px;
 }
 
 #inputbox .select2{
@@ -190,9 +205,28 @@ article{
 }
 
 #inputbox .select2 button{
-    width: 60px;
-    height: 60px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border: 2px #ddd solid;
+    box-shadow: 1px 1px 30px #ddd;
+    border-radius: 70%;
 }
+
+#inputbox .select2 img{
+    width: 70px;
+    height: 70px;
+}
+
+#inputbox .select2 button:hover, #inputbox .select1 button:hover{
+    transform: scale(1.1);
+   
+}
+
+#inputbox .select2 button, #inputbox .select1 button{
+    outline: 0;
+    border: none;
+}
+
 
 #inputbox .select3{
     display: flex;
@@ -202,4 +236,20 @@ article{
 #inputbox .select3 button{
     width: 150px;
     height: 50px;
+    font-size: 16px;
+    background-color: rgb(255, 247, 138);
+    border: 1px solid #eee;
+    border-radius: 13px;
+    outline: none;
+}
+
+#inputbox .select3 button:active{
+    background-color: #ffe773;
+}
+
+#inputmoney{
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    margin: 10px 10px 0 10px;
+    outline: 0;
 }
