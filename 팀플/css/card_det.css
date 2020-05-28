@@ -3,9 +3,10 @@
     position: relative;
     height: 200px;
     top: 80px;
-    left: 650px;
+    left: 680px;
     margin-left:20px;
     z-index: 100;
+    box-shadow: 4px 4px 50px #a3a3a3
 }
 
 .card{
@@ -15,23 +16,23 @@
 .content{
     position: relative;
     top:-20px;
-    height: 1250px;
+    height: 1300px;
     background-color: #eeeeee;
     margin-top:20px;
     padding-top: 150px;
     margin-bottom: 50px;
 }
-
 .j_name{
+    background-color: #ffffff;
     text-align: center;
     font-size: 40px;
     font-weight: bolder;
-    height: 130px;
+    height: 110px;
     width:900px;
     margin: 0px auto;
-    border-top: 1.3px #000000 dashed;
-    border-bottom: 1.3px #000000 dashed;
-    padding-top: 50px;
+    border-top: 2.5px #e76969 solid;
+    border-bottom: 2.5px #e76969 solid;
+    padding-top: 40px;
 }
 
 .shinhan_detail img{
@@ -55,4 +56,12 @@ ul{
 .hyetaeck{
     font-weight: 20px;
     font-weight: bold;
+}
+.sub{
+    font-size: 40px;
+    padding-top: 30px;
+    width:200px;
+    height:100px;
+    border: 1.3px black solid;
+    margin: 0 auto;
 }
