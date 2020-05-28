@@ -1,0 +1,58 @@
+
+.card_img{
+    position: relative;
+    height: 200px;
+    top: 80px;
+    left: 650px;
+    margin-left:20px;
+    z-index: 100;
+}
+
+.card{
+    height: 200px;
+}
+
+.content{
+    position: relative;
+    top:-20px;
+    height: 1250px;
+    background-color: #eeeeee;
+    margin-top:20px;
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+
+.j_name{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 130px;
+    width:900px;
+    margin: 0px auto;
+    border-top: 1.3px #000000 dashed;
+    border-bottom: 1.3px #000000 dashed;
+    padding-top: 50px;
+}
+
+.shinhan_detail img{
+    display:block;
+    height:230px;
+    margin: 100px auto;
+}
+
+.shinhan_detail{
+    height: 320px;
+}
+.explanation{
+    height : 600px;
+    text-indent: 130px;
+}
+
+ul{
+    list-style:none;
+    line-height: 30px;
+}
+.hyetaeck{
+    font-weight: 20px;
+    font-weight: bold;
+}
