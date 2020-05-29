@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="../../css/main.css">
     <link rel="stylesheet" type="text/css" href="../../css/header.css">
 </head>
-
 <body>
     <header>
         <div id="upside">
@@ -29,24 +28,24 @@
             <div id="container">
                 <div id="category">
                     <p>
-                        나는 이렇게 시간을 보낸다.
+                        나는 여기에 돈을 더 투자한다.
                     </p>
                 </div>
                 <div class="sel">
-                    <div class="select">
+                    <div class="select" onclick="button_one()">
                         <div class="simg">
-                            <img class="kimg" src="../../src/방콕.jpg" alt="x">
+                            <img class="kimg" src="../../src/책.jpg" alt="x">
                         </div>
                         <p>
-                            나는 집에서 핸드폰만 한다.
+                            도서, 학업
                         </p>
                     </div>
-                    <div class="select">
+                    <div class="select" onclick="button_two()">
                         <div class="simg">
-                            <img class="kimg" src="../../src/레져.jpg" alt="x">
+                            <img class="kimg" src="../../src/cloth.jpg" alt="x">
                         </div>
                         <p>
-                            나는 문화, 레져 생활을 즐긴다.
+                            패션, 뷰티
                         </p>
                     </div>
                 </div>
@@ -58,5 +57,16 @@
             edit by 1조
         </p>
     </footer>
+    <script>
+        function button_one(){
+            localStorage.setItem("level0","1");
+            location.href="tournament-place.html"
+        }
+        function button_two(){
+            localStorage.setItem("level0","2");
+            location.href="tournament-place.html"
+        }
+    </script>
 </body>
+
 </html>
