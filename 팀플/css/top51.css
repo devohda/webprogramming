@@ -4,47 +4,45 @@ article{
     height: 900px;
 }
 
-.top5 p{
-    font-family: "slimGothic";
-    src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
+ p{
+    
     font-style: normal;
-    font-weight: bold;
     text-align: center;
     font-size: 1.5em;
 }
 
 .top5-1{
     clear: both;
-    background-color: #f4f4f4;
+    background-color: #e9e7e4;
     padding: 10px 0;
-    border-top: 1px #c0c0c0 solid;
-    border-bottom: 1px #c0c0c0 solid;
-    font-size: 40px;
+    
+    font-size: 30px;
 }
+
+.top5{
+    margin-top: 100px;
+}
+
 .top5 img {
-    width: 383px;
-    height: 250px;
+    width: 100px;
 }
 
-.top5 div{
-    float:left;
-    width: 383px;
+.line{
+    overflow: hidden;
+    padding-left: 150px;
     height: 300px;
-    margin-top: 90px;
 }
 
-.line2-1{
-    margin-top: 90px;
-    margin-left: 150px;
+.line:last-child{
+    padding-left: 250px
 }
 
-.line2-2{
-    margin-top: 50px;
-    margin-left: 50px;
+.line>div{
+    float:left;
+    width: 200px;
+    height: 200px;
+    margin: 0 50px;
+    padding-top: 30px;
+    text-align: center;
 }
 
-
-footer{
-    clear: both;
-    font-size: 1.3em;
-}
