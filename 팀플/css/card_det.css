@@ -8,15 +8,30 @@
     z-index: 100;
     box-shadow: 4px 4px 40px #b9b9b9
 }
-
-.card{
-    height: 200px;
+#dis1{
+    display: none;
+}
+#dis2{
+    display: none;
+}
+#dis3{
+    display: none;
+}
+#dis4{
+    display: none;
+}
+#dis5{
+    display: none;
+}
+#dis6{
+    display: none;
+}
+#dis7{
+    display: none;
 }
 
 .content{
-    position: relative;
-    top:-20px;
-    height: 1300px;
+    height: 100%;
     background-color: #eeeeee;
     margin-top:20px;
     padding-top: 150px;
@@ -45,8 +60,11 @@
     height: 320px;
 }
 .explanation{
-    height : 600px;
+    height : 100%;
+    overflow: auto;
     text-indent: 130px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 ul{
