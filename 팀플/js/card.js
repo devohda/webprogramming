@@ -1,4 +1,4 @@
-function dis(){
+function dis1(){
     if($('#dis1').css('display') == 'none'){
     $('#dis1').show();
      }
@@ -6,7 +6,7 @@ function dis(){
     $('#dis1').hide();
     }
 }
-function dis(){
+function dis2(){
     if($('#dis2').css('display') == 'none'){
     $('#dis2').show();
      }
@@ -14,7 +14,7 @@ function dis(){
     $('#dis2').hide();
     }
 }
-function dis(){
+function dis3(){
     if($('#dis3').css('display') == 'none'){
     $('#dis3').show();
      }
@@ -22,7 +22,7 @@ function dis(){
     $('#dis3').hide();
     }
 }
-function dis(){
+function dis4(){
     if($('#dis4').css('display') == 'none'){
     $('#dis4').show();
      }
@@ -30,7 +30,7 @@ function dis(){
     $('#dis4').hide();
     }
 }
-function dis(){
+function dis5(){
     if($('#dis5').css('display') == 'none'){
     $('#dis5').show();
      }
@@ -38,7 +38,7 @@ function dis(){
     $('#dis5').hide();
     }
 }
-function dis(){
+function dis6(){
     if($('#dis6').css('display') == 'none'){
     $('#dis6').show();
      }
@@ -46,7 +46,7 @@ function dis(){
     $('#dis6').hide();
     }
 }
-function dis(){
+function dis7(){
     if($('#dis7').css('display') == 'none'){
     $('#dis7').show();
      }
