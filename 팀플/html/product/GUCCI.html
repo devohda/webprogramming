@@ -163,7 +163,84 @@
             </div>
             <div class="calculator">
                 <div id="reco">저금 계획 계산기</div>
-                <div class="travel"></div>
+                <div class="travel">
+                    <form>
+                        <table id="cal_table">
+                            <tr>
+                                <td>상품 가격:</td>
+                                <td class="middle"><input type="text" placeholder="숫자만 입력하세요" id="product_price"></td>
+                                <td class="bottom">원</td>
+                            </tr>
+                            <tr class="month">
+                                <td>월 별 저금 예상 금액 :</td>
+                                <td class="middle"><input type="text" placeholder="금액을 입력하세요" id="save"></td>
+                                <td class="bottom">원</td>
+                            </tr>
+                            <tr>
+                                <td>예상 저금 기간:</td>
+                                <td class="middle" id="cal_term"></td>
+                                <td class="bottom">개월</td>
+                            </tr>
+                            <tr>
+                                <td>저금 기간 :</td>
+                                <td class="middle"><input type="text" id="term" placeholder="기간을 입력하세요"></td>
+                                <td class="bottom">개월</td>
+                            </tr>
+                            <tr>
+                                <td>월 별 저금 금액:</td>
+                                <td class="middle" id="cal_price"></td>
+                                <td class="bottom">원</td>
+                            </tr>
+                        </table>
+                        <div id="h">
+                            <input type="reset" value="reset" id="reset"></input>
+                            <input type="button" value="계산하기" id="cal"></input>
+                        </div>
+                    </form>
+                    
+                  
+                    <script>
+                        let cal = document.getElementById("cal");
+                        let price = document.getElementById('product_price').value;
+                        let save = document.getElementById('save').value;
+                        let term = document.getElementById('term').value;
+
+                        cal.addEventListener("click",function calculate(){
+                            let price = document.getElementById('product_price').value;
+                            let save = document.getElementById('save').value;
+                            let term = document.getElementById('term').value;
+                            if(save){
+                                if(!isNaN(price/save)){
+                                    let cal_term = document.getElementById('cal_term');
+                                    document.getElementById('cal_term').innerHTML = price / save;
+                                    console.log(price / save);
+                                }
+                                else{
+                                    alert("잘못된 입력입니다.");
+                                }
+                                
+                            }
+                            else{
+                                document.getElementById('cal_term').innerHTML = 0;
+                            }
+                            
+                            if(term){
+                                if(!isNaN(price / term)){
+                                    let cal_price = document.getElementById('cal_price');
+                                    document.getElementById('cal_price').innerHTML = price / term;
+                                    console.log(price / term);
+                                }
+                                else{
+                                    alert("잘못된 입력입니다.");
+                                }
+                                
+                            }
+                            else {
+                                document.getElementById('cal_price').innerHTML = 0;
+                            }
+                        })
+                    </script>
+                </div>
             </div>
         </div>
         
