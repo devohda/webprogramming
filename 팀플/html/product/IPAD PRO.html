@@ -163,7 +163,42 @@
             </div>
             <div class="calculator">
                 <div id="reco">저금 계획 계산기</div>
-                <div class="travel"></div>
+                <div class="travel">
+                    <form>
+                        <table id="cal_table">
+                            <tr>
+                                <td>상품 가격:</td>
+                                <td class="middle"><input type="text" placeholder="숫자만 입력하세요" id="product_price"></td>
+                                <td class="bottom">원</td>
+                            </tr>
+                            <tr class="month">
+                                <td>월 별 저금 예상 금액 :</td>
+                                <td class="middle"><input type="text" placeholder="금액을 입력하세요" id="save"></td>
+                                <td class="bottom">원</td>
+                            </tr>
+                            <tr>
+                                <td>예상 저금 기간:</td>
+                                <td class="middle" id="cal_term"></td>
+                                <td class="bottom">개월</td>
+                            </tr>
+                            <tr>
+                                <td>저금 기간 :</td>
+                                <td class="middle"><input type="text" id="term" placeholder="기간을 입력하세요"></td>
+                                <td class="bottom">개월</td>
+                            </tr>
+                            <tr>
+                                <td>월 별 저금 금액:</td>
+                                <td class="middle" id="cal_price"></td>
+                                <td class="bottom">원</td>
+                            </tr>
+                        </table>
+                        <div id="h">
+                            <input type="reset" value="reset" id="reset"></input>
+                            <input type="button" value="계산하기" id="cal"></input>
+                        </div>
+                    </form>
+                    <script type ="text/javascript" src="../../js/calculator.js"></script>
+                </div>
             </div>
         </div>
         
