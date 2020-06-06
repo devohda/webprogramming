@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Ƽ�� ���.��ʸ�Ʈ</title>
+    <link rel="stylesheet" type="text/css" href="../../css/tournament.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+</head>
+
+<body>
+    <header>
+        <div id="upside">
+            <div class="logo"><img id="logo_img" src="../../src/logo.png"></div>
+            <div class="menu_bar organize_right">
+                <div class="menu_opt"><a class="opt" href="../cardHome.html">üũī��</a></div>
+                <div class="menu_opt"><a class="opt" href="../SavingsHome.html">����/����</a></div>
+                <div class="menu_opt"><a class="opt" href="../wantHome.html">�� ����?</a></div>
+                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">�����</a></div>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="text">
+            <div> PERSONAL CARD RECOMMENDATION</div>
+            <div> �� �� ���ο��� �� ����� ���� ��󺸼���.</div>
+        </div>
+        <div class="width">
+            <div id="container">
+                <div id="category">
+                    <p>
+                        ���� �̷��� �ð��� ������.
+                    </p>
+                </div>
+                <div class="sel">
+                    <div class="select" onclick="button_one()">
+                        <div class="simg">
+                            <img class="kimg" src="../../src/����.jpg" alt="x">
+                        </div>
+                        <p>
+                            ���� ������ �ڵ����� �Ѵ�.
+                        </p>
+                    </div>
+                    <div class="select" onclick="button_two()">
+                        <div class="simg">
+                            <img class="kimg" src="../../src/����.jpg" alt="x">
+                        </div>
+                        <p>
+                            ���� ��ȭ, ���� ��Ȱ�� ����.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <p>
+            edit by 1��
+        </p>
+    </footer>
+    <script>
+        function button_one(){
+            localStorage.setItem("level3","1");
+            var level0 = localStorage.getItem("level0")
+            var level1 = localStorage.getItem("level1")
+            var level2 = localStorage.getItem("level2")
+            var level3 = localStorage.getItem("level3")
+            if( (level0 == "1"&&level1 == "1"&&level2 == "1"&&level3 == "1")
+            ||(level0 == "2"&&level1 == "1"&&level2 == "1"&&level3 == "1") 
+            ||(level0 == "1"&&level1 == "2"&&level2 == "1"&&level3 == "1")
+            ||(level0 == "2"&&level1 == "2"&&level2 == "1"&&level3 == "1")
+            ||(level0 == "1"&&level1 == "1"&&level2 == "1"&&level3 == "2")
+            ||(level0 == "2"&&level1 == "1"&&level2 == "1"&&level3 == "2")
+            ||(level0 == "1"&&level1 == "2"&&level2 == "1"&&level3 == "2")
+            ||(level0 == "2"&&level1 == "2"&&level2 == "1"&&level3 == "2")) {
+            location.href ="result-a.html";
+            }
+            else if( (level0 == "1"&&level1 == "1"&&level2 == "2"&&level3 == "1")
+            ||(level0 == "2"&&level1 == "1"&&level2 == "2"&&level3 == "1")
+            ||(level0 == "1"&&level1 == "2"&&level2 == "2"&&level3 == "1")
+            ||(level0 == "2"&&level1 == "2"&&level2 == "2"&&level3 == "1")) {
+            location.href ="result-b.html";
+            }
+            else if( (level0 == "2"&&level1 == "2"&&level2 == "2"&&level3 == "2")
+            ||(level0 == "2"&&level1 == "1"&&level2 == "2"&&level3 == "2")
+            ||(level0 == "1"&&level1 == "1"&&level2 == "2"&&level3 == "2")
+            ||(level0 == "1"&&level1 == "2"&&level2 == "2"&&level3 == "2")) {
+            location.href ="result-c.html";
+            }
+        }
+        function button_two(){
+            localStorage.setItem("level3","2");
+            var level0 = localStorage.getItem("level0")
+            var level1 = localStorage.getItem("level1")
+            var level2 = localStorage.getItem("level2")
+            var level3 = localStorage.getItem("level3")
+            if( (level0 == "1"&&level1 == "1"&&level2 == "1"&&level3 == "1")
+            ||(level0 == "2"&&level1 == "1"&&level2 == "1"&&level3 == "1") 
+            ||(level0 == "1"&&level1 == "2"&&level2 == "1"&&level3 == "1")
+            ||(level0 == "2"&&level1 == "2"&&level2 == "1"&&level3 == "1")
+            ||(level0 == "1"&&level1 == "1"&&level2 == "1"&&level3 == "2")
+            ||(level0 == "2"&&level1 == "1"&&level2 == "1"&&level3 == "2")
+            ||(level0 == "1"&&level1 == "2"&&level2 == "1"&&level3 == "2")
+            ||(level0 == "2"&&level1 == "2"&&level2 == "1"&&level3 == "2")) {
+            location.href ="result-a.html";
+            }
+            else if( (level0 == "1"&&level1 == "1"&&level2 == "2"&&level3 == "1")
+            ||(level0 == "2"&&level1 == "1"&&level2 == "2"&&level3 == "1")
+            ||(level0 == "1"&&level1 == "2"&&level2 == "2"&&level3 == "1")
+            ||(level0 == "2"&&level1 == "2"&&level2 == "2"&&level3 == "1")) {
+            location.href ="result-b.html";
+            }
+            else if( (level0 == "2"&&level1 == "2"&&level2 == "2"&&level3 == "2")
+            ||(level0 == "2"&&level1 == "1"&&level2 == "2"&&level3 == "2")
+            ||(level0 == "1"&&level1 == "1"&&level2 == "2"&&level3 == "2")
+            ||(level0 == "1"&&level1 == "2"&&level2 == "2"&&level3 == "2")) {
+            location.href ="result-c.html";
+            }
+        }
+    </script>
+</body>
+</html>

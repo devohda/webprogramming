@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-
 <head>
     <title>티끌 모아.토너먼트</title>
     <link rel="stylesheet" type="text/css" href="../../css/tournament.css">
@@ -11,7 +10,7 @@
     <header>
         <div id="upside">
             <div class="logo"><img id="logo_img" src="../../src/logo.png"></div>
-            <div class="menu_bar organize_right">
+            <div class ="menu_bar organize_right">
                 <div class="menu_opt"><a class="opt" href="../cardHome.html">체크카드</a></div>
                 <div class="menu_opt"><a class="opt" href="../SavingsHome.html">예금/적금</a></div>
                 <div class="menu_opt"><a class="opt" href="../wantHome.html">뭘 원해?</a></div>
@@ -28,25 +27,27 @@
             <div id="container">
                 <div id="category">
                     <p>
-                        나는 여기에 돈을 더 투자한다.
+                        나는 이렇게 밥을 많이 먹는다.
                     </p>
                 </div>
                 <div class="sel">
                     <div class="select" onclick="button_one()">
                         <div class="simg">
-                            <img class="kimg" src="../../src/책.jpg" alt="x">
+                            <img class="kimg" src="../../src/가정식.PNG" alt="x">
                         </div>
                         <p>
-                            도서, 학업
+                            집에서 요리해서 먹는다.
                         </p>
                     </div>
                     <div class="select" onclick="button_two()">
-                        <div class="simg">
-                            <img class="kimg" src="../../src/cloth.jpg" alt="x">
-                        </div>
-                        <p>
-                            패션, 뷰티
-                        </p>
+                        <a href="#">
+                            <div class="simg">
+                                <img class="kimg" src="../../src/배달.PNG" alt="x"> <!--사진 교체 부탁해요. 직관적인걸로?-->
+                            </div>
+                            <p>
+                                배달, 편의점, 밖에서 먹는다.
+                            </p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -60,13 +61,12 @@
     <script>
         function button_one(){
             localStorage.setItem("level0","1");
-            location.href="tournament-place.html"
+            location.href ="tournament-place-level1.html";
         }
         function button_two(){
             localStorage.setItem("level0","2");
-            location.href="tournament-place.html"
+            location.href ="tournament-place-level1.html";
         }
     </script>
 </body>
-
 </html>
