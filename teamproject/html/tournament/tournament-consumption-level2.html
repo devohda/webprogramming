@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>티끌 모아.토너먼트</title>
+    <link rel="stylesheet" type="text/css" href="../../css/tournament.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <header>
+        <div id="upside">
+            <a href="../home.html"><div class="logo"><img id="logo_img" src="../../src/logo.png"></div></a>
+            <div class="menu_bar organize_right">
+                <div class="menu_opt"><a class="opt" href="../cardHome.html">체크카드</a></div>
+                <div class="menu_opt"><a class="opt" href="../SavingsHome.html">예금/적금</a></div>
+                <div class="menu_opt"><a class="opt" href="../wantHome.html">뭘 원해?</a></div>
+                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a></div>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="text">
+            <div> PERSONAL CARD RECOMMENDATION</div>
+            <div> 둘 중 본인에게 더 가까운 것을 골라보세요.</div>
+        </div>
+        <div class="width">
+            <div id="container">
+                <div id="category">
+                    <p>
+                        나는 여기에 돈을 더 투자한다.
+                    </p>
+                </div>
+                <div class="sel">
+                    <div class="select" onclick="button_one()">
+                        <div class="simg">
+                            <img class="kimg" src="../../src/cloth.jpg" alt="x">
+                        </div>
+                        <p>
+                            패션, 뷰티
+                        </p>
+                    </div>
+                    <div class="select" onclick="button_two()">
+                        <div class="simg">
+                            <img class="kimg" src="../../src/책.jpg" alt="x">
+                        </div>
+                        <p>
+                            도서, 학업
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <p>
+            edit by 1조
+        </p>
+    </footer>
+    <script>
+        function button_one(){
+            localStorage.setItem("level2","1");
+            location.href="tournament-culturallife-level3.html"
+        }
+        function button_two(){
+            localStorage.setItem("level2","2");
+            location.href="tournament-culturallife-level3.html"
+        }
+    </script>
+</body>
+
+</html>
