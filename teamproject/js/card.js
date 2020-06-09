@@ -54,3 +54,27 @@ function dis7(){
     $('#dis7').hide();
     }
 }
+function dis8(){
+    if($('#dis8').css('display') == 'none'){
+    $('#dis8').show();
+     }
+     else{
+    $('#dis8').hide();
+    }
+}
+function dis9(){
+    if($('#dis9').css('display') == 'none'){
+    $('#dis9').show();
+     }
+     else{
+    $('#dis9').hide();
+    }
+}
+function dis10(){
+    if($('#dis10').css('display') == 'none'){
+    $('#dis10').show();
+     }
+     else{
+    $('#dis10').hide();
+    }
+}

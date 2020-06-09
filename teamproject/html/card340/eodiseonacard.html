@@ -3,9 +3,11 @@
 <html>
 <head>
     <title>티끌 모아</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../css/main.css">
     <link rel="stylesheet" type="text/css" href="../../css/header.css">
     <link rel="stylesheet" type="text/css" href="../../css/card_det.css">
+    <script type="text/javascript" src="../../js/card.js"></script>
 </head>
 <body>
     <header>
@@ -30,48 +32,61 @@
                     </div>
                     <div class="sub">주요 혜택</div>
                     <div class="explanation">
+                        <div id='show' onclick="dis1()">전통시장 10% 캐시백</div> 
+                        <div id='dis1'>
                             <ul>
-                                <li class="hyetaeck">전통시장 10% 캐시백</li>
                                 <li>- 오프라인 이용에 한함 </li>
                             </ul>
+                        </div>
+                        <div id='show' onclick="dis2()">대형마트/다이소 5% 캐시백</div> 
+                        <div id='dis2'>
                             <ul>
-                                <li class="hyetaeck">대형마트/다이소 5% 캐시백</li>
                                 <li>- 대형마트 : 이마트, 홈플러스, 롯데마트, 농협판매장(하나로클럽, 하나로마트)</li>
                                 <li>- 오프라인 이용에 한함</li>
-                            </ul>
+                        </div>
+                        <div id='show' onclick="dis3()">6대 홈쇼핑 5% 캐시백</div> 
+                        <div id='dis3'>
                             <ul>
-                                <li class="hyetaeck">6대 홈쇼핑 5% 캐시백</li>
                                 <li>- CJ, GS, NS, 현대, 롯데, 홈앤쇼핑</li>
                                 <li>- 회당 최대 2천원</li>
                             </ul>
+                        </div>
+                        <div id='show' onclick="dis4()">온라인 쇼핑몰 5% 캐시백</div> 
+                        <div id='dis4'>
                             <ul>
-                                <li class="hyetaeck">온라인 쇼핑몰 5% 캐시백</li>
                                 <li>- 11번가, G마켓, 옥션, 쿠팡</li>
                                 <li>- 회당 최대 1천원</li>
                             </ul>
+                        </div>
+                        <div id='show' onclick="dis5()">음식점 5% 포인트 적립</div> 
+                        <div id='dis5'>
                             <ul>
-                                <li class="hyetaeck">음식점 5% 포인트 적립</li>
                                 <li>- 일반한식, 갈비전문점, 한정식, 일식, 횟집, 중국음식, 서양음식, 스낵, 위탁급식</li>
                                 <li>- 오전 11시 ~ 오후 2시 승인 건에 한하여 적용</li>
                                 <li>- 할인 제외 : 주점, 칵테일바</li>
                             </ul>
+                        </div>
+                        <div id='show' onclick="dis6()">베이커리/카페 5% 포인트 적립</div> 
+                        <div id='dis6'>
                             <ul>
-                                <li class="hyetaeck">베이커리/카페 5% 포인트 적립</li>
                                 <li>- 베이커리 : 파리바게트, 뚜레쥬르</li>
                                 <li>- 카페 : 엔제리너스, 카페베네, 스타벅스, 이디야</li>
                             </ul>
+                        </div>
+                        <div id='show' onclick="dis7()">메가박스 5% 캐시백</div> 
+                        <div id='dis7'>
                             <ul>
-                                <li class="hyetaeck">메가박스 5% 캐시백</li>
                                 <li>- 건당 2만원 이상 결제 시 5% 캐시백</li>
                                 <li>- 현장구매, 홈페이지 예매</li>
                             </ul>
+                        </div>
+                        <div id='show' onclick="dis8()">온라인 서점 5% 캐시백</div> 
+                        <div id='dis8'>
                             <ul>
-                                <li class="hyetaeck">온라인 서점 5% 캐시백</li>
                                 <li>- Yes24, 교보문고</li>
                             </ul>
-                            <ul>
-                                <li class="hyetaeck">우편, 택배, 우표구매, 우체국쇼핑 10% 포인트 적립</li>
-                            </ul>
+                        </div>
+                        <div id='show'>우편, 택배, 우표구매, 우체국쇼핑 10% 포인트 적립</div> 
                     </div>
                     
                 </div>
