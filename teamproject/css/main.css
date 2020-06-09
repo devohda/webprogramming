@@ -31,6 +31,7 @@ body{
     padding: 0;
     width: inherit;
     height: 100%;
+    
 }
 
 header{
@@ -44,6 +45,7 @@ header{
 article{
     width: 100%;
     margin: 0 auto;
+    min-height: 80%;
 }
 
 /*article에 주던 width값을 변경하였습니다. 앞으로는 각 div안에 내용에 해당하는 요소에 width값 = 1120px을 지정해주어야 합니다.*/
