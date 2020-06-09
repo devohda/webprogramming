@@ -1,13 +1,17 @@
+article{
+    min-height: 100%;
+}
+
 
 .card{
-    width: 400px;
+    width: 360px;
     margin: 0 auto;
 }
 
 .card_img{
     position: relative;
-    width: 400px;
-    top: 90px;
+    width: 360px;
+    top: 70px;
     z-index: 100;
     box-shadow: 4px 4px 40px #b9b9b9
 }
@@ -36,7 +40,6 @@
 .content{
     height: 100%;
     background-color: #eeeeee;
-    margin-top:20px;
     padding-top: 150px;
     margin-bottom: 50px;
 }

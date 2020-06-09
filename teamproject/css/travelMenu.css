@@ -1,4 +1,6 @@
-
+a{
+    width: 10px;
+}
 
 .background{
     background-color: #e9e7e3;
@@ -23,7 +25,6 @@
 }
 
 .picture{
-    margin: 0 auto;
     height: 180px;
 }
 
@@ -35,15 +36,15 @@
 
 }
 
-.picture:first-child{
 
+.pic>a:first-child{
     margin-right: 110px;
 }
 
-.picture:last-child{
-
+.pic>a:last-child{
     margin-left: 110px;
 }
+
 
 .picture{
     box-shadow: 2px 2px 20px 2px #d3d6d6;
