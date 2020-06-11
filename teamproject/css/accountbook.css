@@ -253,19 +253,62 @@
     height: 700px;
     border: 1px solid #ddd;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     z-index: 2;
     position: fixed;
     top: 40%;
     left: 40%;
-    border-radius: 15px;
+}
+
+#summitbox #box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #summitbox .total{
-    font-size: 20px;
+    height: 20%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#summitbox .average{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#summitbox .expensesNum{
+    height: 30%;
+}
+
+#summitbox .expensesNum table{
+    width: 700px;
+    table-layout: fixed;
+    font-size: 25px;
+    text-align: center;
+}
+
+#summitbox .cardRecommend img{
+    width: 256px;
+    height: 256px;
+}
+
+#summitbox .exit{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+    float: right;
+    vertical-align: top;
+}
+
+#summitbox .exit img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    vertical-align: top;
 }
 
 footer{
