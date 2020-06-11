@@ -117,18 +117,14 @@
 #calendar .expenses {
     color: red;
     margin-bottom: 7px;
+    font-size: 14px;
     text-decoration: none;  
 }
 
-#calendar .income {
-    color: blue;
-    margin-bottom: 7px;
-    text-decoration: none;
-}
-
-#calender .money{
+#calendar .money {
     color: black;
     margin-bottom: 7px;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -250,6 +246,26 @@
     background-color: #fafafa;
     margin: 10px 10px 0 10px;
     outline: 0;
+}
+
+#summitbox{
+    width: 1000px;
+    height: 700px;
+    border: 1px solid #ddd;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    border-radius: 15px;
+}
+
+#summitbox .total{
+    font-size: 20px;
 }
 
 footer{
