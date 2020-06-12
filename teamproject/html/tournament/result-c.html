@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>티끌 모아</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../css/main.css">
     <link rel="stylesheet" type="text/css" href="../../css/header.css">
@@ -23,39 +24,35 @@
     </header>
     <article>
         <div>
-            <div class="card"><img class="card_img" src="../../src/카드/study.PNG"></a></div>
+            <div class="card"><img class="card_img" src="../../src/카드/study.PNG"></div>
             <div class="width">
                 <div class="content">
                     <div class="j_name">
                         KB국민 톡톡Pay카드
                     </div>
-
-
+                    <div class="sub">주요혜택</div>
                     <div class="explanation">
-                        <div id='show' onclick="dis1()">외식</div> 
+                        <div id='show' class="alert alert-primary" onclick="dis1()">외식</div> 
                         <div id='dis1'>
                             <ul>
                                 <li>- 일반음식점,레스토랑,뷔페 등 외식업종 간편결제 사용시 최대 40% 청구할인</li>
                             </ul>
                         </div>
-                        <br>
-                        <div id='show' onclick="dis2()">대형마켓 / 편의점</div> 
+                        <div id='show' class="alert alert-primary" onclick="dis2()">대형마켓 / 편의점</div> 
                         <div id='dis2'>
                             <ul>
                                 <li>- 이마트, 롯데마트, 홈플러스 등 대형마트 간편결제 사용시 최대 40% 청구할인</li>
                                 <li>- GS25, CU 편의점 이용 시 10% 청구할인</li>
                             </ul>
                         </div>
-                        <br>
-                        <div id='show' onclick="dis3()">카페 / 베이커리</div> 
+                        <div id='show' class="alert alert-primary" onclick="dis3()">카페 / 베이커리</div> 
                         <div id='dis3'>
                             <ul>
                                 <li>- 스타벅스, 커피빈 등 커피전문점 간편결제 사용시 최대 40% 청구할인</li>
                             </ul>
                         </div>
-                        <br>
-                        <div id='show' onclick="dis4()">교육</div> 
-                        <div id='dis4'>
+                        <div id='show' class="alert alert-primary" onclick="dis5()">교육</div> 
+                        <div id='dis5'>
                             <ul>
                                 <li>- 교육 가맹점에서 간편결제 사용시 최대 40% 청구할인</li>
                             </ul>
