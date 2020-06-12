@@ -10,12 +10,9 @@
     <link rel="stylesheet" type="text/css" href="../../css/header.css">
     <link rel="stylesheet" type="text/css" href="../../css/accountbook.css">
 
-    <!-- <style type="text/css">
-        a:link{text-decoration: none; color: #646464;}
-        a:visited{text-decoration: none; color: #646464;}
-        a:active{text-decoration: none; color: #646464;}
-        a:hover{text-decoration: none; color: #646464;}
-    </style> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../js/accountBook.js"></script>
 
 </head>
 
@@ -51,280 +48,317 @@
                     <!-- 전 달 -->
 
                     <ul class="days">
-                        <a href="#">
-                            <li class="day other-month">
-                                <div class="date_sun">31</div>
-                            </li>
-                        </a>
+                        <li class="other-month">
+                            <div class="date_sun">31</div>
+                        </li>
 
                         <!-- 이번 달 -->
 
-                        <!-- <a href="#"> -->
                         <li class="day">
-                            <div class="date">1</div>
+                            <div id="1" class="date">1</div>
                             <div class="event">
-                                <div class="expenses">음식 : -17,000원</div>
-                                <div class="income">알바 : +600,000원</div>
-                                <div class="money">합계 : 583,000원</div>
+
                             </div>
                         </li>
-                        <!-- </a> -->
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">2</div>
-                                <div class="event">
-                                    <div class="expenses">음식 : -17,000원</div>
-                                    <div class="income">알바 : +600,000원</div>
-                                    <div class="money">합계 : 583,000원</div>
-                                </div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">3</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">4</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">5</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date_sat">6</div>
-                            </li>
-                        </a>
+
+                        <li class="day">
+                            <div id="2" class="date">2</div>
+                            <div class="event">
+
+                            </div>
+                        </li>
+
+                        <li class="day">
+                            <div id="3" class="date">3</div>
+                            <div class="event">
+
+                            </div>
+                        </li>
+
+                        <li class="day">
+                            <div id="4" class="date">4</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+
+                        <li class="day">
+                            <div id="5" class="date">5</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+
+                        <li class="day">
+                            <div id="6" class="date_sat">6</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
                     </ul>
 
                     <!-- 2번째 줄 -->
 
                     <ul class="days">
-                        <a href="#">
-                            <li class="day">
-                                <div class="date_sun">7</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">8</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">9</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">10</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">11</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">12</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date_sat">13</div>
-                            </li>
-                        </a>
+                        <li class="day">
+                            <div id="7" class="date_sun">7</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+
+                        <li class="day">
+                            <div id="8" class="date">8</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="9" class="date">9</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="10" class="date">10</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="11" class="date">11</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="12" class="date">12</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="13" class="date_sat">13</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                        
                     </ul>
 
                     <!-- 3번째 줄-->
 
                     <ul class="days">
-                        <a href="#">
-                            <li class="day">
-                                <div class="date_sun">14</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">15</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">16</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">17</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">18</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">19</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date_sat">20</div>
-                            </li>
-                        </a>
+                        <li class="day">
+                            <div id="14" class="date_sun">14</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="15" class="date">15</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="16" class="date">16</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="17" class="date">17</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="18" class="date">18</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="19" class="date">19</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="20" class="date_sat">20</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
                     </ul>
 
                     <!-- 4번째 줄 -->
 
                     <ul class="days">
-                        <a href="#">
-                            <li class="day">
-                                <div class="date_sun">21</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">22</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">23</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">24</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">25</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">26</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date_sat">27</div>
-                            </li>
-                        </a>
+                        <li class="day">
+                            <div id="21" class="date_sun">21</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="22" class="date">22</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="23" class="date">23</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="24" class="date">24</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="25" class="date">25</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="26" class="date">26</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="27" class="date_sat">27</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
                     </ul>
 
                     <!-- 5번째 줄 -->
 
                     <ul class="days">
-                        <a href="#">
-                            <li class="day">
-                                <div class="date_sun">28</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">29</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day">
-                                <div class="date">30</div>
-                            </li>
-                        </a>
+                        <li class="day">
+                            <div id="28" class="date_sun">28</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="29" class="date">29</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="day">
+                            <div id="30" class="date">30</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
 
                         <!-- 다음 달 -->
-
-                        <a href="#">
-                            <li class="day other-month">
-                                <div class="date">1</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day other-month">
-                                <div class="date">2</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day other-month">
-                                <div class="date">3</div>
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="day other-month">
-                                <div class="date_sat">4</div>
-                            </li>
-                        </a>
+                    
+                        <li class="other-month">
+                            <div class="date">1</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="other-month">
+                            <div class="date">2</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="other-month">
+                            <div class="date">3</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
+                    
+                        <li class="other-month">
+                            <div class="date_sat">4</div>
+                            <div class="event">
+                                
+                            </div>
+                        </li>
                     </ul>
 
-                    <!-- 6번재 줄
-                
-                            <ul class="days">
-                                <a href="#">
-                                    <li class="day">
-                                        <div class="date_sun">31</div>                       
-                                    </li>
-                                </a>
-            
-                                 다음달
-            
-                                <a href="#">
-                                    <li class="day other-month">
-                                        <div class="date">1</div>                     
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li class="day other-month">
-                                        <div class="date">2</div>                     
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li class="day other-month">
-                                        <div class="date">3</div>                     
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li class="day other-month">
-                                        <div class="date">4</div>                     
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li class="day other-month">
-                                        <div class="date">5</div>                     
-                                    </li>
-                                </a>
-                                <a href="#">
-                                    <li class="day other-month">
-                                        <div class="date_sat">6</div>                     
-                                    </li>
-                                </a>
-                            </ul> -->
                 </div><!-- /. calendar -->
-                <div class="summit"><button type="button">분석하기</button></div>
+
+                <div class="summit"><button id="Btn_Summit" type="button">분석하기</button></div>
             </div><!-- /. wrap -->
         </div>
+
         <div id="inputbox">
-            <div class="money"><input type="text" id="inputmoney"><label for="inputmoney">￦</label></div>
+            <div class="money"><input type="text" id="Label_Money"><label for="inputmoney">￦</label></div>
             <div class="select1">
-                <button type="button"><img src="../../src/AB_FoodExpenses.png"></button>
-                <button type="button"><img src="../../src/AB_Transportation.png"></button>
-                <button type="button"><img src="../../src/AB_Culture.png"></button>
+                <button id="Btn_Food" type="button"><img src="../../src/AB_FoodExpenses.png"></button>
+                <button id="Btn_Trans" type="button"><img src="../../src/AB_Transportation.png"></button>
+                <button id="Btn_Cult" type="button"><img src="../../src/AB_Culture.png"></button>
             </div>
             <div class="select2">
-                <button type="button"><img src="../../src/AB_Fashion.png"></button>
-                <button type="button"><img src="../../src/AB_Mart.png"></button>
+                <button id="Btn_Fash" type="button"><img src="../../src/AB_Fashion.png"></button>
+                <button id="Btn_Mart" type="button"><img src="../../src/AB_Mart.png"></button>
             </div>
             <div class="select3">
-                <button type="button">입력</button>
-                <button type="button">초기화</button>
+                <button id="Btn_Confirm" type="button">입력</button>
+                <button id="Btn_Reset" type="button">초기화</button>
             </div>
+        </div>
+
+        <div id="summitbox">
+            <!-- <div><button class="exit"><img src="../../src/close.png"></button></div>
+            <div id="box" class="total">이번달 총 사용금액 : 685000원</div>
+            <div id="box" class="average">하루 평균 사용금액 : 22900원</div>
+            <div id="box" class="expensesNum">
+                <table>
+                    <tr>
+                        <th>식비</th>
+                        <th>교통</th>
+                        <th>문화</th>
+                        <th>의류</th>
+                        <th>잡화</th>
+                    </tr>
+                    <tr>
+                        <td>4회</td>
+                        <td>7회</td>
+                        <td>11회</td>
+                        <td>2회</td>
+                        <td>0회</td>
+                    </tr>
+                </table></div>
+            <div id="box" class="cardRecommend">
+                <div><a href="#"><img src="../../src/checkcard.png"></a></div>
+            </div> -->
         </div>
 
     </article>
