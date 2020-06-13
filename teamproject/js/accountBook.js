@@ -33,23 +33,23 @@ $(document).ready(function(){
 
     $("#Btn_Food").click(function(){
         option = 1;
-    })
+    });
 
     $("#Btn_Trans").click(function(){
         option = 2;
-    })
+    });
 
     $("#Btn_Cult").click(function(){
         option = 3;
-    })
+    });
 
     $("#Btn_Fash").click(function(){
         option = 4;
-    })
+    });
 
     $("#Btn_Mart").click(function(){
         option = 5;
-    })
+    });
 
     $("#Btn_Confirm").click(function(){
         price = $("#Label_Money").val();
