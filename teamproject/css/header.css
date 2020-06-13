@@ -5,8 +5,8 @@
     font-weight: normal;
 }
 
-/*¾Æ¹«µµ °ÇµéÁö ¸¶¼¼¿ä*/
-/*¸ðµç ÆäÀÌÁö ÀüÃ¼ Àû¿ëÇÒ ·¹ÀÌ¾Æ¿ô ÀÔ´Ï´Ù.*/
+/*ï¿½Æ¹ï¿½ï¿½ï¿½ ï¿½Çµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+/*ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾Æ¿ï¿½ ï¿½Ô´Ï´ï¿½.*/
 
 .logo{
     margin: auto 0;
@@ -66,4 +66,40 @@
 .opt:hover{
     color: black;
     text-shadow: 2px 2px 2px white;
+}
+
+.drop{
+    background-color: rgb(255, 232, 128);
+    width: 130px;
+    height: 230px;
+    display: none;
+
+}
+.menu_opt .drop{
+    position: absolute;
+}
+.drop>li{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.drop>ul>li{
+    background-color: rgb(250, 242, 209);
+}
+.drop>ul>li:hover{
+    font-weight: 600;
+    background-color: rgb(255, 253, 233);
+}
+
+ul,li{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: 0; 
+   
+}
+a{
+    text-decoration: none;
+    color: #111;
 }
