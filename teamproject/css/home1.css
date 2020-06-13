@@ -259,3 +259,12 @@ footer{
 .info:last-child{
     padding-top: 100px;
 }
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.drop{
+    margin-top: 20px;
+}
