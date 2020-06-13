@@ -23,7 +23,7 @@
 html{
     width: 100%;
     height: 100%;
-    zoom: 0.9;
+    zoom: 0.75;
 }
 
 body{
@@ -51,15 +51,41 @@ article{
 /*article에 주던 width값을 변경하였습니다. 앞으로는 각 div안에 내용에 해당하는 요소에 width값 = 1120px을 지정해주어야 합니다.*/
 /*그러기 위해 1120px 만들 div는 width라는 class부여*/
 
-footer{
-    background-color: #ddd;
-    width: 100%;
-    height: 150px;
-    border-top: 50px #eee solid;
-}
-
 
 .width{
     width: 1120px;
     margin: 0 auto;
+}
+
+/*footer 디자인*/
+footer{
+    
+    width: 100%;
+    height: 370px;
+    border-top: 1px solid #e4e8eb;
+    background-color: #fafbfc;
+    clear: both;
+}
+
+.footer_inner{
+
+    width: 1350px;
+    margin: 50px auto 0;
+}
+
+.footer_inner>.info{
+
+    border-top: 1px solid #e4e8eb;
+    padding: 20px 40px;
+    font-weight: 600;
+}
+
+.footer_inner span{
+    margin-right: 15px;
+    color: #777;
+    font-weight: 400;
+}
+
+.info:last-child{
+    padding-top: 100px;
 }
