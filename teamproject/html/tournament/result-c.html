@@ -9,11 +9,13 @@
     <link rel="stylesheet" type="text/css" href="../../css/header.css">
     <link rel="stylesheet" type="text/css" href="../../css/card_det.css">
     <script type="text/javascript" src="../../js/card.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
     <header>
         <div id="upside">
-            <div class="logo"><img id="logo_img" src="../../src/logo.png"></div>
+            <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div>
             <div class ="menu_bar organize_right">
                 <div class="menu_opt">
                     <a class="opt" href="../cardHome.html">체크카드</a>
@@ -131,4 +133,10 @@
 
     </footer>
 </body>
+<script type="text/javascript">
+    $(".menu_opt").hover(function () {
+        $(this).find(".drop").stop().fadeToggle(400);
+    });
+
+</script>
 </html>
