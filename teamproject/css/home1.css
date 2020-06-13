@@ -31,7 +31,7 @@ html{
 
 main{
     width: 100%;
-    margin: 0 auto 100px;
+    margin: 0 auto 200px;
     padding: 0;
     width: 1550px;
     height: 100%;
@@ -267,4 +267,24 @@ a:hover{
 
 .drop{
     margin-top: 20px;
+}
+
+.carousel-control{
+    opacity: 0.2;
+}
+.carousel-control:focus,.carousel-control:hover
+{
+    opacity: 0.2;
+}
+
+.carousel-indicators{
+    bottom: -60px;
+}
+
+.carousel-indicators li{
+    border: 1px #ddd solid;
+}
+
+.carousel-indicators .active{
+    background-color: #eee;
 }
