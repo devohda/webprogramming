@@ -4,19 +4,13 @@ article{
     height: 900px;
 }
 
- p{
-    
-    font-style: normal;
-    text-align: center;
-    font-size: 1.5em;
-}
-
 .top5-1{
     clear: both;
     background-color: #e9e7e4;
     padding: 10px 0;
-    
+    padding-left: 700px;
     font-size: 30px;
+    font-weight: 700;
 }
 
 .top5{
@@ -27,23 +21,67 @@ article{
     width: 100px;
 }
 
-.line{
-    overflow: hidden;
-    padding-left: 150px;
+.pic_width1{
+    width: 1200px;
+    margin: 0 auto;
     height: 300px;
 }
 
-.line:last-child{
-    padding-left: 250px
-}
-
-.line>div{
+.pic_width1>div{
     float:left;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 0 50px;
     padding-top: 30px;
     text-align: center;
+}
+.pic_width2{
+    width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.pic_width2>div{
+    float:left;
+    width: 300px;
+    height: 300px;
+    margin: 0 50px;
+    padding-top: 30px;
+    text-align: center;
+}
+.picture{
+    height: 180px;
+}
+
+.pic{
+
+    text-align: center;
+    padding: 50px 10px;
+    margin: 20px auto;
+
+}
+
+.pic>a:first-child{
+    margin-right: 140px;
+}
+
+.pic>a:last-child{
+    margin-left: 140px;
+}
+
+
+.picture{
+    box-shadow: 2px 2px 20px 2px #d3d6d6;
+}
+
+.picture:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 15px 2px #50504d;
+}
+.select{
+    overflow: hidden;
+    margin: 100px 0 150px 0;
 }
 
 a:link { color:black; text-decoration: none;}
