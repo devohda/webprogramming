@@ -1,0 +1,20 @@
+diff a/teamproject/css/cardHome.css b/teamproject/css/cardHome.css	(rejected hunks)
+@@ -6,13 +6,16 @@
+     background-color: #ddd;
+     height: 8px;
+     margin-top: 80px;
++    position: relative;
++    padding: 0 330px;
+ }
+ 
+-.month>div{
++.month1{
+     margin: 0 auto;
+     width: 700px;
+     background-color: white;
+-    padding: 20px 0;
++    position: absolute;
++    top: -20px;
+ }
+ 
+ .monthmoney{

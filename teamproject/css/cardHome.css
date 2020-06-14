@@ -6,16 +6,13 @@
     background-color: #ddd;
     height: 8px;
     margin-top: 80px;
-    position: relative;
-    padding: 0 330px;
 }
 
-.month1{
+.month>div{
     margin: 0 auto;
     width: 700px;
     background-color: white;
-    position: absolute;
-    top: -20px;
+    padding: 20px 0;
 }
 
 .monthmoney{
