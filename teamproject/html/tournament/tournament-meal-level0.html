@@ -32,15 +32,15 @@
                     </p>
                 </div>
                 <div class="sel">
-                    <div class="select" onclick="button_one()">
+                    <div class="select" onclick="button_one()"><!--만약 클릭을 한다면 button_one이 실행된다.-->
                         <div class="simg">
-                            <img class="kimg" src="../../src/배달.PNG" alt="x"> <!--사진 교체 부탁해요. 직관적인걸로?-->
+                            <img class="kimg" src="../../src/배달.PNG" alt="x"> 
                         </div>
                         <p>
                             배달, 편의점, 밖에서 먹는다.
                         </p>
                     </div>
-                    <div class="select" onclick="button_two()">
+                    <div class="select" onclick="button_two()"><!--만약 클릭을 한다면 button_two이 실행된다.-->
                         <div class="simg">
                             <img class="kimg" src="../../src/가정식.PNG" alt="x">
                         </div>
@@ -59,11 +59,11 @@
     </footer>
     <script>
         function button_one(){
-            localStorage.setItem("level0","1");
+            localStorage.setItem("level0","1"); // level0이 라는 값에 1이 저장된다.
             location.href ="tournament-place-level1.html";
         }
         function button_two(){
-            localStorage.setItem("level0","2");
+            localStorage.setItem("level0","2"); // level0이 라는 값에 2이 저장된다.
             location.href ="tournament-place-level1.html";
         }
     </script>

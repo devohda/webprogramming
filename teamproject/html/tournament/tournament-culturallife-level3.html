@@ -58,13 +58,13 @@
         </p>
     </footer>
     <script>
-        function button_one(){
+        function button_one(){ //토너먼트 마지막 페이지
             localStorage.setItem("level3","1");
-            var level0 = localStorage.getItem("level0")
+            var level0 = localStorage.getItem("level0") //값을 변수에 저장한다.
             var level1 = localStorage.getItem("level1")
             var level2 = localStorage.getItem("level2")
             var level3 = localStorage.getItem("level3")
-            if( (level0 == "1"&&level1 == "1"&&level2 == "1"&&level3 == "1")
+            if( (level0 == "1"&&level1 == "1"&&level2 == "1"&&level3 == "1") // 저장된 변수의 값에 따라 경우의 수를 나누어 그에 맞는 카드 페이지로 이동한다.
             ||(level0 == "2"&&level1 == "1"&&level2 == "1"&&level3 == "1") 
             ||(level0 == "1"&&level1 == "2"&&level2 == "1"&&level3 == "1")
             ||(level0 == "2"&&level1 == "2"&&level2 == "1"&&level3 == "1")
