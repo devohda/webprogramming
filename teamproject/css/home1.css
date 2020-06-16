@@ -1,6 +1,6 @@
 
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-/*±Û²Ã ¹Ù²Ü±î »ý°¢Áß*/
+/*ï¿½Û²ï¿½ ï¿½Ù²Ü±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 
 @font-face{
     font-family: "slimGothic";
@@ -57,7 +57,7 @@ header{
 
 
 
-/* ¸Þ´º¹Ù µðÀÚÀÎ*/
+/* ï¿½Þ´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 
 
 
@@ -170,7 +170,7 @@ li{
 
 
 
-/*¾ÆÀÌÄÜ ¸Þ´º*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½*/
 
 .img_menu{
     clear:both;
@@ -186,7 +186,7 @@ li{
 
 
 
-/*¸®½ºÆ® ¸Þ´º*/
+/*ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Þ´ï¿½*/
 .list_menu{
     overflow: hidden;
     text-align: center;
@@ -227,7 +227,7 @@ li{
     text-decoration: none;
 }
 
-/*footer µðÀÚÀÎ*/
+/*footer ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 footer{
     
     width: 100%;
