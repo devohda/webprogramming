@@ -8,7 +8,7 @@ $(function () {
             pause: "hover",
             // 순환 설정, true면 1 -> 2가면 다시 1로 돌아가서 반복	
             wrap: true,
-            // 키보드 이벤트 설정 여부(?)	
+            // 키보드 이벤트 설정 여부
             keyboard: true
         });
     });	
