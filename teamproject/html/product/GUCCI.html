@@ -226,41 +226,41 @@
             </div>
             <div class="calculator"><!--기간과 저금액 계산기-->
                 <div id="reco">저금 계획 계산기</div><!-- 계산기 제목 -->
-                <div class="travel">
-                    <form>
-                        <table id="cal_table">
-                            <tr>
+                <div class="travel"><!--계산기 틀(상단 물건 설명 부분과 디자인 틀 동일)-->
+                    <form><!--계산기 정보 입력 받는 부분 form태그로 감싸서 reset 버튼 사용할 수 있도록 만듦-->
+                        <table id="cal_table"> <!--table 형태로 입력란 정렬-->
+                            <tr><!--상품 가격 입력 받기-->
                                 <td>상품 가격:</td>
                                 <td class="middle"><input type="text" placeholder="숫자만 입력하세요" id="product_price"></td>
                                 <td class="bottom">원</td>
                             </tr>
-                            <tr class="month">
+                            <tr class="month"><!--월별 저금 예상 금액 입력-->
                                 <td>월 별 저금 예상 금액 :</td>
                                 <td class="middle"><input type="text" placeholder="금액을 입력하세요" id="save"></td>
                                 <td class="bottom">원</td>
                             </tr>
-                            <tr>
+                            <tr><!--상품 가격 / 월별 저금 금액으로 저금 총 기간 계산해서 출력-->
                                 <td>예상 저금 기간:</td>
                                 <td class="middle" id="cal_term"></td>
                                 <td class="bottom">개월</td>
                             </tr>
                             <tr>
-                                <td>저금 기간 :</td>
+                                <td>저금 기간 :</td><!--저금 예상 기간 입력-->
                                 <td class="middle"><input type="text" id="term" placeholder="기간을 입력하세요"></td>
                                 <td class="bottom">개월</td>
                             </tr>
-                            <tr>
+                            <tr><!--상품 가격 / 총 저금 기간 으로 월별 저금 금액 계산해서 출력-->
                                 <td>월 별 저금 금액:</td>
                                 <td class="middle" id="cal_price"></td>
                                 <td class="bottom">원</td>
                             </tr>
                         </table>
-                        <div id="h">
-                            <input type="reset" value="reset" id="reset"></input>
-                            <input type="button" value="계산하기" id="cal"></input>
+                        <div id="h"><!-- 계산 수행하는 버튼-->
+                            <input type="reset" value="reset" id="reset"></input><!--reset 버튼 -> form태그에 의해 동작-->
+                            <input type="button" value="계산하기" id="cal"></input><!--계산 수행하도록 js만듦-->
                         </div>
                     </form>
-                    <script type ="text/javascript" src="../../js/calculator.js"></script>
+                    <script type ="text/javascript" src="../../js/calculator.js"></script><!-- 계산 수행하는 함수 js파일-->
                 </div>
             </div>
         </div>
