@@ -5,123 +5,100 @@ article{
 
 .card{
     width: 360px;
-    margin: 0 auto;
-    border-style: none;
+    margin: 0 auto;             /* 카드 이미지 중앙 정렬 */
+    border-style: none;         /* 부트스트랩 적용 시 테두리 생겨서 없애주기 위해 */
 }
 
 .card_img{
-    position: relative;
-    width: 360px;
-    top: 70px;
-    z-index: 100;
+    position: relative;          /* content와 겹치게 하기 위해 */
+    width: 360px;               
+    top: 70px;                  /* 위로부터 70px 밀어줌 */
+    z-index: 100;               /* 카드이미지가 content 위에 나타나게 하기 위해 */
     box-shadow: 4px 4px 40px #b9b9b9
 }
-#dis1{
-    display: none;
-    text-indent:130px;
+#dis1{                          /* 주요혜택 하위내용 css */
+    display: none;             /* 처음에는 내용 보이지 않게 함 */
+    text-indent:130px;      /* 들여쓰기 */
 }
-#dis2{
-    display: none;
-    text-indent:130px;
+#dis2{                           /* 주요혜택 하위내용 css */
+    display: none;             /* 처음에는 내용 보이지 않게 함 */
+    text-indent:130px;      /* 들여쓰기 */
 }
-#dis3{
-    display: none;
-    text-indent:130px;
+#dis3{                          /* 주요혜택 하위내용 css */
+    display: none;             /* 처음에는 내용 보이지 않게 함 */
+    text-indent:130px;      /* 들여쓰기 */
 }
-#dis4{
-    display: none;
-    text-indent:130px;
+#dis4{                          /* 주요혜택 하위내용 css */
+    display: none;            /* 처음에는 내용 보이지 않게 함 */
+    text-indent:130px;      /* 들여쓰기 */
 }
-#dis5{
-    display: none;
-    text-indent:130px;
+#dis5{                          /* 주요혜택 하위내용 css */
+    display: none;             /* 처음에는 내용 보이지 않게 함 */
+    text-indent:130px;      /* 들여쓰기 */
 }
-#dis6{
-    display: none;
-    text-indent:130px;
+#dis6{                          /* 주요혜택 하위내용 css */
+    display: none;             /* 처음에는 내용 보이지 않게 함 */
+    text-indent:130px;      /* 들여쓰기 */
 }
-#dis7{
-    display: none;
-    text-indent:130px;
+#dis7{                          /* 주요혜택 하위내용 css */
+    display: none;             /* 처음에는 내용 보이지 않게 함 */
+    text-indent:130px;      /* 들여쓰기 */
 }
-#dis8{
-    display: none;
-    text-indent:130px;
+#dis8{                          /* 주요혜택 하위내용 css */
+    display: none;             /* 처음에는 내용 보이지 않게 함 */
+    text-indent:130px;      /* 들여쓰기 */
 }
-#dis9{
-    display: none;
-    text-indent:130px;
+#dis9{                          /* 주요혜택 하위내용 css */
+    display: none;             /* 처음에는 내용 보이지 않게 함 */
+    text-indent:130px;      /* 들여쓰기 */
 }
-#dis10{
-    display: none;
-    text-indent:130px;
+#dis10{                          /* 주요혜택 하위내용 css */
+    display: none;             /* 처음에는 내용 보이지 않게 함 */
+    text-indent:130px;      /* 들여쓰기 */
 }
 
 .content{
     height: 100%;
     background-color: #eeeeee;
     padding-top: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;            /*푸터와 50px 떨어트리기 위해*/
 }
 .j_name{
     background-color: white;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bolder;
+    text-align: center;                 /* 텍스트 중앙정렬 */
+    font-size: 40px;                    /* 글씨 크기 */
+    font-weight: bolder;            /* 글씨 굵게 */
     height: 110px;
-    width:900px;
-    margin: 0px auto;
+    width:900px;                    /* 카드 이름 div 높이와 너비 지정 */
+    margin: 0px auto;              /* 카드 이름 div 중앙 정렬 */ 
     border-top: 2.5px #ffe031 solid;
-    border-bottom: 2.5px #ffe031 solid;
+    border-bottom: 2.5px #ffe031 solid;         /* 카드 이름 div 위 아래 보더 주기 */
     padding-top: 40px;
-    box-sizing: content-box;
+    box-sizing: content-box;                    /* 부트스트랩 적용 시 div 찌그러짐 해결 위해 원래 적용값인 content-box 적용해줌 */
 }
 
-.shinhan_detail img{
-    display:block;
-    height:230px;
-    margin: 100px auto;
-}
 
-.shinhan_detail{
-    height: 320px;
-}
 .explanation{
     height : 100%;
-    overflow: auto;
+    overflow: auto;             /* div 자동 길이 조절 */
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 50px;       /*위 아래 padding 주기*/
 }
 
 ul{
-    list-style:none;
-    line-height: 30px;
+    list-style:none;                /* 리스트 동그라미 생기는거 없애기 위해 */
+    line-height: 30px;             /* 줄 높이 키우기 위해 */
 }
-.hyetaeck{
-    font-weight: 20px;
-    font-weight: bold;
-}
+
 #show{
-    font-size: larger;
+    font-size: larger;              /* 글씨 크게 */
     height: 60px;
-    width: 900px;
-    margin: 0 auto;
+    width: 900px;                  /* 주요혜택 상위 div 높이 너비 지정 */
+    margin: 0 auto;                /* 주요혜택 상위 div 중앙 정렬 */
     
-    font-weight: 500;
+    font-weight: 500;               /* 글씨 굵게 */
     background-color: #fff5b5;
-    border-radius: 15px 15px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-.sub{
-    height: 100px;
-    width:200px;
-    border-radius: 80px 30px;
-    background-color: #ffe96c;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    font-size: 30px;
-    margin-top: 40px;
+    border-radius: 15px 15px;               /* div 모서리 둥글게 */
+    margin-bottom: 15px;                    /* 주요 혜택 상위 div끼리 떨어트리기 위해 */
+    cursor: pointer;                    /* 마우스 올릴 시 손 모양으로 바꾸기 위해 */
 }

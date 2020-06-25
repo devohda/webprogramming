@@ -3,115 +3,114 @@
 <html>
 <head>
     <title>티끌 모아: 30~40만원 카드 추천</title>
-    <link rel="stylesheet" type="text/css" href="../../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../../css/card rec.css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css"><!--공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../css/header.css"><!--공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../css/card rec.css"><!--개별페이지 css -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script><!--메뉴관련 제이쿼리-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!--메뉴관련 제이쿼리-->
 </head>
 <body>
     <header>
-        <div id="upside">
-            <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div>
-            <div class ="menu_bar organize_right">
-                <div class="menu_opt">
-                    <a class="opt" href="../cardHome.html">체크카드</a>
+        <div id="upside"><!--페이지 제일 상단 로고 및 메뉴바 부분-->
+            <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div><!--로고 이미지 및 메인 홈페이지 링크-->
+            <div class ="menu_bar organize_right"><!--로고 이미지 및 메인 홈페이지 링크-->
+                <div class="menu_opt"><!--페이지 상단 메뉴바-->
+                    <a class="opt" href="../cardHome.html">체크카드</a><!--메뉴 중 체크카드 부분-->
                     <ul class="drop" style="z-index: 900;">
-                        <li>월별 소비 금액</li>
+                        <li>월별 소비 금액</li> <!-- 체크카드 중 월별 소비 금액 부분-->
                         <ul>
                             <li>
-                                <a href="../card20/card20.html">20만원 이하</a>
+                                <a href="../card20/card20.html">20만원 이하</a><!--바로가기-->
                             </li>
                             <li>
-                                <a href="../card340/card30-40.html">30 ~ 40만원</a>
+                                <a href="../card340/card30-40.html">30 ~ 40만원</a><!--바로가기-->
                             </li>
                             <li>
-                                <a href="../card50/card50.html">50만원</a>
+                                <a href="../card50/card50.html">50만원</a><!--바로가기-->
                             </li>
                         </ul>
-                        <li>토너먼트</li>
+                        <li>토너먼트</li> <!-- 체크카드 중 토너먼트 부분-->
                         <ul>
                             <li>
-                                <a href="../tournament/tournament-meal-level0.html">나에게 맞는 카드 찾기</a>
+                                <a href="../tournament/tournament-meal-level0.html">나에게 맞는 카드 찾기</a><!--바로가기-->
                             </li>
                         </ul>
                     </ul>
                 </div>
-                <div class="menu_opt"><a class="opt" href="../deposit/deposit_main.html">예금/적금</a>
+                <div class="menu_opt"><a class="opt" href="../deposit/deposit_main.html">예금/적금</a> <!-- 메뉴 중 예금/적금 부분-->
                     <ul class="drop" style="z-index: 900;">
-                        <li>예금</li>
+                        <li>예금</li><!-- 예금/적금 중 예금 부분-->
                         <ul>
                             <li>
-                                <a href="../deposit/deposit_main.html">예금 추천 상품</a>
+                                <a href="../deposit/deposit_main.html">예금 추천 상품</a> <!--바로가기-->
                             </li>
                         </ul>
     
-                        <li>적금</li>
+                        <li>적금</li><!-- 예금/적금 중 적금 부분-->
                         <ul>
                             <li>
-                                <a href="../account/account_main.html">적금 추천 상품</a>
-                            </li>
-                        </ul>
-    
-                    </ul>
-                </div>
-                <div class="menu_opt"><a class="opt" href="../product/top5.html">뭘 원해?</a>
-                    <ul class="drop" style="z-index: 900;">
-                        <li>쇼핑</li>
-                        <ul>
-                            <li>
-                                <a href="../product/top5.html">대학생이 사고 싶은 물건 BEST 5</a>
-                            </li>
-                        </ul>
-    
-                        <li>여행</li>
-                        <ul>
-                            <li>
-                                <a href="../travel/travelMenu.html">추천 여행지</a>
+                                <a href="../account/account_main.html">적금 추천 상품</a><!--바로가기-->
                             </li>
                         </ul>
     
                     </ul>
                 </div>
-                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a>
+                <div class="menu_opt"><a class="opt" href="../product/top5.html">뭘 원해?</a><!-- 메뉴 중 뭘 원해? 부분-->
+                    <ul class="drop" style="z-index: 900;">
+                        <li>쇼핑</li><!-- 뭘 원해? 중 쇼핑 부분-->
+                        <ul>
+                            <li>
+                                <a href="../product/top5.html">대학생이 사고 싶은 물건 BEST 5</a><!--바로가기-->
+                            </li>
+                        </ul>
+    
+                        <li>여행</li><!-- 뭘 원해? 중 여행 부분-->
+                        <ul>
+                            <li>
+                                <a href="../travel/travelMenu.html">추천 여행지</a><!--바로가기-->
+                            </li>
+                        </ul>
+    
+                    </ul>
+                </div>
+                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a><!-- 메뉴 중 가계부 부분-->
                     <ul class="drop" style="z-index: 900;">
                         <li>
-                            <a href="../calander/accountBook.html">가계부 바로가기</a>
+                            <a href="../calander/accountBook.html">가계부 바로가기</a><!--바로가기-->
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </div><!-- 페이지 상단 끝-->
     </header>
-    <article>
-        <div class = "rec">
-            <div class="width">
+    <article><!-- 페이지 중단 시작-->
+        <div class = "rec"><!-- 월 평균 소비 금액 ~20만원-->
+            <div class="width"><!-- 페이지 내용을 중앙 정렬하기 위한 태그--->
                 월 평균 소비 금액 :  30~40만원
             </div>
         </div>
-        <div class="width">
-            <div class = "content">
-                <div class="bar"></div>
-                <div class="card_img"><a href="sumcard.html" title="상세페이지 바로가기"><img  src="../../src/sumcard.png"></a></div>
+        <div class="width"><!-- 페이지 내용을 중앙 정렬하기 위한 태그--->
+            <div class = "content"><!-- 카드 이미지와 혜택 담김-->
+                <div class="bar"></div><!-- 카드 이미지 왼쪽에 노란색 선-->
+                <div class="card_img"><a href="sumcard.html" title="상세페이지 바로가기"><img  src="../../src/sumcard.png"></a></div><!--카드 이미지와 바로가기와 마우스 올릴 때 title설정  -->
                 <div>
-                    <h2><a class="opt2" href="sumcard.html" title="상세페이지 바로가기">썸타는 우리 체크</a></h2>
-                            <div class="con">
-                                <ul>
+                    <h2><a class="opt2" href="sumcard.html" title="상세페이지 바로가기">썸타는 우리 체크</a></h2><!--카드 이름과 바로가기와 마우스 올릴 때 title설정  -->
+                           
+                                <ul class="con"><!--카드 혜택 리스트로 보여줌 -->
                                     <li>온라인 쇼핑몰 : 10% 할인</li>
                                     <li>영화관 : 10% 할인</li>
                                     <li>스타벅스 : 20% 할인</li>
                                     <li>베이커리, 패스트푸드 : 10% 할인</li>
                                     <li>전월 실적 : 25만원 이상</li>
                                 </ul>
-                            </div>
                 </div>
             </div>
-            <div class = "content">
-                <div class="bar"></div>
-                <div class="card_img"><a href="eodiseonacard.html" title="상세페이지 바로가기"><img  src="../../src/eodiseonacard.png"></a></div>
+            <div class = "content"><!-- 카드 이미지와 혜택 담김-->
+                <div class="bar"></div><!-- 카드 이미지 왼쪽에 노란색 선-->
+                <div class="card_img"><a href="eodiseonacard.html" title="상세페이지 바로가기"><img  src="../../src/eodiseonacard.png"></a></div><!--카드 이미지와 바로가기와 마우스 올릴 때 title설정  -->
                 <div>
-                    <h2><a class="opt2" href="eodiseonacard.html" title="상세페이지 바로가기">어디서나 체크 카드</a></h2>
-                        <ul class="con">
+                    <h2><a class="opt2" href="eodiseonacard.html" title="상세페이지 바로가기">어디서나 체크 카드</a></h2><!--카드 이름과 바로가기와 마우스 올릴 때 title설정  -->
+                        <ul class="con"><!--카드 혜택 리스트로 보여줌 -->
                             <li>전통시장 : 10% 할인</li>
                             <li>메가박스 : 5% 할인</li>
                             <li>베이커리/카페 : 5% 포인트 적립</li>
@@ -120,12 +119,12 @@
                         </ul>
                 </div>
             </div>
-            <div class = "content">
-                <div class="bar"></div>
-                <div class="card_img"><a href="tantancard.html" title="상세페이지 바로가기"><img  src="../../src/tantancard.png"></a></div>
+            <div class = "content"><!-- 카드 이미지와 혜택 담김-->
+                <div class="bar"></div><!-- 카드 이미지 왼쪽에 노란색 선-->
+                <div class="card_img"><a href="tantancard.html" title="상세페이지 바로가기"><img  src="../../src/tantancard.png"></a></div><!--카드 이미지와 바로가기와 마우스 올릴 때 title설정  -->
                 <div>
-                    <h2><a href="tantancard.html" class="opt2" title="상세페이지 바로가기">탄탄대로 Miz&Mr 티타늄카드</a></h2>
-                        <ul class="con">
+                    <h2><a href="tantancard.html" class="opt2" title="상세페이지 바로가기">탄탄대로 Miz&Mr 티타늄카드</a></h2><!--카드 이름과 바로가기와 마우스 올릴 때 title설정  -->
+                        <ul class="con"><!--카드 혜택 리스트로 보여줌 -->
                             <li>미용/화장품 : 20% 할인</li>
                             <li>커피/베이커리 : 10% 할인</li>
                             <li>백화점/편의점 : 10% 할인</li>
@@ -137,23 +136,23 @@
         </div>
     </article>
     <footer>
-        <div class="footer_inner">
+        <div class="footer_inner"><!-- 페이지 하단-->
             <div class="info">
                 <div>
-                    developer
+                    developer<!-- 제작자 -->
                 </div>
             </div>
-            <div class="info">
+            <div class="info"> <!-- 제작자 명단-->
                 <span>17010681 고석준</span>
                 <span>19011474 박정은</span>
                 <span>19011488 오다혜</span>
                 <span>19011505 김연신</span>
             </div>
             <div class="info">
-                Copyright © 2020 TEAM 1 All Rights Reserved.
+                Copyright © 2020 TEAM 1 All Rights Reserved. <!-- 저작권 표시-->
             </div>
         </div>
-    </footer>
+    </footer><!-- 페이지 하단 끝-->
 </body>
 <script type="text/javascript">
     $(".menu_opt").hover(function () {
