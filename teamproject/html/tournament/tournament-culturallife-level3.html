@@ -195,7 +195,8 @@
         }
     </script>
 </body>
-<script type="text/javascript">
+<script type="text/javascript">//dropdown 위해서 fadeToggle 사용
+    // 전제가 아니라 마우스 올려놓은 부분의 세부 메뉴만 보기 위해서 this객체에서 .drop(세부 메뉴)를 찾아서 나타나게 함.
     $(".menu_opt").hover(function () {
         $(this).find(".drop").stop().fadeToggle(400);
     });
