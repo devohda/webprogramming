@@ -96,6 +96,9 @@
             <div id="calendar-wrap">
                 <h1>2020년 6월</h1>
                 <div id="calendar">
+
+                    <!-- 요 일 -->
+
                     <ul class="weekdays">
                         <li class="sun">일요일</li>
                         <li>월요일</li>
@@ -118,14 +121,16 @@
                         <li class="day">
                             <div id="1" class="date">1</div>
                             <div class="event">
-
+                                <!-- 날자 안에 금액과 사용 목적 적어두는 div-->
+                                <!--<div class="money">식비 : 6000원</div>
+                                <div class="expenses">합계 : 6000원</div>-->
                             </div>
                         </li>
 
                         <li class="day">
                             <div id="2" class="date">2</div>
                             <div class="event">
-
+                                
                             </div>
                         </li>
 
@@ -139,21 +144,21 @@
                         <li class="day">
                             <div id="4" class="date">4</div>
                             <div class="event">
-                                
+
                             </div>
                         </li>
 
                         <li class="day">
                             <div id="5" class="date">5</div>
                             <div class="event">
-                                
+
                             </div>
                         </li>
 
                         <li class="day">
                             <div id="6" class="date_sat">6</div>
                             <div class="event">
-                                
+
                             </div>
                         </li>
                     </ul>
@@ -379,8 +384,11 @@
             </div><!-- /. wrap -->
         </div>
 
+        <!-- inputbox 모달 -->
         <div id="inputbox">
+            <!-- 금액 입력 박스 -->
             <div class="money"><input type="text" id="Label_Money"><label for="inputmoney">￦</label></div>
+            <!-- 사용 목적 선택 버튼 -->
             <div class="select1">
                 <button id="Btn_Food" type="button"><img src="../../src/AB_FoodExpenses.png"></button>
                 <button id="Btn_Trans" type="button"><img src="../../src/AB_Transportation.png"></button>
@@ -390,13 +398,16 @@
                 <button id="Btn_Fash" type="button"><img src="../../src/AB_Fashion.png"></button>
                 <button id="Btn_Mart" type="button"><img src="../../src/AB_Mart.png"></button>
             </div>
+            <!-- 입력 및 초기화 버튼 -->
             <div class="select3">
                 <button id="Btn_Confirm" type="button">입력</button>
                 <button id="Btn_Reset" type="button">초기화</button>
             </div>
         </div>
 
+        <!-- summitbox 모달 -->
         <div id="summitbox">
+            <!--분석 내용 적어두는 div-->
             <!-- <div><button class="exit"><img src="../../src/close.png"></button></div>
             <div id="box" class="total">이번달 총 사용금액 : 685000원</div>
             <div id="box" class="average">하루 평균 사용금액 : 22900원</div>
