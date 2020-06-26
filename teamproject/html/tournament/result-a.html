@@ -3,14 +3,14 @@
 <html>
 <head>
     <title>티끌 모아</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../../css/card_det.css">
-    <script type="text/javascript" src="../../js/card.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><!--디자인을 위한 부트 스트랩-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script><!--show/hide관련 제이쿼리-->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css"><!--공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../css/header.css"><!--공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../css/card_det.css"><!--개별페이지 css -->
+    <script type="text/javascript" src="../../js/card.js"></script><!--show/hide관련 js-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script><!--메뉴관련 제이쿼리-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!--메뉴관련 제이쿼리-->
 </head>
 <body>
     <header>
@@ -156,7 +156,8 @@
         </div>
     </footer><!-- 페이지 하단 끝-->
 </body>
-<script type="text/javascript">
+<script type="text/javascript">//dropdown 위해서 fadeToggle 사용
+    // 전제가 아니라 마우스 올려놓은 부분의 세부 메뉴만 보기 위해서 this객체에서 .drop(세부 메뉴)를 찾아서 나타나게 함.
     $(".menu_opt").hover(function () {
         $(this).find(".drop").stop().fadeToggle(400);
     });
