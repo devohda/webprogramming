@@ -1,84 +1,25 @@
 
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-/*�۲� �ٲܱ� ������*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); /*폰트 사용을 위해 import시킴*/
 
-@font-face{
-    font-family: "slimGothic";
-    src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
 
-@font-face{
-    font-family: "slimGothic";
-    src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-*{
+*{/*전체 글씨를 noto Sans KR로 지정*/
     font-family: "Noto Sans KR", sans-serif;
 }
-
 
 
 html{
     margin: 0;
     padding: 0;
     width: 100%;
-    zoom: 0.75;
-}
-
-main{
-    width: 100%;
-    margin: 0 auto 200px;
-    padding: 0;
-    width: 1550px;
-    height: 100%;
-}
-
-#mainphoto{
-    margin: 70px 0 50px;
-    overflow: hidden;
-}
-
-#mainphoto>img {
-    margin: 0 auto;
-    display: block;
+    zoom: 0.75;/*화면이 전체적으로 작게 보이도록 zoom 설정*/
 }
 
 
-header{
+/*로고 들어가 있는 메인페이지 최상단 부분*/
+header{ 
     width: 100%;
     overflow:hidden;
     margin-top: 20px;
-}
-
-
-
-
-/* �޴��� ������*/
-
-
-
-#logo_img{
-    height: 230px;
-    display: block;
-    margin: 0 auto;
-}
-
-.organize_left{
-    float: left;
-}
-.organize_right{
-    float: right;
-}
-
-nav{
-    border-top: 1px #bbb solid;
-    border-bottom: 1px #bbb solid;
-    padding: 3px 0;
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
 }
 
 #upside{
@@ -86,6 +27,20 @@ nav{
     margin: 0 auto;
     height: 100%;
     overflow: hidden;
+}
+
+#logo_img{
+    height: 230px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*드롭다운 메뉴바 있는 네비게이션 부분*/
+nav{
+    border-top: 1px #bbb solid;
+    border-bottom: 1px #bbb solid;
+    padding: 3px 0;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
 }
 
 .menu_opt{
@@ -127,12 +82,13 @@ nav{
     position: absolute;
 }
 
+/*안보이다가 마우스 올리면 보이는 부분 .drop*/
 .drop{
     background-color: rgb(255, 232, 128);
     width: 350px;
     height: 330px;
     display: none;
-
+    margin-top: 20px;
 }
 
 .drop>li{
@@ -140,16 +96,15 @@ nav{
     margin-top: 20px;
 }
 
-
 .drop>ul>li{
     background-color: rgb(250, 242, 209);
 }
-
+/*세부 메뉴 선택시 background color바뀜*/
 .drop>ul>li:hover{
     font-weight: 600;
     background-color: rgb(255, 253, 233);
 }
-
+/*ul, li 기본 속성 초기화*/
 ul,li{
     list-style: none;
     padding: 0;
@@ -160,74 +115,48 @@ li{
     padding: 10px 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*������ �޴�*/
-
-.img_menu{
-    clear:both;
-    text-align: center;
-    margin: 50px 0;
-}
-.img_menu>img{
-    
-    width: 200px;
-    margin: 0 60px;
-}
-
-
-
-
-/*����Ʈ �޴�*/
-.list_menu{
-    overflow: hidden;
-    text-align: center;
-    padding: 0 98px;
-}
-.list_menu>div{
-    
-    border-top: 1px #e4e8eb solid;
-    padding-top: 30px;
-    float: left;
-    width: 25%;
-}
-
-.list_menu ul{
-    list-style: none;
-    font-family: "slimGothic";
-    font-size: 20px;
-    font-weight: 600;
-    padding-inline-start: 0;
-}
-
-.bb{
-    font-weight: 600;
-    color: #777777;
-}
-
-.lih1{
-    font-weight: bold;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.lih2{
-    font-size: 26px;
-}
- a { 
+a { /*밑줄 없애기*/
     color: #111;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+    color: black;
+}
 
-/*footer ������*/
+
+/*메인 페이지 내용 넣는 부분*/
+main{ 
+    width: 100%;
+    margin: 0 auto 200px;
+    padding: 0;
+    width: 1550px;
+    height: 100%;
+}
+/*캐러셀 bootstrap 상위 우선순위에서 속성을 변경*/
+.carousel-control{/*너무 배경색이 어두워서 색 변경함*/
+    opacity: 0.2;
+}
+.carousel-control:focus,.carousel-control:hover
+{
+    opacity: 0.2;
+}
+
+.carousel-indicators{
+    bottom: -60px;
+}
+
+.carousel-indicators li{
+    border: 1px #ddd solid;
+}
+
+.carousel-indicators .active{
+    background-color: #ccc;
+}
+
+
+
+/*footer 부분*/
 footer{
     
     width: 100%;
@@ -237,6 +166,7 @@ footer{
     clear: both;
 }
 
+/* footer 내용 넣는 부분*/
 .footer_inner{
 
     width: 1350px;
@@ -260,31 +190,5 @@ footer{
     padding-top: 100px;
 }
 
-a:hover{
-    text-decoration: none;
-    color: black;
-}
 
-.drop{
-    margin-top: 20px;
-}
 
-.carousel-control{
-    opacity: 0.2;
-}
-.carousel-control:focus,.carousel-control:hover
-{
-    opacity: 0.2;
-}
-
-.carousel-indicators{
-    bottom: -60px;
-}
-
-.carousel-indicators li{
-    border: 1px #ddd solid;
-}
-
-.carousel-indicators .active{
-    background-color: #ccc;
-}

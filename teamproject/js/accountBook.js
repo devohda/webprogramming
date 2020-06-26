@@ -33,6 +33,7 @@ $(document).ready(function(){
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $("#Btn_Food").click(function(){       //inputbox 안 각각의 사용 목적을 정하는 버튼을 눌렸을 때
         option = 1;                        //각 option 값을 줌
     });
@@ -45,6 +46,20 @@ $(document).ready(function(){
     $("#Btn_Food").click(function(){       //inputbox 안 각각의 사용 목적을 정하는 버튼을 눌렸을 때
         option = 1;                        //각 option 값을 줌
     });
+=======
+    $("#Btn_Food").click(function(){
+        option = 1;
+    })
+=======
+    $("#Btn_Food").click(function(){       //inputbox 안 각각의 사용 목적을 정하는 버튼을 눌렸을 때
+        option = 1;                        //각 option 값을 줌
+    });
+>>>>>>> ae5581330a10e0f0ff52ca6be37414ea3a500357
+=======
+    $("#Btn_Food").click(function(){       //inputbox 안 각각의 사용 목적을 정하는 버튼을 눌렸을 때
+        option = 1;                        //각 option 값을 줌
+    });
+>>>>>>> 8f965c30512a0a100a948f0135a935f8abe56b0d
 >>>>>>> aec9e6cca5479aba23b322c427db5faeaeec221a
 
     $("#Btn_Trans").click(function(){
