@@ -1,223 +1,289 @@
-<!-- 처음 만드실 때 이거 복붙하시고 그 아래에다가 만드시면 됩니다.-->
-<!--여행 상세 페이지 기본 구조. 여기다가 내용 추가하시면 됩니다.-->
-
 <!doctype html>
 <html>
 
 <head>
     <title>티끌 모아, 여행 상세</title>
-    <link rel="stylesheet" type="text/css" href="../../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../../css/product_det.css">
-    <link rel="stylesheet" type="text/css" href="../../css/travel.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css"> <!--공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../css/header.css"><!--공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../css/travel.css"><!--개별페이지 css -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script><!--메뉴관련 제이쿼리-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!--메뉴관련 제이쿼리-->
 </head>
 
 <body>
     <header>
-        <div id="upside">
-            <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div>
-            <div class="menu_bar organize_right">
-                <div class="menu_opt"><a class="opt" href="../cardHome.html">체크카드</a></div>
-                <div class="menu_opt"><a class="opt" href="../SavingsHome.html">예금/적금</a></div>
-                <div class="menu_opt"><a class="opt" href="../wantHome.html">뭘 원해?</a></div>
-                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a></div>
+        <div id="upside"><!--페이지 제일 상단 로고 및 메뉴바 부분-->
+            <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div><!--로고 이미지 및 메인 홈페이지 링크-->
+            <div class ="menu_bar organize_right"><!--로고 이미지 및 메인 홈페이지 링크-->
+                <div class="menu_opt"><!--페이지 상단 메뉴바-->
+                    <a class="opt" href="../cardHome.html">체크카드</a><!--메뉴 중 체크카드 부분-->
+                    <ul class="drop" style="z-index: 900;">
+                        <li>월별 소비 금액</li> <!-- 체크카드 중 월별 소비 금액 부분-->
+                        <ul>
+                            <li>
+                                <a href="../card20/card20.html">20만원 이하</a><!--바로가기-->
+                            </li>
+                            <li>
+                                <a href="../card340/card30-40.html">30 ~ 40만원</a><!--바로가기-->
+                            </li>
+                            <li>
+                                <a href="../card50/card50.html">50만원</a><!--바로가기-->
+                            </li>
+                        </ul>
+                        <li>토너먼트</li> <!-- 체크카드 중 토너먼트 부분-->
+                        <ul>
+                            <li>
+                                <a href="../tournament/tournament-meal-level0.html">나에게 맞는 카드 찾기</a><!--바로가기-->
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="menu_opt"><a class="opt" href="../deposit/deposit_main.html">예금/적금</a> <!-- 메뉴 중 예금/적금 부분-->
+                    <ul class="drop" style="z-index: 900;">
+                        <li>예금</li><!-- 예금/적금 중 예금 부분-->
+                        <ul>
+                            <li>
+                                <a href="../deposit/deposit_main.html">예금 추천 상품</a> <!--바로가기-->
+                            </li>
+                        </ul>
+    
+                        <li>적금</li><!-- 예금/적금 중 적금 부분-->
+                        <ul>
+                            <li>
+                                <a href="../account/account_main.html">적금 추천 상품</a><!--바로가기-->
+                            </li>
+                        </ul>
+    
+                    </ul>
+                </div>
+                <div class="menu_opt"><a class="opt" href="../product/top5.html">뭘 원해?</a><!-- 메뉴 중 뭘 원해? 부분-->
+                    <ul class="drop" style="z-index: 900;">
+                        <li>쇼핑</li><!-- 뭘 원해? 중 쇼핑 부분-->
+                        <ul>
+                            <li>
+                                <a href="../product/top5.html">대학생이 사고 싶은 물건 BEST 5</a><!--바로가기-->
+                            </li>
+                        </ul>
+    
+                        <li>여행</li><!-- 뭘 원해? 중 여행 부분-->
+                        <ul>
+                            <li>
+                                <a href="../travel/travelMenu.html">추천 여행지</a><!--바로가기-->
+                            </li>
+                        </ul>
+    
+                    </ul>
+                </div>
+                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a><!-- 메뉴 중 가계부 부분-->
+                    <ul class="drop" style="z-index: 900;">
+                        <li>
+                            <a href="../calander/accountBook.html">가계부 바로가기</a><!--바로가기-->
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </div><!-- 페이지 상단 끝-->
     </header>
-    <article>
-        <div class="width">
-            <div class="travel">
-                <div class="info"><img src="../../src/travel/kyungju.png"></div>
+    <article><!-- 페이지 중단-->
+        <div class="width"><!-- 페이지 내용을 중앙 정렬하기 위한 태그-->
+            <div class="travel"><!--상품 정보 부분-->
+                <div class="info"><img src="../../src/travel/kyungju.png"></div><!-- 상품 이미지-->
                 <div class="info" id="middle">
-                    <div id="place">경주</div>
-                    <div id="price">[ 370,000 ] 원</div>
+                    <div id="place">경주</div><!-- 상품 이름-->
+                    <div id="price">[ 370,000 ] 원</div><!-- 상품가-->
                 </div>
                 <div class="info table">
-                    <table>
+                    <table><!-- 상품가의 구성을 보여주기 위한 표-->
                         <tr>
-                            <td>숙박</td>
-                            <td>150,000</td>
+                            <td>숙박</td><!--구성-->
+                            <td>150,000</td><!--가격-->
                         </tr>
                         <tr>
-                            <td>기차권</td>
-                            <td>100,000</td>
+                            <td>기차권</td><!--구성-->
+                            <td>100,000</td><!--가격-->
                         </tr>
                         <tr>
-                            <td>경비</td>
-                            <td>120,000</td>
+                            <td>경비</td><!--구성-->
+                            <td>120,000</td><!--가격-->
                         </tr>
                         <tr>
-                            <td>총합</td>
-                            <td>370,000</td>
+                            <td>총합</td><!--총합-->
+                            <td>370,000</td><!--총 가격-->
                         </tr>
                     </table>
                 </div>
             </div>
-            <div class="recommend">
-                <div id="reco">추천 적금</div>
+            <div class="recommend"><!-- 적금 추천 부분-->
+                <div id="reco">추천 적금</div><!-- 상품 최저가에 맞는 적금 상품을 보여주기 위한 표-->
                 <div class="travel" id="money">
-                    <div class="month6">
+                    <div class="month6"><!-- 6개월 적금 상품-->
                         <table border="0">
                             <tr>
-                                <th colspan="8" class="month">6개월</th>
+                                <th colspan="8" class="month">6개월</th><!--표제-->
                             </tr>
                             <tr class="title">
-                                <th width="200">금융회사</th>
-                                <th width="300">상품명</th>
-                                <th>적립방식</th>
-
-                                <th>최고우대금리</th>
-                                <th>가입대상</th>
-                                <th>이자계산방식</th>
+                                <th width="200">금융회사</th><!--회사명-->
+                                <th width="300">상품명</th><!--상품명-->
+                                <th>적립방식</th><!--적립방식-->
+                                
+                                <th>최고우대금리</th><!--최고우대금리-->
+                                <th>가입대상</th><!--가입대상-->
+                                <th>이자계산방식</th><!--이자계산방식-->
                             </tr>
                             <tr>
-                                <td>제주은행</td>
-                                <td>사이버우대매일부금</td>
-                                <td>자유적립식</td>
+                                <td>제주은행</td><!--회사명-->
+                                <td>사이버우대매일부금</td><!--상품명-->
+                                <td>자유적립식</td><!--적립방식-->
 
-                                <td>1.50%</td>
-                                <td>제한없음</td>
-                                <td>단리</td>
+                                <td>1.50%</td><!--최고우대금리-->
+                                <td>제한없음</td><!--가입대상-->
+                                <td>단리</td><!--이자계산방식-->
                             </tr>
                             <tr>
-                                <td>새마을금고</td>
-                                <td>여행적금</td>
-                                <td>정액정립식</td>
+                                <td>새마을금고</td><!--회사명-->
+                                <td>여행적금</td><!--상품명-->
+                                <td>정액정립식</td><!--적립방식-->
 
-                                <td>2.55%</td>
-                                <td>제한없음</td>
-                                <td>단리</td>
+                                <td>2.55%</td><!--최고우대금리-->
+                                <td>제한없음</td><!--가입대상-->
+                                <td>단리</td><!--이자계산방식-->
                             </tr>
                         </table>
                     </div>
-                    <div class="month6">
+                    <div class="month6"><!-- 12개월 적금 상품-->
                         <table border="0">
                             <tr>
-                                <th colspan="8" class="month">12개월</th>
+                                <th colspan="8" class="month">12개월</th><!--표제-->
                             </tr>
                             <tr class="title">
-                                <th width="200">금융회사</th>
-                                <th width="300">상품명</th>
-                                <th>적립방식</th>
-
-                                <th>최고우대금리</th>
-                                <th>가입대상</th>
-                                <th>이자계산방식</th>
+                                <th width="200">금융회사</th><!--회사명-->
+                                <th width="300">상품명</th><!--상품명-->
+                                <th>적립방식</th><!--적립방식-->
+                                
+                                <th>최고우대금리</th></th><!--최고우대금리-->
+                                <th>가입대상</th></th><!--가입대상-->
+                                <th>이자계산방식</th></th><!--이자계산방식-->
                             </tr>
                             <tr>
-                                <td>새마을금고</td>
-                                <td>여행적금</td>
-                                <td>정액정립식</td>
+                                <td>새마을금고</td><!--회사명-->
+                                <td>여행적금</td><!--상품명-->
+                                <td>정액정립식</td><!--적립방식-->
 
-                                <td>2.55%</td>
-                                <td>제한없음</td>
-                                <td>단리</td>
+                                <td>2.55%</td><!--최고우대금리-->
+                                <td>제한없음</td><!--가입대상-->
+                                <td>단리</td><!--이자계산방식-->
                             </tr>
                             <tr>
-                                <td>우리은행</td>
-                                <td>WON적금</td>
-                                <td>자유적립식</td>
+                                <td>우리은행</td><!--회사명-->
+                                <td>WON적금</td><!--상품명-->
+                                <td>자유적립식</td><!--적립방식-->
 
-                                <td>2.20%</td>
-                                <td>제한없음</td>
-                                <td>단리</td>
+                                <td>2.20%</td><!--최고우대금리-->
+                                <td>제한없음</td><!--가입대상-->
+                                <td>단리</td><!--이자계산방식-->
                             </tr>
                         </table>
                     </div>
-                    <div class="month6">
+                    <div class="month6"><!-- 24개월 적금 상품-->
                         <table border="0">
                             <tr>
-                                <th colspan="8" class="month">24개월</th>
+                                <th colspan="8" class="month">24개월</th><!--표제-->
                             </tr>
                             <tr class="title">
-                                <th width="200">금융회사</th>
-                                <th width="300">상품명</th>
-                                <th>적립방식</th>
-                                <th>최고우대금리</th>
-                                <th>가입대상</th>
-                                <th>이자계산방식</th>
+                                <th width="200">금융회사</th><!--회사명-->
+                                <th width="300">상품명</th><!--상품명-->
+                                <th>적립방식</th><!--적립방식-->
+                                
+                                <th>최고우대금리</th></th><!--최고우대금리-->
+                                <th>가입대상</th></th><!--가입대상-->
+                                <th>이자계산방식</th></th><!--이자계산방식-->
                             </tr>
                             <tr>
-                                <td>수협은행</td>
-                                <td>Sh해양플라스틱 Zero!적금(자유적립)</td>
-                                <td>자유적립식</td>
-
-                                <td>2.70%</td>
-                                <td>제한없음</td>
-                                <td>단리</td>
+                                <td>수협은행</td><!--회사명-->
+                                <td>Sh해양플라스틱 Zero!적금(자유적립)</td><!--상품명-->
+                                <td>자유적립식</td><!--적립방식-->
+                                
+                                <td>2.70%</td><!--최고우대금리-->
+                                <td>제한없음</td><!--가입대상-->
+                                <td>단리</td><!--이자계산방식-->
                             </tr>
                             <tr>
-                                <td>신한은행</td>
-                                <td>신한 S힐링 여행적금</td>
-                                <td>정액정립식</td>
+                                <td>신한은행</td><!--회사명-->
+                                <td>신한 S힐링 여행적금</td><!--상품명-->
+                                <td>정액정립식</td><!--적립방식-->
 
-                                <td>2.25%</td>
-                                <td>제한없음</td>
-                                <td>단리</td>
+                                <td>2.25%</td><!--최고우대금리-->
+                                <td>제한없음</td><!--가입대상-->
+                                <td>단리</td><!--이자계산방식-->
                             </tr>
                         </table>
                     </div>
                 </div>
             </div>
-            <div class="calculator">
-                <div id="reco">저금 계획 계산기</div>
-                <div class="travel">
-                    <form>
-                        <table id="cal_table">
-                            <tr>
+            <div class="calculator"><!--기간과 저금액 계산기-->
+                <div id="reco">저금 계획 계산기</div><!-- 계산기 제목 -->
+                <div class="travel"><!--계산기 틀(상단 물건 설명 부분과 디자인 틀 동일)-->
+                    <form><!--계산기 정보 입력 받는 부분 form태그로 감싸서 reset 버튼 사용할 수 있도록 만듦-->
+                        <table id="cal_table"> <!--table 형태로 입력란 정렬-->
+                            <tr><!--상품 가격 입력 받기-->
                                 <td>상품 가격:</td>
                                 <td class="middle"><input type="text" placeholder="숫자만 입력하세요" id="product_price"></td>
                                 <td class="bottom">원</td>
                             </tr>
-                            <tr class="month">
+                            <tr class="month"><!--월별 저금 예상 금액 입력-->
                                 <td>월 별 저금 예상 금액 :</td>
                                 <td class="middle"><input type="text" placeholder="금액을 입력하세요" id="save"></td>
                                 <td class="bottom">원</td>
                             </tr>
-                            <tr>
+                            <tr><!--상품 가격 / 월별 저금 금액으로 저금 총 기간 계산해서 출력-->
                                 <td>예상 저금 기간:</td>
                                 <td class="middle" id="cal_term"></td>
                                 <td class="bottom">개월</td>
                             </tr>
                             <tr>
-                                <td>저금 기간 :</td>
+                                <td>저금 기간 :</td><!--저금 예상 기간 입력-->
                                 <td class="middle"><input type="text" id="term" placeholder="기간을 입력하세요"></td>
                                 <td class="bottom">개월</td>
                             </tr>
-                            <tr>
+                            <tr><!--상품 가격 / 총 저금 기간 으로 월별 저금 금액 계산해서 출력-->
                                 <td>월 별 저금 금액:</td>
                                 <td class="middle" id="cal_price"></td>
                                 <td class="bottom">원</td>
                             </tr>
                         </table>
-                        <div id="h">
-                            <input type="reset" value="reset" id="reset"></input>
-                            <input type="button" value="계산하기" id="cal"></input>
+                        <div id="h"><!-- 계산 수행하는 버튼-->
+                            <input type="reset" value="reset" id="reset"></input><!--reset 버튼 -> form태그에 의해 동작-->
+                            <input type="button" value="계산하기" id="cal"></input><!--계산 수행하도록 js만듦-->
                         </div>
                     </form>
-                    <script type="text/javascript" src="../../js/calculator.js"></script>
+                    <script type ="text/javascript" src="../../js/calculator.js"></script><!-- 계산 수행하는 함수 js파일-->
                 </div>
             </div>
         </div>
-    </article>
+    </article><!-- 페이지 중단 끝-->
     <footer>
-        <div class="footer_inner">
+        <div class="footer_inner"><!-- 페이지 하단-->
             <div class="info">
                 <div>
-                    developer
+                    developer<!-- 제작자 -->
                 </div>
             </div>
-            <div class="info">
+            <div class="info"> <!-- 제작자 명단-->
                 <span>17010681 고석준</span>
                 <span>19011474 박정은</span>
                 <span>19011488 오다혜</span>
                 <span>19011505 김연신</span>
             </div>
             <div class="info">
-                Copyright © 2020 TEAM 1 All Rights Reserved.
+                Copyright © 2020 TEAM 1 All Rights Reserved. <!-- 저작권 표시-->
             </div>
         </div>
-    </footer>
+    </footer><!-- 페이지 하단 끝-->
 </body>
+<script type="text/javascript">
+    $(".menu_opt").hover(function () {
+        $(this).find(".drop").stop().fadeToggle(400);
+    });
 
+</script>
 </html>

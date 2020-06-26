@@ -9,16 +9,80 @@
     <link rel="stylesheet" type="text/css" href="../../css/header.css">
     <link rel="stylesheet" type="text/css" href="../../css/card_det.css">
     <script type="text/javascript" src="../../js/card.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
     <header>
         <div id="upside">
             <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div>
             <div class ="menu_bar organize_right">
-                <div class="menu_opt"><a class="opt" href="../cardHome.html">체크카드</a></div>
-                <div class="menu_opt"><a class="opt" href="../SavingsHome.html">예금/적금</a></div>
-                <div class="menu_opt"><a class="opt" href="../wantHome.html">뭘 원해?</a></div>
-                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a></div>
+                <div class="menu_opt">
+                    <a class="opt" href="../cardHome.html">체크카드</a>
+                    <ul class="drop" style="z-index: 900;">
+                        <li>월별 소비 금액</li>
+                        <ul>
+                            <li>
+                                <a href="../card20/card20.html">20만원 이하</a>
+                            </li>
+                            <li>
+                                <a href="../card340/card30-40.html">30 ~ 40만원</a>
+                            </li>
+                            <li>
+                                <a href="../card50/card50.html">50만원</a>
+                            </li>
+                        </ul>
+                        <li>토너먼트</li>
+                        <ul>
+                            <li>
+                                <a href="../tournament/tournament-meal-level0.html">나에게 맞는 카드 찾기</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="menu_opt"><a class="opt" href="../deposit/deposit_main.html">예금/적금</a>
+                    <ul class="drop" style="z-index: 900;">
+                        <li>예금</li>
+                        <ul>
+                            <li>
+                                <a href="../deposit/deposit_main.html">예금 추천 상품</a>
+                            </li>
+                        </ul>
+    
+                        <li>적금</li>
+                        <ul>
+                            <li>
+                                <a href="../account/account_main.html">적금 추천 상품</a>
+                            </li>
+                        </ul>
+    
+                    </ul>
+                </div>
+                <div class="menu_opt"><a class="opt" href="../product/top5.html">뭘 원해?</a>
+                    <ul class="drop" style="z-index: 900;">
+                        <li>쇼핑</li>
+                        <ul>
+                            <li>
+                                <a href="../product/top5.html">대학생이 사고 싶은 물건 BEST 5</a>
+                            </li>
+                        </ul>
+    
+                        <li>여행</li>
+                        <ul>
+                            <li>
+                                <a href="../travel/travelMenu.html">추천 여행지</a>
+                            </li>
+                        </ul>
+    
+                    </ul>
+                </div>
+                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a>
+                    <ul class="drop" style="z-index: 900;">
+                        <li>
+                            <a href="../calander/accountBook.html">가계부 바로가기</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -128,4 +192,10 @@
         </div>
     </footer>
 </body>
+<script type="text/javascript">
+    $(".menu_opt").hover(function () {
+        $(this).find(".drop").stop().fadeToggle(400);
+    });
+
+</script>
 </html>
