@@ -39,7 +39,7 @@
     float: left;
     
 }
-ul li{
+.content li{
     list-style-type: disc;
 }
 .content img{
