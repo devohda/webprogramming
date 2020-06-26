@@ -12,7 +12,7 @@
 #calendar li {
     display: block;         /* li 이지만 달력 형식으로 보이게 함 */
     float: left;
-    width: calc(100%/7);    /* 일주일은 7일 이기에 가로를 7로 나눈 겂 */
+    width: calc(100%/7);    /* 일주일은 7일 이기에 가로를 7로 나눈 값 */
     padding: 5px;
     box-sizing:border-box;
     border: 1px solid #ccc;

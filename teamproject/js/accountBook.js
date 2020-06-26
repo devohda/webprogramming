@@ -32,6 +32,7 @@ $(document).ready(function(){
     });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     $("#Btn_Food").click(function(){       //inputbox 안 각각의 사용 목적을 정하는 버튼을 눌렸을 때
         option = 1;                        //각 option 값을 줌
     });
@@ -40,22 +41,27 @@ $(document).ready(function(){
         option = 1;
     })
 >>>>>>> 4423f3cdc3f1f69d9180687df3b87948f86194a8
+=======
+    $("#Btn_Food").click(function(){       //inputbox 안 각각의 사용 목적을 정하는 버튼을 눌렸을 때
+        option = 1;                        //각 option 값을 줌
+    });
+>>>>>>> aec9e6cca5479aba23b322c427db5faeaeec221a
 
     $("#Btn_Trans").click(function(){
         option = 2;
-    })
+    });
 
     $("#Btn_Cult").click(function(){
         option = 3;
-    })
+    });
 
     $("#Btn_Fash").click(function(){
         option = 4;
-    })
+    });
 
     $("#Btn_Mart").click(function(){
         option = 5;
-    })
+    });
 
     $("#Btn_Confirm").click(function(){          //입력 버튼을 눌렀을 때
         price = $("#Label_Money").val();         //입력한 금액을 price에 담음
