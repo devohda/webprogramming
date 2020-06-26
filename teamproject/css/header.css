@@ -1,13 +1,13 @@
-@font-face{
-    font-family: "slimGothic";
-    src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
+/*메인페이지를 제외하고는 공통 헤더를 가지고 있어 header.css작성*/
+#upside{
+    height: 100%;
+    width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-/*�ƹ��� �ǵ��� ������*/
-/*��� ������ ��ü ������ ���̾ƿ� �Դϴ�.*/
-
+/*좌측 로고 부분*/
 .logo{
     margin: auto 0;
 }
@@ -17,21 +17,7 @@
     display: block;
 }
 
-.organize_left{
-    float: left;
-}
-.organize_right{
-    float: right;
-}
-
-#upside{
-    height: 100%;
-    width: 1220px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
+/*우측 메뉴 부분*/
 .menu_opt{
     float: left;
     margin: 10px;
@@ -40,7 +26,16 @@
     flex: 1;
     text-align: center;
 }
+/*전체 메뉴 구조 잡기*/
+.menu_bar{
+    width: 600px;
+    margin: auto 20px;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
 
+/*각각의 메뉴들*/
 .menu_opt:not(:last-child){
     border-right: 1px #929292 solid;
     padding-right: 10px;
@@ -48,13 +43,6 @@
 
 .menu_opt:last-child{
     margin-left: -10px;
-}
-
-.menu_bar{
-    width: 600px;
-    margin: auto 20px;
-    display: flex;
-    justify-content: space-between
 }
 
 .opt{
@@ -68,6 +56,7 @@
     text-shadow: 2px 2px 2px white;
 }
 
+/*drop down하면서 나타나는 세부 메뉴들*/
 .drop{
     background-color: rgb(255, 232, 128);
     width: 130px;
@@ -78,6 +67,7 @@
 .menu_opt .drop{
     position: absolute;
 }
+
 .drop>li{
     font-weight: 600;
     margin-top: 10px;
@@ -90,6 +80,7 @@
     background-color: rgb(255, 253, 233);
 }
 
+/*ul, li, a 기본 스타일 초기화*/
 ul,li{
     list-style: none;
     padding: 0;

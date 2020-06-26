@@ -1,93 +1,92 @@
-<!-- 처음 만드실 때 이거 복붙하시고 그 아래에다가 만드시면 됩니다.-->
 <!doctype html>
 <html>
-
 <head>
-    <title>티끌 모아</title>
-    <link rel="stylesheet" type="text/css" href="../../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../../css/rec.css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>티끌 모아. 카드 추천</title>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css"><!--공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../css/header.css"><!--공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../css/rec.css"><!--개별페이지 css -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script><!--메뉴관련 제이쿼리-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!--메뉴관련 제이쿼리-->
+    <meta charset="utf-8">
 </head>
-
 <body>
     <header>
-        <div id="upside">
-            <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div>
-            <div class ="menu_bar organize_right">
-                <div class="menu_opt">
-                    <a class="opt" href="../cardHome.html">체크카드</a>
+        <div id="upside"><!--페이지 제일 상단 로고 및 메뉴바 부분-->
+            <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div><!--로고 이미지 및 메인 홈페이지 링크-->
+            <div class ="menu_bar organize_right"><!--로고 이미지 및 메인 홈페이지 링크-->
+                <div class="menu_opt"><!--페이지 상단 메뉴바-->
+                    <a class="opt" href="../cardHome.html">체크카드</a><!--메뉴 중 체크카드 부분-->
                     <ul class="drop" style="z-index: 900;">
-                        <li>월별 소비 금액</li>
+                        <li>월별 소비 금액</li> <!-- 체크카드 중 월별 소비 금액 부분-->
                         <ul>
                             <li>
-                                <a href="../card20/card20.html">20만원 이하</a>
+                                <a href="../card20/card20.html">20만원 이하</a><!--바로가기-->
                             </li>
                             <li>
-                                <a href="../card340/card30-40.html">30 ~ 40만원</a>
+                                <a href="../card340/card30-40.html">30 ~ 40만원</a><!--바로가기-->
                             </li>
                             <li>
-                                <a href="../card50/card50.html">50만원</a>
+                                <a href="../card50/card50.html">50만원</a><!--바로가기-->
                             </li>
                         </ul>
-                        <li>토너먼트</li>
+                        <li>토너먼트</li> <!-- 체크카드 중 토너먼트 부분-->
                         <ul>
                             <li>
-                                <a href="../tournament/tournament-meal-level0.html">나에게 맞는 카드 찾기</a>
+                                <a href="../tournament/tournament-meal-level0.html">나에게 맞는 카드 찾기</a><!--바로가기-->
                             </li>
                         </ul>
                     </ul>
                 </div>
-                <div class="menu_opt"><a class="opt" href="../deposit/deposit_main.html">예금/적금</a>
+                <div class="menu_opt"><a class="opt" href="../deposit/deposit_main.html">예금/적금</a> <!-- 메뉴 중 예금/적금 부분-->
                     <ul class="drop" style="z-index: 900;">
-                        <li>예금</li>
+                        <li>예금</li><!-- 예금/적금 중 예금 부분-->
                         <ul>
                             <li>
-                                <a href="../deposit/deposit_main.html">예금 추천 상품</a>
+                                <a href="../deposit/deposit_main.html">예금 추천 상품</a> <!--바로가기-->
                             </li>
                         </ul>
     
-                        <li>적금</li>
+                        <li>적금</li><!-- 예금/적금 중 적금 부분-->
                         <ul>
                             <li>
-                                <a href="../account/account_main.html">적금 추천 상품</a>
-                            </li>
-                        </ul>
-    
-                    </ul>
-                </div>
-                <div class="menu_opt"><a class="opt" href="../product/top5.html">뭘 원해?</a>
-                    <ul class="drop" style="z-index: 900;">
-                        <li>쇼핑</li>
-                        <ul>
-                            <li>
-                                <a href="../product/top5.html">대학생이 사고 싶은 물건 BEST 5</a>
-                            </li>
-                        </ul>
-    
-                        <li>여행</li>
-                        <ul>
-                            <li>
-                                <a href="../travel/travelMenu.html">추천 여행지</a>
+                                <a href="../account/account_main.html">적금 추천 상품</a><!--바로가기-->
                             </li>
                         </ul>
     
                     </ul>
                 </div>
-                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a>
+                <div class="menu_opt"><a class="opt" href="../product/top5.html">뭘 원해?</a><!-- 메뉴 중 뭘 원해? 부분-->
+                    <ul class="drop" style="z-index: 900;">
+                        <li>쇼핑</li><!-- 뭘 원해? 중 쇼핑 부분-->
+                        <ul>
+                            <li>
+                                <a href="../product/top5.html">대학생이 사고 싶은 물건 BEST 5</a><!--바로가기-->
+                            </li>
+                        </ul>
+    
+                        <li>여행</li><!-- 뭘 원해? 중 여행 부분-->
+                        <ul>
+                            <li>
+                                <a href="../travel/travelMenu.html">추천 여행지</a><!--바로가기-->
+                            </li>
+                        </ul>
+    
+                    </ul>
+                </div>
+                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a><!-- 메뉴 중 가계부 부분-->
                     <ul class="drop" style="z-index: 900;">
                         <li>
-                            <a href="../calander/accountBook.html">가계부 바로가기</a>
+                            <a href="../calander/accountBook.html">가계부 바로가기</a><!--바로가기-->
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </div><!-- 페이지 상단 끝-->
     </header>
-    <article>
+    <article><!-- 페이지 중단-->
         <div class="rec">
             <div class="width">
+                <!-- 예금 정의 설명 -->
                 <div>예금 추천 상품</div>
                 <div>예금이란, 일정한 계약에 의하여 은행에 돈을 돈을 맡기는 일을 말한다. 대체로 예금에는 일정한 이자가 붙으며, 기한이나 예금 방법에 따라 보통예금, 정기 예금, 등 여러 예금
                     종류가 있다.
@@ -99,10 +98,13 @@
         <div class="width">
             <div class="content">
                 <div class="bar"></div>
+                <!-- 예금 추천 상품 1 -->
+                <!-- 해당 상품 상세 페이지 링크 -->
                 <div class="bank_img"><a href="IBK_sum.html" title="상세페이지 바로가기"><img class="ibk_img"
                             src="../../src/ibk.png"></a></div>
                 <div>
                     <h2><a class="opt2" href="IBK_sum.html" title="상세페이지 바로가기">IBK 썸통장</a></h2>
+                    <!-- 예금의 대략적 설명 -->
                     <div class="con">
                         <ul>
                             <li>상품 종류 : 자유 예금</li>
@@ -114,11 +116,13 @@
             </div>
             <div class="content">
                 <div class="bar"></div>
-                <!--사진 구해서 넣기!!!-->
+                <!-- 예금 추천 상품 2 -->
+                <!-- 해당 상품 상세 페이지 링크 -->
                 <div class="bank_img"><a href="Shinhan_S20.html" title="상세페이지 바로가기"><img class="shinhan_img"
                             src="../../src/shinhan.png"></a></div>
                 <div>
                     <h2><a class="opt2" href="Shinhan_S20.html" title="상세페이지 바로가기">신한 주거래 S20 통장</a></h2>
+                    <!-- 예금의 대략적 설명 -->
                     <ul class="con">
                         <li>상품 종류 : 자유 예금</li>
                         <li>우대 서비스 : 수수료 면제 / 환율 우대</li>
@@ -128,10 +132,13 @@
             </div>
             <div class="content">
                 <div class="bar"></div>
+                <!-- 예금 추천 상품 3 -->
+                <!-- 해당 상품 상세 페이지 링크 -->
                 <div class="bank_img"><a href="IBK_1suk7jo.html" title="상세페이지 바로가기"><img class="ibk_img"
                             src="../../src/ibk.png"></a></div>
                 <div>
                     <h2><a class="opt2" href="IBK_1suk7jo.html" title="상세페이지 바로가기">1석7조 통장 (정기예금)</a></h2>
+                    <!-- 예금의 대략적 설명 -->
                     <ul class="con">
                         <li>상품 종류 : 정기 예금</li>
                         <li>가입 기간(개월) : 6~11 / 12~23 / 24~36</li>
@@ -142,10 +149,13 @@
             </div>
             <div class="content">
                 <div class="bar"></div>
+                <!-- 예금 추천 상품 4 -->
+                <!-- 해당 상품 상세 페이지 링크 -->
                 <div class="bank_img"><a href="Eugene_etermdeposit.html" title="상세페이지 바로가기"><img class="eugene_img"
                             src="../../src/eugene.png"></a></div>
                 <div>
                     <h2><a href="Eugene_etermdeposit.html" class="opt2" title="상세페이지 바로가기">e-정기예금 (복리)</a></h2>
+                    <!-- 예금의 대략적 설명 -->
                     <ul class="con">
                         <li>상품 종류 : 정기 예금</li>
                         <li>가입 기간(개월) : 1~2 / 3~5 / 12~35</li>
@@ -155,27 +165,28 @@
                 </div>
             </div>
         </div>
-    </article>
+    </article><!-- 페이지 중단 끝-->
     <footer>
-        <div class="footer_inner">
+        <div class="footer_inner"><!-- 페이지 하단-->
             <div class="info">
                 <div>
-                    developer
+                    developer<!-- 제작자 -->
                 </div>
             </div>
-            <div class="info">
+            <div class="info"> <!-- 제작자 명단-->
                 <span>17010681 고석준</span>
                 <span>19011474 박정은</span>
                 <span>19011488 오다혜</span>
                 <span>19011505 김연신</span>
             </div>
             <div class="info">
-                Copyright © 2020 TEAM 1 All Rights Reserved.
+                Copyright © 2020 TEAM 1 All Rights Reserved. <!-- 저작권 표시-->
             </div>
         </div>
-    </footer>
+    </footer><!-- 페이지 하단 끝-->
 </body>
-<script type="text/javascript">
+<script type="text/javascript">//dropdown 위해서 fadeToggle 사용
+    // 전제가 아니라 마우스 올려놓은 부분의 세부 메뉴만 보기 위해서 this객체에서 .drop(세부 메뉴)를 찾아서 나타나게 함.
     $(".menu_opt").hover(function () {
         $(this).find(".drop").stop().fadeToggle(400);
     });
