@@ -4,150 +4,149 @@
 <head>
     <title>티끌 모아</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../../css/card_det.css">
-    <script type="text/javascript" src="../../js/card.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script><!--show/hide관련 제이쿼리-->
+    <link rel="stylesheet" type="text/css" href="../../css/main.css"><!--공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../css/header.css"><!--공통 css -->
+    <link rel="stylesheet" type="text/css" href="../../css/card_det.css"><!--개별페이지 css -->
+    <script type="text/javascript" src="../../js/card.js"></script><!--show/hide관련 js-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script><!--메뉴관련 제이쿼리-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!--메뉴관련 제이쿼리-->
 </head>
 <body>
     <header>
-        <div id="upside">
-            <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div>
-            <div class ="menu_bar organize_right">
-                <div class="menu_opt">
-                    <a class="opt" href="../cardHome.html">체크카드</a>
+        <div id="upside"><!--페이지 제일 상단 로고 및 메뉴바 부분-->
+            <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div><!--로고 이미지 및 메인 홈페이지 링크-->
+            <div class ="menu_bar organize_right"><!--로고 이미지 및 메인 홈페이지 링크-->
+                <div class="menu_opt"><!--페이지 상단 메뉴바-->
+                    <a class="opt" href="../cardHome.html">체크카드</a><!--메뉴 중 체크카드 부분-->
                     <ul class="drop" style="z-index: 900;">
-                        <li>월별 소비 금액</li>
+                        <li>월별 소비 금액</li> <!-- 체크카드 중 월별 소비 금액 부분-->
                         <ul>
                             <li>
-                                <a href="../card20/card20.html">20만원 이하</a>
+                                <a href="../card20/card20.html">20만원 이하</a><!--바로가기-->
                             </li>
                             <li>
-                                <a href="../card340/card30-40.html">30 ~ 40만원</a>
+                                <a href="../card340/card30-40.html">30 ~ 40만원</a><!--바로가기-->
                             </li>
                             <li>
-                                <a href="../card50/card50.html">50만원</a>
+                                <a href="../card50/card50.html">50만원</a><!--바로가기-->
                             </li>
                         </ul>
-                        <li>토너먼트</li>
+                        <li>토너먼트</li> <!-- 체크카드 중 토너먼트 부분-->
                         <ul>
                             <li>
-                                <a href="../tournament/tournament-meal-level0.html">나에게 맞는 카드 찾기</a>
+                                <a href="../tournament/tournament-meal-level0.html">나에게 맞는 카드 찾기</a><!--바로가기-->
                             </li>
                         </ul>
                     </ul>
                 </div>
-                <div class="menu_opt"><a class="opt" href="../deposit/deposit_main.html">예금/적금</a>
+                <div class="menu_opt"><a class="opt" href="../deposit/deposit_main.html">예금/적금</a> <!-- 메뉴 중 예금/적금 부분-->
                     <ul class="drop" style="z-index: 900;">
-                        <li>예금</li>
+                        <li>예금</li><!-- 예금/적금 중 예금 부분-->
                         <ul>
                             <li>
-                                <a href="../deposit/deposit_main.html">예금 추천 상품</a>
+                                <a href="../deposit/deposit_main.html">예금 추천 상품</a> <!--바로가기-->
                             </li>
                         </ul>
     
-                        <li>적금</li>
+                        <li>적금</li><!-- 예금/적금 중 적금 부분-->
                         <ul>
                             <li>
-                                <a href="../account/account_main.html">적금 추천 상품</a>
-                            </li>
-                        </ul>
-    
-                    </ul>
-                </div>
-                <div class="menu_opt"><a class="opt" href="../product/top5.html">뭘 원해?</a>
-                    <ul class="drop" style="z-index: 900;">
-                        <li>쇼핑</li>
-                        <ul>
-                            <li>
-                                <a href="../product/top5.html">대학생이 사고 싶은 물건 BEST 5</a>
-                            </li>
-                        </ul>
-    
-                        <li>여행</li>
-                        <ul>
-                            <li>
-                                <a href="../travel/travelMenu.html">추천 여행지</a>
+                                <a href="../account/account_main.html">적금 추천 상품</a><!--바로가기-->
                             </li>
                         </ul>
     
                     </ul>
                 </div>
-                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a>
+                <div class="menu_opt"><a class="opt" href="../product/top5.html">뭘 원해?</a><!-- 메뉴 중 뭘 원해? 부분-->
+                    <ul class="drop" style="z-index: 900;">
+                        <li>쇼핑</li><!-- 뭘 원해? 중 쇼핑 부분-->
+                        <ul>
+                            <li>
+                                <a href="../product/top5.html">대학생이 사고 싶은 물건 BEST 5</a><!--바로가기-->
+                            </li>
+                        </ul>
+    
+                        <li>여행</li><!-- 뭘 원해? 중 여행 부분-->
+                        <ul>
+                            <li>
+                                <a href="../travel/travelMenu.html">추천 여행지</a><!--바로가기-->
+                            </li>
+                        </ul>
+    
+                    </ul>
+                </div>
+                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a><!-- 메뉴 중 가계부 부분-->
                     <ul class="drop" style="z-index: 900;">
                         <li>
-                            <a href="../calander/accountBook.html">가계부 바로가기</a>
+                            <a href="../calander/accountBook.html">가계부 바로가기</a><!--바로가기-->
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </div><!-- 페이지 상단 끝-->
     </header>
-    <article>
-        <div style="position: relative;">
-            <div class="card"><img class="card_img" src="../../src/eodiseonacard.png"></div>
+    <article><!-- 페이지 중단-->
+            <div class="card"><img class="card_img" src="../../src/eodiseonacard.png"></div><!-- 카드 이미지-->
 
-            <div class="width">
-                <div class="content">
-                    <div class="j_name">
+            <div class="width"><!-- 페이지 내용을 중앙 정렬하기 위한 태그-->
+                <div class="content"><!--카드 혜택 부분-->
+                    <div class="j_name"><!--카드 이름-->
                         어디서나 체크카드
                     </div>
-                    <div class="sub">주요 혜택</div>
-                    <div class="explanation">
-                        <div id='show' class="alert alert-primary"  onclick="dis1()">전통시장 10% 캐시백</div> 
-                        <div id='dis1'>
-                            <ul>
+                    <div class="sub">주요 혜택</div><!--카드 주요혜택 보여주기-->
+                    <div class="explanation"><!--show/hide시 길이 자동으로 조절되게하기위해 필요-->
+                        <div id='show' class="alert alert-primary"  onclick="dis1()">전통시장 10% 캐시백</div> <!--혜택 상위 제목-->
+                        <div id='dis1'><!--혜택 하위 내용(show/hide 될 내용)-->
+                            <ul><!--혜택 내용 보여주기 위한 리스트-->
                                 <li>- 오프라인 이용에 한함 </li>
                             </ul>
                         </div>
-                        <div id='show' class="alert alert-primary"  onclick="dis2()">대형마트/다이소 5% 캐시백</div> 
-                        <div id='dis2'>
-                            <ul>
+                        <div id='show' class="alert alert-primary"  onclick="dis2()">대형마트/다이소 5% 캐시백</div> <!--혜택 상위 제목-->
+                        <div id='dis2'><!--혜택 하위 내용(show/hide 될 내용)-->
+                            <ul><!--혜택 내용 보여주기 위한 리스트-->
                                 <li>- 대형마트 : 이마트, 홈플러스, 롯데마트, 농협판매장(하나로클럽, 하나로마트)</li>
                                 <li>- 오프라인 이용에 한함</li>
                         </div>
-                        <div id='show' class="alert alert-primary"  onclick="dis3()">6대 홈쇼핑 5% 캐시백</div> 
-                        <div id='dis3'>
-                            <ul>
+                        <div id='show' class="alert alert-primary"  onclick="dis3()">6대 홈쇼핑 5% 캐시백</div> <!--혜택 상위 제목-->
+                        <div id='dis3'><!--혜택 하위 내용(show/hide 될 내용)-->
+                            <ul><!--혜택 내용 보여주기 위한 리스트-->
                                 <li>- CJ, GS, NS, 현대, 롯데, 홈앤쇼핑</li>
                                 <li>- 회당 최대 2천원</li>
                             </ul>
                         </div>
-                        <div id='show' class="alert alert-primary"  onclick="dis4()">온라인 쇼핑몰 5% 캐시백</div> 
-                        <div id='dis4'>
-                            <ul>
+                        <div id='show' class="alert alert-primary"  onclick="dis4()">온라인 쇼핑몰 5% 캐시백</div> <!--혜택 상위 제목-->
+                        <div id='dis4'><!--혜택 하위 내용(show/hide 될 내용)-->
+                            <ul><!--혜택 내용 보여주기 위한 리스트-->
                                 <li>- 11번가, G마켓, 옥션, 쿠팡</li>
                                 <li>- 회당 최대 1천원</li>
                             </ul>
                         </div>
-                        <div id='show' class="alert alert-primary"  onclick="dis5()">음식점 5% 포인트 적립</div> 
-                        <div id='dis5'>
-                            <ul>
+                        <div id='show' class="alert alert-primary"  onclick="dis5()">음식점 5% 포인트 적립</div> <!--혜택 상위 제목-->
+                        <div id='dis5'><!--혜택 하위 내용(show/hide 될 내용)-->
+                            <ul><!--혜택 내용 보여주기 위한 리스트-->
                                 <li>- 일반한식, 갈비전문점, 한정식, 일식, 횟집, 중국음식, 서양음식, 스낵, 위탁급식</li>
                                 <li>- 오전 11시 ~ 오후 2시 승인 건에 한하여 적용</li>
                                 <li>- 할인 제외 : 주점, 칵테일바</li>
                             </ul>
                         </div>
-                        <div id='show'  class="alert alert-primary" onclick="dis6()">베이커리/카페 5% 포인트 적립</div> 
-                        <div id='dis6'>
-                            <ul>
+                        <div id='show'  class="alert alert-primary" onclick="dis6()">베이커리/카페 5% 포인트 적립</div> <!--혜택 상위 제목-->
+                        <div id='dis6'><!--혜택 하위 내용(show/hide 될 내용)-->
+                            <ul><!--혜택 내용 보여주기 위한 리스트-->
                                 <li>- 베이커리 : 파리바게트, 뚜레쥬르</li>
                                 <li>- 카페 : 엔제리너스, 카페베네, 스타벅스, 이디야</li>
                             </ul>
                         </div>
-                        <div id='show' class="alert alert-primary"  onclick="dis7()">메가박스 5% 캐시백</div> 
-                        <div id='dis7'>
-                            <ul>
+                        <div id='show' class="alert alert-primary"  onclick="dis7()">메가박스 5% 캐시백</div> <!--혜택 상위 제목-->
+                        <div id='dis7'><!--혜택 하위 내용(show/hide 될 내용)-->
+                            <ul><!--혜택 내용 보여주기 위한 리스트-->
                                 <li>- 건당 2만원 이상 결제 시 5% 캐시백</li>
                                 <li>- 현장구매, 홈페이지 예매</li>
                             </ul>
                         </div>
-                        <div id='show'  class="alert alert-primary" onclick="dis8()">온라인 서점 5% 캐시백</div> 
-                        <div id='dis8'>
-                            <ul>
+                        <div id='show'  class="alert alert-primary" onclick="dis8()">온라인 서점 5% 캐시백</div> <!--혜택 상위 제목-->
+                        <div id='dis8'><!--혜택 하위 내용(show/hide 될 내용)-->
+                            <ul><!--혜택 내용 보여주기 위한 리스트-->
                                 <li>- Yes24, 교보문고</li>
                             </ul>
                         </div>
@@ -157,27 +156,25 @@
                 </div>
 
             </div>
-           
-        </div>
     </article>
     <footer>
-        <div class="footer_inner">
+        <div class="footer_inner"><!-- 페이지 하단-->
             <div class="info">
                 <div>
-                    developer
+                    developer<!-- 제작자 -->
                 </div>
             </div>
-            <div class="info">
+            <div class="info"> <!-- 제작자 명단-->
                 <span>17010681 고석준</span>
                 <span>19011474 박정은</span>
                 <span>19011488 오다혜</span>
                 <span>19011505 김연신</span>
             </div>
             <div class="info">
-                Copyright © 2020 TEAM 1 All Rights Reserved.
+                Copyright © 2020 TEAM 1 All Rights Reserved. <!-- 저작권 표시-->
             </div>
         </div>
-    </footer>
+    </footer><!-- 페이지 하단 끝-->
 </body>
 <script type="text/javascript">
     $(".menu_opt").hover(function () {
