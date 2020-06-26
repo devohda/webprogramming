@@ -6,51 +6,52 @@
 }
 
 .rec{ 
-    background-color: #e9e7e3;
-    font-size: 35px;
-    font-weight: bolder;
+    background-color: #e9e7e3;      /*배경색*/
+    font-size: 35px;            /*글씨 크기 조절*/
+    font-weight: bolder;        /*글씨 굵기 조절*/
     padding-top:8px;
-    padding-bottom:8px;
-    padding-left: 50px;
+    padding-bottom:8px;     /*글씨랑 div위아래랑 띄어줌*/
+    padding-left: 50px;        /*글씨 위치 조절*/
 }
 
 .content{
     height: 220px;
-    box-shadow: 2px 2px 18px #eeeeee;
+    box-shadow: 2px 2px 18px #eeeeee;       /*div 그림자 생성*/
     padding: 12px 0;
-    margin: 60px 0;
+    margin: 60px 0;         /*div 위치 조절*/
 }
 
 .content>div{
-    float:left;
+    float:left;         /*content안에 있는 div들 가로로 나열하기 위해*/
 }
 
+/*class 중 bar에 해당하는 div*/
 .content>div:first-child{
-    background-color: rgb(247, 180, 35);
+    background-color: rgb(247, 180, 35);        /*bar 배경색 지정*/
     height: 100%;
-    width: 3px;
+    width: 3px;                                             /*bar 너비, 높이 지정*/
 }
 
 .card_img{
     height: 170px;
     margin-top: 25px;
     margin-right: 100px;
-    margin-left: 70px;
-    float: left;
+    margin-left: 70px;                  /*margin이용해서 이미지 위치 조정*/
+    float: left;                            /*가로정렬 위해*/
     
 }
-ul li{
-    list-style-type: disc;
-}
+/* .con li{
+    list-style-type: disc;              /*부트스트랩 적용으로 사라진 기존 리스트 스타일 적용*/
+} */
 .content img{
     width: 260px;
 }
 .content img:hover{
-    transform: scale(1.1);
+    transform: scale(1.1);          /*마우스 올릴 시 이미지 커짐*/
     box-shadow: 2px 2px 15px 2px #b9b9b9
 }
 .content h2{
-    margin-left: 30px;
+    margin-left: 30px;          /*카드 이름 위치 조절*/
 }
 
 /*??? ??? ??? ???? html??????? title???? class?? ??????..?*/
@@ -60,13 +61,9 @@ ul li{
 }
 
 .con{
-    line-height: 160%;
-    text-indent: 1.1em;
-}
-.opt2{
-    color: black;
-    text-decoration: none;
+    line-height: 160%;          /*줄간격 늘리기*/
+    text-indent: 1.1em;         /*들여쓰기함*/
 }
 .opt2:hover{
-    color:#dda146;
+    color:#dda146;          /*마우스 올릴 시 텍스트 색상 변화*/
 }

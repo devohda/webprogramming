@@ -1,107 +1,115 @@
 ﻿<!-- 처음 만드실 때 이거 복붙하시고 그 아래에다가 만드시면 됩니다.-->
 <!doctype html>
 <html>
-<head>
-    <title>티끌 모아</title>
-    <link rel="stylesheet" type="text/css" href="../../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../../css/rec_det.css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-</head>
-<body>
-    <header>
-        <div id="upside">
-            <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div>
-            <div class ="menu_bar organize_right">
-                <div class="menu_opt">
-                    <a class="opt" href="../cardHome.html">체크카드</a>
-                    <ul class="drop" style="z-index: 900;">
-                        <li>월별 소비 금액</li>
-                        <ul>
+    <head>
+        <title>티끌 모아</title>
+        <link rel="stylesheet" type="text/css" href="../../css/main.css"><!--공통 css -->
+        <link rel="stylesheet" type="text/css" href="../../css/header.css"><!--공통 css -->
+        <link rel="stylesheet" type="text/css" href="../../css/rec_det.css"><!--개별페이지 css -->
+        <script src="http://code.jquery.com/jquery-latest.js"></script><!--메뉴관련 제이쿼리-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!--메뉴관련 제이쿼리-->
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <div id="upside"><!--페이지 제일 상단 로고 및 메뉴바 부분-->
+                <div class="logo"><a href="../home.html"><img id="logo_img" src="../../src/logo.png"></a></div><!--로고 이미지 및 메인 홈페이지 링크-->
+                <div class ="menu_bar organize_right"><!--로고 이미지 및 메인 홈페이지 링크-->
+                    <div class="menu_opt"><!--페이지 상단 메뉴바-->
+                        <a class="opt" href="../cardHome.html">체크카드</a><!--메뉴 중 체크카드 부분-->
+                        <ul class="drop" style="z-index: 900;">
+                            <li>월별 소비 금액</li> <!-- 체크카드 중 월별 소비 금액 부분-->
+                            <ul>
+                                <li>
+                                    <a href="../card20/card20.html">20만원 이하</a><!--바로가기-->
+                                </li>
+                                <li>
+                                    <a href="../card340/card30-40.html">30 ~ 40만원</a><!--바로가기-->
+                                </li>
+                                <li>
+                                    <a href="../card50/card50.html">50만원</a><!--바로가기-->
+                                </li>
+                            </ul>
+                            <li>토너먼트</li> <!-- 체크카드 중 토너먼트 부분-->
+                            <ul>
+                                <li>
+                                    <a href="../tournament/tournament-meal-level0.html">나에게 맞는 카드 찾기</a><!--바로가기-->
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="menu_opt"><a class="opt" href="../deposit/deposit_main.html">예금/적금</a> <!-- 메뉴 중 예금/적금 부분-->
+                        <ul class="drop" style="z-index: 900;">
+                            <li>예금</li><!-- 예금/적금 중 예금 부분-->
+                            <ul>
+                                <li>
+                                    <a href="../deposit/deposit_main.html">예금 추천 상품</a> <!--바로가기-->
+                                </li>
+                            </ul>
+        
+                            <li>적금</li><!-- 예금/적금 중 적금 부분-->
+                            <ul>
+                                <li>
+                                    <a href="../account/account_main.html">적금 추천 상품</a><!--바로가기-->
+                                </li>
+                            </ul>
+        
+                        </ul>
+                    </div>
+                    <div class="menu_opt"><a class="opt" href="../product/top5.html">뭘 원해?</a><!-- 메뉴 중 뭘 원해? 부분-->
+                        <ul class="drop" style="z-index: 900;">
+                            <li>쇼핑</li><!-- 뭘 원해? 중 쇼핑 부분-->
+                            <ul>
+                                <li>
+                                    <a href="../product/top5.html">대학생이 사고 싶은 물건 BEST 5</a><!--바로가기-->
+                                </li>
+                            </ul>
+        
+                            <li>여행</li><!-- 뭘 원해? 중 여행 부분-->
+                            <ul>
+                                <li>
+                                    <a href="../travel/travelMenu.html">추천 여행지</a><!--바로가기-->
+                                </li>
+                            </ul>
+        
+                        </ul>
+                    </div>
+                    <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a><!-- 메뉴 중 가계부 부분-->
+                        <ul class="drop" style="z-index: 900;">
                             <li>
-                                <a href="../card20/card20.html">20만원 이하</a>
-                            </li>
-                            <li>
-                                <a href="../card340/card30-40.html">30 ~ 40만원</a>
-                            </li>
-                            <li>
-                                <a href="../card50/card50.html">50만원</a>
+                                <a href="../calander/accountBook.html">가계부 바로가기</a><!--바로가기-->
                             </li>
                         </ul>
-                        <li>토너먼트</li>
-                        <ul>
-                            <li>
-                                <a href="../tournament/tournament-meal-level0.html">나에게 맞는 카드 찾기</a>
-                            </li>
-                        </ul>
-                    </ul>
+                    </div>
                 </div>
-                <div class="menu_opt"><a class="opt" href="../deposit/deposit_main.html">예금/적금</a>
-                    <ul class="drop" style="z-index: 900;">
-                        <li>예금</li>
-                        <ul>
-                            <li>
-                                <a href="../deposit/deposit_main.html">예금 추천 상품</a>
-                            </li>
-                        </ul>
-    
-                        <li>적금</li>
-                        <ul>
-                            <li>
-                                <a href="../account/account_main.html">적금 추천 상품</a>
-                            </li>
-                        </ul>
-    
-                    </ul>
-                </div>
-                <div class="menu_opt"><a class="opt" href="../product/top5.html">뭘 원해?</a>
-                    <ul class="drop" style="z-index: 900;">
-                        <li>쇼핑</li>
-                        <ul>
-                            <li>
-                                <a href="../product/top5.html">대학생이 사고 싶은 물건 BEST 5</a>
-                            </li>
-                        </ul>
-    
-                        <li>여행</li>
-                        <ul>
-                            <li>
-                                <a href="../travel/travelMenu.html">추천 여행지</a>
-                            </li>
-                        </ul>
-    
-                    </ul>
-                </div>
-                <div class="menu_opt"><a class="opt" href="../calander/accountBook.html">가계부</a>
-                    <ul class="drop" style="z-index: 900;">
-                        <li>
-                            <a href="../calander/accountBook.html">가계부 바로가기</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-    <article>
-        <div class="width">
+            </div><!-- 페이지 상단 끝-->
+        </header>
+        <article><!-- 페이지 중단-->
+        <div class="width"><!-- 페이지 내용을 중앙 정렬하기 위한 태그--->
+            <!-- 로고 이미지 클릭시 헤당 웹 사이트로 이동 -->
             <div class="bank_img"><a href="https://bank.shinhan.com/index.jsp#020102010110" title="신한 인싸 자유 적금 바로가기"><img class="shinhan_img" src="../../src/shinhan.png"></a></div>
             <div class="content">
+                <!-- 적금 이름--->
                 <div class="j_name">
                     신한 인싸 자유 적금
                 </div>
+                <!-- 상품 상세 설명 -->
                 <div class="detail">
+                    <!-- 상품 로고 이미지 -->
                     <img src="../../src/신한인싸적금.png">
                 </div>
                 <div class="explanation">
                     <table class="type03">
+                        <!-- 정기적금 세부 내용 -->
                         <tr><th style="font-weight: bold; text-align: center;">상품개요</th><td>당행 오픈뱅킹서비스 이용약관동의 및 출금이체를 통한 입금 시 금리를 우대해주는 적금</td></tr>
                         <tr><th style="font-weight: bold; text-align: center;">예금과목</th><td>정기적금</td></tr>
                         <tr><th style="font-weight: bold; text-align: center;">저축방법</th><td>[적립식] [자유적립식]</td></tr>
                         <tr><th style="font-weight: bold; text-align: center;">이자지급방식</th><td>만기일시지급-단리식</td></tr>
                         <tr><th style="font-weight: bold; text-align: center;">기본이자율</th><td>1.3%</td></tr>
                         <tr><th rowspan="2" style="font-weight: bold; text-align: center;">우대이자율</th><td>1. 신한은행 오픈뱅킹서비스 이용약관 동의서에 동의한 경우 : 연0.5%</td></tr>
+                        <!-- 우대 이자율 테이블 -->
                         <tr><td>2. 신한은행 오픈뱅킹서비스를 통하여 은행의 출금에 동의한 고객이 출금이체를 통하여 동적금 계좌에 실시간 입금한 경우 : 연 1.00%</td></tr>
+                        <!-- 상품의 추천이유 테이블 -->
                         <tr><th style="font-weight: bold; text-align: center;">추천이유</th><td>학생들이 우대금리조건을 충족시키기 비교적 쉬움</td></tr>
                     </table>
                 </div>
@@ -109,27 +117,28 @@
             </div>
            
         </div>
-    </article>
+    </article><!-- 페이지 중단 끝-->
     <footer>
-        <div class="footer_inner">
+        <div class="footer_inner"><!-- 페이지 하단-->
             <div class="info">
                 <div>
-                    developer
+                    developer<!-- 제작자 -->
                 </div>
             </div>
-            <div class="info">
+            <div class="info"> <!-- 제작자 명단-->
                 <span>17010681 고석준</span>
                 <span>19011474 박정은</span>
                 <span>19011488 오다혜</span>
                 <span>19011505 김연신</span>
             </div>
             <div class="info">
-                Copyright © 2020 TEAM 1 All Rights Reserved.
+                Copyright © 2020 TEAM 1 All Rights Reserved. <!-- 저작권 표시-->
             </div>
         </div>
-    </footer>
+    </footer><!-- 페이지 하단 끝-->
 </body>
-<script type="text/javascript">
+<script type="text/javascript">//dropdown 위해서 fadeToggle 사용
+    // 전제가 아니라 마우스 올려놓은 부분의 세부 메뉴만 보기 위해서 this객체에서 .drop(세부 메뉴)를 찾아서 나타나게 함.
     $(".menu_opt").hover(function () {
         $(this).find(".drop").stop().fadeToggle(400);
     });

@@ -1,15 +1,17 @@
-
+/*적금 정의 설명 div 부분*/
 .rec{ 
     background-color: #e9e7e3;
     height: 180px;
     padding-top: 30px;
 }
+/*"적금 추천 상품" 부분*/
 .rec>.width>div:first-child{
     font-size:30px;
-    font-weight: 700;
+    font-weight: 700;           /*글씨 크기,굵기 조정*/
     padding-bottom: 3px;
-    border-bottom: 1px #bbb solid;
+    border-bottom: 1px #bbb solid;              /*하단에 보더를 주어 제목과 설명을 구분지어줌*/
 }
+/*적금 정의 설명 부분*/
 .rec>.width>div:last-child{
     font-size: 16px;
     font-weight: normal;
@@ -20,17 +22,18 @@
     height: 200px;
     box-shadow: 2px 2px 18px #eeeeee;
     padding: 12px 0;
-    margin: 60px 0;
+    margin: 60px 0;             /*margin과 padding으로 div 위치 조절*/
 }
 
 .content>div{
-    float:left;
+    float:left;                /*content안에 있는 div들 가로로 나열하기 위해*/
 }
 
+/*class 중 bar에 해당하는 div*/
 .content>div:first-child{
-    background-color: rgb(247, 180, 35);
+    background-color: rgb(247, 180, 35);        /*bar 배경색 지정*/
     height: 100%;
-    width: 3px;
+    width: 3px;                                             /*bar 너비, 높이 지정*/
 }
 
 .bank_img_ibk{
@@ -42,33 +45,33 @@
 
 .bank_img_euge{
     height: 95px;
-    margin: 63px 100px 50px 70px;
-    float: left;
+    margin: 63px 100px 50px 70px;               /*이미지 위치 조절*/
+    float: left;                                           /*가로정렬 위해*/
     
 }
 
 .bank_img_shin{
     height: 95px;
-    margin: 55px 100px 50px 70px;
-    float: left;
+    margin: 55px 100px 50px 70px;              /*이미지 위치 조절*/
+    float: left;                                          /*가로정렬 위해*/
     
 }
 
 .bank_img{
     height: 95px;
-    margin: 50px 100px 50px 70px;
-    float: left;
+    margin: 50px 100px 50px 70px;              /*이미지 위치 조절*/
+    float: left;                                          /*가로정렬 위해*/
     
 }
 .bank_img:hover{
-    transform: scale(1.1);
+    transform: scale(1.1);              /*마우스 올릴 시 이미지 커짐*/
 }
 .content img{
     width: 260px;
 }
 
 .content h2{
-    margin-left: 30px;
+    margin-left: 30px;          /*카드 이름 위치 조절*/
 }
 
 /*??? ??? ??? ???? html??????? title???? class?? ??????..?*/
@@ -78,13 +81,8 @@
 }
 
 .con{
-    line-height: 160%;
-    text-indent: 1.1em;
-}
-.opt2{
-    color: black;
-    text-decoration: none;
+    line-height: 160%;          /*줄간격 늘리기*/
+    text-indent: 1.1em;         /*들여쓰기함*/
 }
 .opt2:hover{
-    color:#dda146;
-}
+    color:#dda146;          /*마우스 올릴 시 텍스트 색상 변화*/
