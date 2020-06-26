@@ -39,7 +39,7 @@
     float: left;
     
 }
-.content li{
+ul li{
     list-style-type: disc;
 }
 .content img{
