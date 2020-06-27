@@ -1,16 +1,18 @@
-
+/*대학생이 갖고 싶어하는 물건 TOP5 메뉴 보여주는 css*/
+/*내용 부분*/
 article{
     clear: both;
     height: 900px;
 }
 
+/*제목 <대학생이 가장 갖고 싶어하는 물건 TOP 5> 에 대한 style*/
 .top5-1{
     clear: both;
     background-color: #e9e7e4;
     padding: 10px 0;
-    padding-left: 700px;
     font-size: 30px;
     font-weight: 700;
+    text-align: center;/*내부 글씨 중앙 정렬*/
 }
 
 .top5{

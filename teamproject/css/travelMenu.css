@@ -1,7 +1,12 @@
-a{
-    width: 10px;
+/*여행지 선택 메뉴에 적용되는 css*/
+
+/*국내 국외 구획하는 div*/
+.select{
+    margin: 100px 0 150px 0;
 }
 
+
+/*타이틀(국내 여행 / 국외 여행) */
 .background{
     background-color: #e9e7e3;
     padding: 10px 0;
@@ -10,51 +15,44 @@ a{
     line-height: 80px;
 }
 
+/*타이틀에 들어가는 png 크기 조정*/
 .background img{
     height: 60px;
-    
 }
 
+/*국내 여행, 국외 여행 글씨 스타일*/
 .place div{
 
     font-size: 30px;
     font-weight: 500;
     vertical-align: middle;
     float: left;
-    
 }
 
-.picture{
-    height: 180px;
-}
-
+/*여행지 선택 메뉴*/
 .pic{
-
-    text-align: center;
+    text-align: center;/*선택지 가로로 정렬*/
     padding: 50px 10px;
     margin: 20px auto;
+}
 
+/*각 선택지*/
+.picture{
+    height: 180px;
+    box-shadow: 2px 2px 20px 2px #d3d6d6;
+}
+
+.picture:hover{   /*마우스 올려 놓으면 선택지 커지는 효과*/
+    transform: scale(1.1);
+    box-shadow: 2px 2px 15px 2px #50504d;
 }
 
 
+/*선택지 간에 간격 맞춰주기 위해서*/
 .pic>a:first-child{
     margin-right: 110px;
 }
 
 .pic>a:last-child{
     margin-left: 110px;
-}
-
-
-.picture{
-    box-shadow: 2px 2px 20px 2px #d3d6d6;
-}
-
-.picture:hover{
-    transform: scale(1.1);
-    box-shadow: 2px 2px 15px 2px #50504d;
-}
-
-.select{
-    margin: 100px 0 150px 0;
 }
