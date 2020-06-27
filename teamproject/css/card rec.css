@@ -1,32 +1,35 @@
 /*20만원, 30~40만원, 50만원 추천 카드 메뉴에 적용되는 css*/
 /*상단 제목 어떤 것을 추천하는지 recommendation 설명*/
 .rec{ 
-    background-color: #e9e7e3;      /*����*/
-    font-size: 35px;            /*�۾� ũ�� ����*/
-    font-weight: bolder;        /*�۾� ���� ����*/
+    background-color: #e9e7e3;      /*배경색*/
+    font-size: 35px;            /*글씨 크기 조절*/
+    font-weight: bolder;        /*글씨 굵기 조절*/
     padding-top:8px;
-    padding-bottom:8px;     /*�۾��� div���Ʒ��� �����*/
-    padding-left: 50px;        /*�۾� ��ġ ����*/
+    padding-bottom:8px;     /*글씨랑 div위아래랑 띄어줌*/
+    padding-left: 50px;        /*글씨 위치 조절*/
 }
 
 /*각 카드와 내용을 포함하고 있는 부분*/
 .content{
     height: 220px;
-    box-shadow: 2px 2px 18px #eeeeee;       /*div �׸��� ����*/
+    box-shadow: 2px 2px 18px #eeeeee; /*div 그림자 생성*/
     padding: 12px 0;
-    margin: 60px 0;         /*div ��ġ ����*/
+    margin: 60px 0;         /*div 위치 조절*/
 }
+
 
 /*좌측 정렬하여 옆으로 사진과 내용이 배열되도록*/
 .content>div{
-    float:left;         /*content�ȿ� �ִ� div�� ���η� �����ϱ� ����*/
+    float:left; /*content안에 있는 div들 가로로 나열하기 위해*/
 }
+
 
 /*content안에 요소들에 대한 css*/
 .bar{
-    background-color: rgb(247, 180, 35);
+    background-color: rgb(247, 180, 35);    /*bar 배경색 지정*/
     height: 100%;
-    width: 3px;                                             /*bar �ʺ�, ���� ����*/
+    width: 3px;   /*bar 너비, 높이 지정*/
+
 }
 
 /*card_img로 위치 잡고 img에서 크기 조정*/
@@ -34,14 +37,15 @@
     height: 170px;
     margin-top: 25px;
     margin-right: 100px;
-    margin-left: 70px;
-    float: left;
+    margin-left: 70px;              /*margin이용해서 이미지 위치 조정*/
+    float: left;                    /*가로정렬 위해*/
+
 }
 .content img{
     width: 260px;
 }
 .content img:hover{
-    transform: scale(1.1);          /*���콺 �ø� �� �̹��� Ŀ��*/
+    transform: scale(1.1);    /*마우스 올릴 시 이미지 커짐*/
     box-shadow: 2px 2px 15px 2px #b9b9b9
 }
 /*카드 정보*/
@@ -51,14 +55,14 @@
 }
 
 .content h2{
-    margin-left: 30px;
+    margin-left: 30px;/*카드 이름 위치 조절*/
 }
 .opt2{
     color: black;
     text-decoration: none;
 }
 .opt2:hover{
-    color:#dda146;
+    color:#dda146;          /*마우스 올릴 시 텍스트 색상 변화*/
 }
 
 .content li{

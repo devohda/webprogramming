@@ -11,7 +11,7 @@
     font-size:30px;
     font-weight: 700;           /*글씨 크기,굵기 조정*/
     padding-bottom: 3px;
-    border-bottom: 1px #bbb solid;              /*하단에 보더를 주어 제목과 설명을 구분지어줌*/
+    border-bottom: 1px #bbb solid;   /*하단에 보더를 주어 제목과 설명을 구분지어줌*/
 }
 /*적금 정의 설명 부분*/
 .rec>.width>div:last-child{
