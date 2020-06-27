@@ -1,8 +1,45 @@
-/*��� ��ǰ�̳� ��� �κ�*/
 
+/*상품 상세 설명 + 계산기 제공하는 페이지*/
+/*상품 설명하는 부분*/
 .info{
     float: left;
     overflow: hidden;
+}
+
+/*사진*/
+
+.info>img{
+    height: 200px;
+}
+
+
+/*중앙 부분 상품 이름과 상품 가격*/
+#middle{
+    margin-left: 40px;
+    width: 350px;
+    padding-top: 30px;
+}
+
+#place{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#price{
+ 
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+#middle>div:last-child{
+    float: right;
+    margin-top: 30px;
+}
+
+/*최저가 table형태로 제공*/
+.travel>.table{
+    padding: 0;
 }
 
 .info>table{
@@ -11,8 +48,13 @@
     width: 200px;
 }
 
-.info>img{
-    height: 200px;
+.table{
+    border-top: 1px #c0c0c0 solid;
+    border-bottom: 1px #c0c0c0 solid;
+    background-color: white;
+    margin-left: 70px;
+    float: right;
+    padding: 0;
 }
 
 .info li{
@@ -25,55 +67,17 @@
     background-color: rgb(173, 173, 162);
 }
 
-.travel>.table{
-    padding: 0;
-}
-
 .travel>.table td{
     padding-left: 10px;
 }
 
-.table{
-    border-top: 1px #c0c0c0 solid;
-    border-bottom: 1px #c0c0c0 solid;
-    background-color: white;
-    margin-left: 70px;
-    float: right;
-}
-
-
-#place{
-    font-size: 25px;
-}
-
-#price{
- 
-    font-size: 40px;
-    font-weight: 600;
-
-}
-
-#middle{
-    margin-left: 40px;
-    width: 350px;
-    padding-top: 30px;
-}
-
-
-#middle>div:last-child{
-    float: right;
-    margin-top: 30px;
-}
-
-
-/*�߰� �κ�*/
-
+/*추천 적금 부분*/
 #reco{
     font-size: 30px;
     font-weight: 600;
     margin: 0 0 20px 40px;
 }
-
+/*적금 table 감싸는 것*/
 #money{
     margin: 20px 0;
 }
@@ -90,7 +94,7 @@
     border-bottom: 1px #eee solid;
 }
 
-/*���� ǥ ����� �κ�*/
+/*적금 table 에 대한 스타일*/
 .month6{
     
     margin-bottom: 50px;
@@ -115,12 +119,14 @@
     margin-bottom: 20px;
 }
 
+
+/*table th 부분  (= .title) style*/
 .title>th{
     background-color: #fff5b5;
 }
 
 .title>th:first-child{
-    border-radius: 15px 0 0 15px;
+    border-radius: 15px 0 0 15px;/* 테이블 상단 좌우를 둥글게 만들어줌*/
 }
 
 .title>th:last-child{
@@ -129,7 +135,7 @@
 
 
 
-/*���� �κ�*/
+/*계산기*/
 .calculator{
     margin-top: 100px;
     overflow: hidden;
@@ -137,7 +143,7 @@
 
 .calculator>.travel{
     margin-top: 0;
-    height: 400px;/*���� �� �ڸ�*/
+    height: 400px;
 }
 
 
@@ -166,6 +172,7 @@
     overflow: hidden;
 }
 
+/*계산기 값 입력 받는 부분*/
 .calculator input{
     height: 40px;
     border: 1px #ddd solid;
@@ -193,6 +200,11 @@
     height: 450px;
 }
 
+#cal_term,#cal_price{
+    text-align: right;
+}
+
+/*계산기 버튼 부분*/
 #h{
     margin-top: 10px;
     overflow: hidden;
@@ -215,6 +227,3 @@
     background-color: rgb(253, 243, 93);
 }
 
-#cal_term,#cal_price{
-    text-align: right;
-}
