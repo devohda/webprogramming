@@ -15,35 +15,28 @@ article{
     text-align: center;/*내부 글씨 중앙 정렬*/
 }
 
-.top5{
-    margin-top: 100px;
-}
-
-.top5 img {
-    width: 100px;
-}
-
+/*상품 첫번째 라인*/
 .pic_width1{
     width: 1200px;
     margin: 0 auto;
     height: 300px;
 }
-
+/*첫번째 라인에 있는 상품들*/
 .pic_width1>div{
-    float:left;
+    float:left;                 /*병렬 정렬*/
     width: 300px;
-    height: 300px;
+    height: 300px;         /*높이 너비 조절*/
     margin: 0 50px;
-    padding-top: 30px;
-    text-align: center;
+    padding-top: 30px;         /*위치 조절*/
+    text-align: center;         /*텍스트 중앙 정렬*/
 }
+/*상품 두번째 라인*/
 .pic_width2{
     width: 800px;
-    overflow: hidden;
     margin: 0 auto;
     height: 300px;
 }
-
+/*두번째 라인에 있는 상품들*/
 .pic_width2>div{
     float:left;
     width: 300px;
@@ -52,39 +45,24 @@ article{
     padding-top: 30px;
     text-align: center;
 }
+/*상품 사진 크기 통일*/
 .picture{
     height: 180px;
 }
 
-.pic{
 
-    text-align: center;
-    padding: 50px 10px;
-    margin: 20px auto;
-
-}
-
-.pic>a:first-child{
-    margin-right: 140px;
-}
-
-.pic>a:last-child{
-    margin-left: 140px;
-}
-
-
+/*상품 이미지에 그림자*/
 .picture{
     box-shadow: 2px 2px 20px 2px #d3d6d6;
 }
 
+/*상품 이미지에 마우스 올릴 시 크기 커지고 그림자 넣어줌*/
 .picture:hover{
     transform: scale(1.1);
     box-shadow: 2px 2px 15px 2px #50504d;
 }
+/*상품 이미지 전체 div 위치 조절*/
 .select{
-    overflow: hidden;
     margin: 100px 0 150px 0;
 }
 
-a:link { color:black; text-decoration: none;}
-a:visited { color: black; text-decoration: none;}
