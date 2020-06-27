@@ -1,10 +1,5 @@
-@font-face{
-    font-family: "slimGothic";
-    src: url(../src/DXSglinegoTh-KSCpc-EUC-H.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
+/*20만원, 30~40만원, 50만원 추천 카드 메뉴에 적용되는 css*/
+/*상단 제목 어떤 것을 추천하는지 recommendation 설명*/
 .rec{ 
     background-color: #e9e7e3;
     font-size: 35px;
@@ -14,6 +9,7 @@
     padding-left: 50px;
 }
 
+/*각 카드와 내용을 포함하고 있는 부분*/
 .content{
     height: 220px;
     box-shadow: 2px 2px 18px #eeeeee;
@@ -21,26 +17,25 @@
     margin: 60px 0;
 }
 
+/*좌측 정렬하여 옆으로 사진과 내용이 배열되도록*/
 .content>div{
     float:left;
 }
 
-.content>div:first-child{
+/*content안에 요소들에 대한 css*/
+.bar{
     background-color: rgb(247, 180, 35);
     height: 100%;
     width: 3px;
 }
 
+/*card_img로 위치 잡고 img에서 크기 조정*/
 .card_img{
     height: 170px;
     margin-top: 25px;
     margin-right: 100px;
     margin-left: 70px;
     float: left;
-    
-}
-.content li{
-    list-style-type: disc;
 }
 .content img{
     width: 260px;
@@ -49,19 +44,14 @@
     transform: scale(1.1);
     box-shadow: 2px 2px 15px 2px #b9b9b9
 }
+/*카드 정보*/
+.con{
+    line-height: 160%;/*줄 간격 늘리기*/
+    text-indent: 1.1em;/*들여쓰기*/
+}
+
 .content h2{
     margin-left: 30px;
-}
-
-/*??? ??? ??? ???? html??????? title???? class?? ??????..?*/
-.title{
-    float: left;
-    margin-left: 140px;
-}
-
-.con{
-    line-height: 160%;
-    text-indent: 1.1em;
 }
 .opt2{
     color: black;
@@ -70,3 +60,9 @@
 .opt2:hover{
     color:#dda146;
 }
+
+.content li{
+    list-style-type: disc;
+}
+
+

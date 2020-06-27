@@ -1,4 +1,6 @@
+/* 추천 예금, 적금 메뉴에 적용되는 css*/
 
+/*예금 혹은 적금 설명에 대한 부분*/
 .rec{ 
     background-color: #e9e7e3;
     height: 180px;
@@ -16,6 +18,7 @@
     margin-top: 20px;
 }
 
+/*예금, 적금 상품 부분*/
 .content{
     height: 200px;
     box-shadow: 2px 2px 18px #eeeeee;
@@ -33,27 +36,8 @@
     width: 3px;
 }
 
-.bank_img_ibk{
-    height: 95px;
-    margin: 65px 100px 50px 70px;
-    float: left;
-    
-}
-
-.bank_img_euge{
-    height: 95px;
-    margin: 63px 100px 50px 70px;
-    float: left;
-    
-}
-
-.bank_img_shin{
-    height: 95px;
-    margin: 55px 100px 50px 70px;
-    float: left;
-    
-}
-
+/*content 좌측 은행 이미지 부분*/
+/*bank_img로 구조 잡고 img의 크기 조정*/
 .bank_img{
     height: 95px;
     margin: 50px 100px 50px 70px;
@@ -67,20 +51,17 @@
     width: 260px;
 }
 
-.content h2{
-    margin-left: 30px;
-}
-
-/*??? ??? ??? ???? html??????? title???? class?? ??????..?*/
-.title{
-    float: left;
-    margin-left: 140px;
-}
+/*예금, 적금 상품 정보 부분*/
 
 .con{
     line-height: 160%;
     text-indent: 1.1em;
 }
+
+.content h2{
+    margin-left: 30px;
+}
+
 .opt2{
     color: black;
     text-decoration: none;

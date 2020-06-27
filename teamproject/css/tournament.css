@@ -1,10 +1,14 @@
-
+/*전체 내용 보이는 부분 세로 고정*/
 article{
     overflow: hidden;
     height: 1000px;
 }
 
+article>.width{
+    width: 1200px;
+}
 
+/*상단 안내 문구 부분*/
 .text{
     
     background-color: #fcfae6;
@@ -22,17 +26,14 @@ article{
     text-align: center;
 }
 
-article>.width{
-    width: 1200px;
-}
-
+/*카드 고르는 부분*/
 #container{
     background-color: white;
     overflow: hidden;
     border: 1px #e2e1e1 solid;
     box-shadow: 2px 2px 2px #909292;
 }
-
+/* 질문 (container 상단)  */
 #category{
     clear: both;
     margin-top: 50px;
@@ -48,12 +49,13 @@ article>.width{
     text-align: center;
 }
 
+/*카드 있는 부분(container 하단)*/
 .sel{
     margin: 0 auto;
     overflow: hidden;
     align-items: center;
 }
-
+/*카드 선택지*/
 .select{
     width: 420px;
     box-shadow: 2px 2px 20px 2px #d3d6d6;
@@ -61,6 +63,15 @@ article>.width{
     box-sizing: border-box;
     overflow: hidden;
     margin: 50px;
+}
+
+.select p{
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+.select:hover{
+    transform: scale(1.1);
 }
 
 .select:first-child{
@@ -75,6 +86,7 @@ article>.width{
     
 }
 
+/*카드에 들어가는 이미지*/
 .simg{
     clear: both;
     width: 520px;
@@ -92,20 +104,12 @@ article>.width{
     position: absolute;
 }
 
-
-.select p{
-    font-style: normal;
-    font-size: 30px;
-    text-align: center;
-}
-.select:hover{
-    transform: scale(1.1);
-}
-
+/*footer 부분*/
 footer{
     clear: both;
 }
 
+/*a 태그 초기화*/
 a:visited { color: black; text-decoration: none;}
 a:link { color:black; text-decoration: none;}
 
