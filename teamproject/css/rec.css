@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 /* 추천 예금, 적금 메뉴에 적용되는 css*/
 
 /*예금 혹은 적금 설명에 대한 부분*/
-=======
-/*적금 정의 설명 div 부분*/
->>>>>>> c8398b9e4f1596c6b42563171c8b5db9aa4cf840
 .rec{ 
     background-color: #e9e7e3;
     height: 180px;
@@ -43,32 +39,8 @@
     width: 3px;                                             /*bar 너비, 높이 지정*/
 }
 
-<<<<<<< HEAD
 /*content 좌측 은행 이미지 부분*/
 /*bank_img로 구조 잡고 img의 크기 조정*/
-=======
-.bank_img_ibk{
-    height: 95px;
-    margin: 65px 100px 50px 70px;
-    float: left;
-    
-}
-
-.bank_img_euge{
-    height: 95px;
-    margin: 63px 100px 50px 70px;               /*이미지 위치 조절*/
-    float: left;                                           /*가로정렬 위해*/
-    
-}
-
-.bank_img_shin{
-    height: 95px;
-    margin: 55px 100px 50px 70px;              /*이미지 위치 조절*/
-    float: left;                                          /*가로정렬 위해*/
-    
-}
-
->>>>>>> c8398b9e4f1596c6b42563171c8b5db9aa4cf840
 .bank_img{
     height: 95px;
     margin: 50px 100px 50px 70px;              /*이미지 위치 조절*/
@@ -82,7 +54,6 @@
     width: 260px;
 }
 
-<<<<<<< HEAD
 /*예금, 적금 상품 정보 부분*/
 
 .con{
@@ -97,21 +68,7 @@
 .opt2{
     color: black;
     text-decoration: none;
-=======
-.content h2{
-    margin-left: 30px;          /*카드 이름 위치 조절*/
-}
-
-/*??? ??? ??? ???? html??????? title???? class?? ??????..?*/
-.title{
-    float: left;
-    margin-left: 140px;
-}
-
-.con{
-    line-height: 160%;          /*줄간격 늘리기*/
-    text-indent: 1.1em;         /*들여쓰기함*/
->>>>>>> c8398b9e4f1596c6b42563171c8b5db9aa4cf840
 }
 .opt2:hover{
     color:#dda146;          /*마우스 올릴 시 텍스트 색상 변화*/
+}

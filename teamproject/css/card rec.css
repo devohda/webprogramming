@@ -1,32 +1,32 @@
 /*20만원, 30~40만원, 50만원 추천 카드 메뉴에 적용되는 css*/
 /*상단 제목 어떤 것을 추천하는지 recommendation 설명*/
 .rec{ 
-    background-color: #e9e7e3;
-    font-size: 35px;
-    font-weight: bolder;
+    background-color: #e9e7e3;      /*����*/
+    font-size: 35px;            /*�۾� ũ�� ����*/
+    font-weight: bolder;        /*�۾� ���� ����*/
     padding-top:8px;
-    padding-bottom:8px;
-    padding-left: 50px;
+    padding-bottom:8px;     /*�۾��� div���Ʒ��� �����*/
+    padding-left: 50px;        /*�۾� ��ġ ����*/
 }
 
 /*각 카드와 내용을 포함하고 있는 부분*/
 .content{
     height: 220px;
-    box-shadow: 2px 2px 18px #eeeeee;
+    box-shadow: 2px 2px 18px #eeeeee;       /*div �׸��� ����*/
     padding: 12px 0;
-    margin: 60px 0;
+    margin: 60px 0;         /*div ��ġ ����*/
 }
 
 /*좌측 정렬하여 옆으로 사진과 내용이 배열되도록*/
 .content>div{
-    float:left;
+    float:left;         /*content�ȿ� �ִ� div�� ���η� �����ϱ� ����*/
 }
 
 /*content안에 요소들에 대한 css*/
 .bar{
     background-color: rgb(247, 180, 35);
     height: 100%;
-    width: 3px;
+    width: 3px;                                             /*bar �ʺ�, ���� ����*/
 }
 
 /*card_img로 위치 잡고 img에서 크기 조정*/
@@ -41,7 +41,7 @@
     width: 260px;
 }
 .content img:hover{
-    transform: scale(1.1);
+    transform: scale(1.1);          /*���콺 �ø� �� �̹��� Ŀ��*/
     box-shadow: 2px 2px 15px 2px #b9b9b9
 }
 /*카드 정보*/
