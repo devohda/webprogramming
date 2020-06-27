@@ -102,3 +102,15 @@ ul{
     margin-bottom: 15px;                    /* 주요 혜택 상위 div끼리 떨어트리기 위해 */
     cursor: pointer;                    /* 마우스 올릴 시 손 모양으로 바꾸기 위해 */
 }
+.sub{
+    margin: 0 auto;                 /* div 중앙정렬 */
+    margin-top: 30px;                
+    width: 230px;                 
+    height: 120px;                 /* div 넓이, 높이 설정 */
+    background-color:  #f8e268;                 
+    border-radius: 80px 40px;                 /* div 모서리 둥글게 */
+    line-height: 120px;                 /* 텍스트 중앙정렬 위해 */
+    vertical-align: middle;                 /* 텍스트 세로 중앙정렬 */
+    text-align: center;                 /* 텍스트 가로 중앙정렬 */
+    font-size: 30px;                 /* 글씨 크기 조절 */
+}

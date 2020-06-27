@@ -1,17 +1,15 @@
-
+/*은행 로고 이미지*/
 .shinhan_img{
     width: 230px;
-    margin: auto;
-    vertical-align: middle;
 }
 
 .bank_img{
     height: 90px;
     margin-top:25px;
-    margin-left:20px;
-    line-height: 90px;
+    margin-left:20px;           /*은행 로고 이미지 위치 조절*/
 }
 
+/*적금 상세 정보 담고있는 div*/
 .content{
     background-color: #e0e0e0;
     margin:20px 0 50px 0;
@@ -19,21 +17,21 @@
 }
 
 .j_name{
-    text-align: center;
+    text-align: center;                 /*텍스트 중앙 정렬*/
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: bolder;                /*텍스트 크기,굵기 조절*/
     height: 130px;
     width:900px;
-    margin: 0px auto;
+    margin: 0px auto;                   /*div중앙 정렬*/
     border-top: 1.3px #000000 dashed;
-    border-bottom: 1.3px #000000 dashed;
-    padding-top: 50px;
+    border-bottom: 1.3px #000000 dashed;            /*div 위아래 대쉬 보더 줌*/
+    padding-top: 50px;                                  /*텍스트 위치 조절*/
 }
 
 .detail img{
-    display:block;
+    display:block;                          /*이미지 div취급*/
     height:230px;
-    margin: 100px auto;
+    margin: 100px auto;                 /*이미지 위치 조절*/
 }
 
 .detail{
@@ -41,26 +39,25 @@
 }
 table.type03 {
     background-color: white;
-    border-collapse: collapse;
-    text-align: left;
-    line-height: 1.5;
+    border-collapse: collapse;      /*table의 테두리와 td의 테두리 사이의 간격을 없앰 겹치는 부분은 한 줄로 나타냄*/
     border-top: 1px solid #ccc;
     border-left: 3px solid #369;
-    margin : 0 auto;
+    margin : 0 auto;                /*table 위치 조절*/
 }
+/*table 첫번째 세로줄 부분*/
 table.type03 th {
     width: 147px;
-    padding: 15px;
+    padding: 15px;           /*table들의 셀들과 글씨 사이 간격 조절*/   
     font-weight: bold;
     color: #153d73;
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 
 }
+/*table 두번째 세로줄 부분*/
 table.type03 td {
     width: 700px;
-    padding: 15px;
-    vertical-align: top;
+    padding: 15px;          /*table들의 셀들과 글씨 사이 간격 조절*/   
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
