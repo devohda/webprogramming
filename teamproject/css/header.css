@@ -16,6 +16,7 @@
     height: 100px;
     display: block;
 }
+/*좌측 로고 부분 끝*/
 
 /*우측 메뉴 부분*/
 .menu_opt{
@@ -26,6 +27,7 @@
     flex: 1;
     text-align: center;
 }
+
 /*전체 메뉴 구조 잡기*/
 .menu_bar{
     width: 600px;
@@ -55,6 +57,7 @@
     color: black;
     text-shadow: 2px 2px 2px white;
 }
+/*각각의 메뉴들 끝*/
 
 /*drop down하면서 나타나는 세부 메뉴들*/
 .drop{
@@ -79,6 +82,7 @@
     font-weight: 600;
     background-color: rgb(255, 253, 233);
 }
+/*drop down하면서 나타나는 세부 메뉴들 끝*/
 
 /*ul, li, a 기본 스타일 초기화*/
 ul,li{
@@ -94,3 +98,4 @@ a{
     text-decoration: none;
     color: #111;
 }
+/*ul, li, a 기본 스타일 초기화 끝*/

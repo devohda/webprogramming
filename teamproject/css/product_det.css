@@ -36,6 +36,7 @@
     float: right;
     margin-top: 30px;
 }
+/*중앙 부분 상품 이름과 상품 가격 끝*/
 
 /*최저가 table형태로 제공*/
 .travel>.table{
@@ -70,6 +71,7 @@
 .travel>.table td{
     padding-left: 10px;
 }
+/*최저가 table형태로 제공 끝*/
 
 /*추천 적금 부분*/
 #reco{
@@ -93,6 +95,7 @@
     background-color: white;
     border-bottom: 1px #eee solid;
 }
+/*적금 table 감싸는 것 끝*/
 
 /*적금 table 에 대한 스타일*/
 .month6{
@@ -118,7 +121,7 @@
     font-weight: 400;
     margin-bottom: 20px;
 }
-
+/*적금 table 에 대한 스타일 끝*/
 
 /*table th 부분  (= .title) style*/
 .title>th{
@@ -132,7 +135,7 @@
 .title>th:last-child{
     border-radius: 0 15px 15px 0;
 }
-
+/*table th 부분  (= .title) style 끝*/
 
 
 /*계산기*/
@@ -171,6 +174,7 @@
     font-weight: 600;
     overflow: hidden;
 }
+/*계산기 끝*/
 
 /*계산기 값 입력 받는 부분*/
 .calculator input{
@@ -203,6 +207,7 @@
 #cal_term,#cal_price{
     text-align: right;
 }
+/*계산기 값 입력 받는 부분 끝*/
 
 /*계산기 버튼 부분*/
 #h{
@@ -226,4 +231,5 @@
 #h>input:hover{
     background-color: rgb(253, 243, 93);
 }
+/*계산기 버튼 부분 끝*/
 

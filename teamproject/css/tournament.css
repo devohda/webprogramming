@@ -25,6 +25,7 @@ article>.width{
     font-size: 25px;
     text-align: center;
 }
+/*상단 안내 문구 부분 끝*/
 
 /*카드 고르는 부분*/
 #container{
@@ -48,6 +49,7 @@ article>.width{
     font-size: 2em;
     text-align: center;
 }
+/* 질문 (container 상단)  끝*/
 
 /*카드 있는 부분(container 하단)*/
 .sel{
@@ -79,6 +81,7 @@ article>.width{
     margin-left: 120px;
     
 }
+/*카드 선택지 끝*/
 
 .select:last-child{
     float: right;

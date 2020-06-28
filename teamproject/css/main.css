@@ -36,6 +36,7 @@ article{
     margin: 0 auto;
     min-height: 80%;
 }
+/*기본 레이아웃 끝*/
 
 /*article에 주던 width값을 변경하였습니다. 앞으로는 각 div안에 내용에 해당하는 요소에 width값 = 1120px을 지정해주어야 합니다.*/
 /*그러기 위해 1120px 만들 div는 width라는 class부여*/
@@ -78,3 +79,4 @@ footer{
 .info:last-child{
     padding-top: 100px;
 }
+/*footer에서 내용 들어가는 부분 끝*/

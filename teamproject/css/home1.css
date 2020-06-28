@@ -34,6 +34,7 @@ header{
     display: block;
     margin: 0 auto;
 }
+/*로고 들어가 있는 메인페이지 최상단 부분 끝*/
 
 /*드롭다운 메뉴바 있는 네비게이션 부분*/
 nav{
@@ -81,6 +82,7 @@ nav{
 .menu_opt .drop{
     position: absolute;
 }
+/*드롭다운 메뉴바 있는 네비게이션 부분 끝*/
 
 /*안보이다가 마우스 올리면 보이는 부분 .drop*/
 .drop{
@@ -99,6 +101,8 @@ nav{
 .drop>ul>li{
     background-color: rgb(250, 242, 209);
 }
+/*안보이다가 마우스 올리면 보이는 부분 .drop 끝*/
+
 /*세부 메뉴 선택시 background color바뀜*/
 .drop>ul>li:hover{
     font-weight: 600;
@@ -123,6 +127,7 @@ a:hover{
     text-decoration: none;
     color: black;
 }
+/*ul, li 기본 속성 초기화 끝*/
 
 
 /*메인 페이지 내용 넣는 부분*/
@@ -153,6 +158,7 @@ main{
 .carousel-indicators .active{
     background-color: #ccc;
 }
+/*캐러셀 bootstrap 상위 우선순위에서 속성을 변경 끝*/
 
 
 
@@ -189,6 +195,6 @@ footer{
 .info:last-child{
     padding-top: 100px;
 }
-
+/* footer 내용 넣는 부분 끝*/
 
 
